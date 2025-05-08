@@ -1,0 +1,670 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Finca
+ major_version : 30
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Finca
+ identifier : 0x2ac59d830c822921
+ internal_properties : HgAAAB4AAAA+tNodUYYCf4T7ybAKAkd2sihJyIiV2OyXVjBg93Cg68uREAy0tm97b5XyY+iqBKL620T2/bLFHc/5POkTXTarvof9tSjtvTcaNS7qV7RHeiSHLGjIky3dSTdhDhOOWYEqGUMAV6mRwAIbdJFU72HYVD+maFl+7XWXiZtVz38bauWSpqp2SXdk9OcIwR5jok5WyCOZGP6CusvQygkoFljhBEUD7fzMBMEbarpTR1Dxga911C9fr5PXspz4fEV0cSbB2RwMM7koTQVfmPbnpVCWb+TGLRVtPW/9G9B71aXeQOXSAwdDlT0A1Z2ZzKZM9IEde9xSpXRHWaWxNI2aRVZIPEuqVkm/ALc66/Ajx+nrX5gAsZZU1XgfdfxkiNG3qqc+HnvMBC4SLzuVYl4kDGOn0ey74mKGDFV3fd5e1uUHBD0u75pJ3eBZRR1+j9tKkp0B/Gfq+aVe3ebgU8q85QCNA3sC9hHpGXgpcQF219auZRHNODW6rvW0w8WQ9E25jepidvAT/KQhyCEjlKk2KwwReUFmvx7/cbJnLGM3sIJz/vhHL9RpZwr1twV+tiPfnfAXVX0Iho1m60T3VuJsrVKaE+qrDUx3bTtV5eUiIDBWLKNfGIqqPpshihoZvNWH/M9zJ7xcYW2oKLO6+vIGaAKh43QPRkX8aEvj94xPjYF7Om2EV7lc870gdGA3g4nWopwa9C9Y86obuyLJ+G53L1XEgGDOjxorFa7oK5vT5rxxjG3TXJitQeK9Kf0NNJMeCAgBLk6qXgKF
+ properties :
+  width : 320
+  height : 408
+  heightMin : 481
+ style : {}
+ controls :
+  -
+    name : EDT_Nombrefinca
+    identifier : 0x2ac59d950c886fdf
+    internal_properties : HgAAAB4AAABN9lVV1K6PDMMr6uA7oge6Yq+NB55QjyjqGaTAmkNfwGJ5PAj89/DPPCoUk2qQQtmw6d7VNGBVSFArpsJwhCIEOqbMDDqXMt4iLIixQEUvP3Uwt84zYX7R92DIMj1bA5/eJTKyC6ouENURUqtMK1OzPEw+RBJYdrb2fnWb0+QUNPVNb02lt//Aw3OP7Kx70uy8+KAKxwHTCkRZtiaMPc2tSVVlfmm+1S3bQYeOukvMkVEqWKdzUgaxN/I8aWWRbA+PXM2IXjxoq68Q4sANJs3qGb1GeXFNzZJM/biFpjZ7USvLUaFakN58ofRW6rbhhMgZxXGPpVWk0gcRkY+gTTEw9kb63nHv4jrEungjCwH2YqtQXlpmoKwoPqG7S6aJ7HCzBwTHi08kzfmmDWyGOtkbbpbM30RAL+lDuhnVDIZ4wS+oEBi/APX34WCQGa51L3dqRSwwGdyYTsB3XkblRrBdA12DT0Ou9tTXgCFxRfB41NAwIfmyMYlbYOPxv+505DlDy8sMByQSXA197mxv/GO35zP0uojTPZ0CEZzPqGTdsKQDL1eYdyTNtqlQi1ZSgbGRc90Kbd2yLLXjGMG22iCmqT7OLJ5Kjz+E84reuCVHck7Vf7xntJclGAUYZYkVPKQJ25+WdQEt8NgUzO98gtbMDz7tO7Wg+dzP/bSsfYMI4qftckOVaX9HKm8XMr65mnL9xNVgtYO7AsITPe/V8/tvvrFmfnRQpY3Yy0sXXcqqsT5xdtqY7WkXXCoZZ3KfF+qYOzklwBBiCVKqcwuAoS2hAAH4AHkopqE93MonPB6LMQWHo0KiwzniiH2Yr7f7ECRKoI56FhNwzlT4yCWNOyaOkmaActPSEQmAPaec4tDzCRpP/KT3JH073veIdDR4GsO1/P5pXc6l5nszTQoNghiujbIqaUuU0GvrTLXaanoEHuteOJFeXOpiNjY7qn1GohNLuaxkir7KYlr6Qvj/uBw8vWziTXYYnQhEI0pJ0JyFOvfPjClOmdKD/CUY6NTPhZ/K3QlTOs7ZRy3u9bICEzGvxYn6uyKnj2jkJPuFxGo4OHAIun7x9eoe+HTRj6wefFvFFIgr1yZ4kplXJzmywbYKZQ802ZDX6vvbMJyPHHxwUEZ9QrNsg3HNFzpEsTVKAG+MeNYlBqqqVBnbQW0sanE+ClNHTc93/SuuUkY2IirJEtcZjlwNzuIENBZWkExo5H+q7VJOAN4DEeCscSk5hbnJLMfoDwisKV1g4hzW1zFBJUTFGZU0N0ogvBLKHkPidKPYPDD9oOfNfo/UpYCT7vtRMEnj1xb48ttKQ4N7gc43Pohve7HzH7FVaIeB5I8092CXzSXxxOqvnhGKHi2PZ0Eai4Bc8YjK8xczqfJdqQSldevvsVkXUOUkszjA
+    properties :
+     x : 2
+     y : 7
+     width : 298
+     height : 36
+     data_binding : proveedores_fincas.nombrefinca
+     accelerator_key : 65535
+     tab_order : 0
+     group : GR_campos
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : EDT_Variedades
+    identifier : 0x2ac59de50c95a86e
+    internal_properties : HgAAAB4AAAAfkDAQ0INxgy9Wz5RfRIvX6jzGj5YdoNFFPp8iyWDyZXLeve0/c0J4PuMf7ajEjVINhlyhH97Kcad5G0JQJdos41Jqhy3ZrJmutmOuvEVwRE9M5wfOuBtdg2jIkeHSi3HOED9VGu2fW1tizNxE9vBqHJKo2nloSzAu1fON7azVqQajqVUxX6j/YTR/4VWMZXsWr/fkJBQqGRWXhSBTXsSRQ0LQ7IpqHwJ2iK3JlmAlFr7dp3NlyOmZysxFqksiSsBVfBQ3F1wPJqxbFLmH5HEknFJ5KMK9bKHX9AqwkZXp23cDFCosKWDoKu2mnEPHFZFjKKCNBPcWgampAnOgWmoUeOxDUee6WAh3KwCmO2yZp72bIVeWR8zgQh4bZzwHhD+mBCITx5Z+LhFpp4AxuEc8h47oOE9zqYRJwN/HbPmfvJu84Qsh1gk+WpouhqVL69iSzjF9yVUeUHLMrwyJTpJvgNwKDPJ0Xw3jzpQcWinNrCgGDQm9FfO/7UdIMSUiaP7LXy1yawkovBU8/Guky/IZbwxtIlKd2PkdJ/fMB2U5Vb/1LRPwh24qTPE9apB/kXBpDnsneEdDIzlCSKQmlAFvSHuuJ5JiHnsbOQ3VatMzx2czM7DNSGHutZXMRgMrOQ+1TB0X7xTAsahv2wF3qPcHL+pl5JeWNdxdYJJQ0qxnqcPK/VioA87g99n+llNwt9WD7MILWAfpIBepOGCWaEwUzpsBnSvEk3G9gX4u9OtzOqLZpQ2TC8mBKUKQngkwFN/uV5ywC+iwTb90cp7TvDj8LhXTx3j+AoMEFAGG84H+OCnpOtUdLTlSM/OvCopGD+f6nKuv63eO1HPU7YQM8mEBbjgvJSbmi/WdNVAxL98CYATXNef63rWDK7ELJzeFp3TNTHP4xBZnELgBHnHk4RtF++K94rQ8JiuMavLhERtt33usx1yJCBCAAU4YMyaZsZrbV+dTWZ7oGMVyUT10eZUNo2w52Pl8Y7xHI2Vs46Vqt2lz4aDdO8bnbccvg88AYgA4hViMM+SF46CM9pnpxBYE4a1lHrXFa1a1VhbUSzcd1YggGakE+XQ4PWCgUN0Jq3o/qkGGikg4WubfJO4vBBUdGSGBEFfZZpG6AGPY5cd3Q2S12yKzp+Mxmtx9IHRH/awIEje0fZ4ozMJdpFoRVfQFUOEmfoC3n12nGL+lER2EBd9n883e/FICacZjRXmdUdzMaa+XibpdeRHIqIo6+poK1uGhwFluTWsReC+PaEoWou7r+HwrH6iGPVYvT+wVI4J4nF/qtbs/4Bgyhr/ifzhOWLPBvAuKOcPrd8Zn5FMY2OC7aQVgf4dxTno1LjeQTZyQi8eI/y4FWWGvKsUl6gbDTv+G6xB9rGWwX6t1enNWXA6pc9D3N3eJywvlhGXcNAob
+    properties :
+     x : 2
+     y : 47
+     width : 298
+     height : 36
+     data_binding : proveedores_fincas.variedades
+     accelerator_key : 65535
+     tab_order : 1
+     group : GR_campos
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : EDT_Altitud
+    identifier : 0x2ac59e300ca2cd47
+    internal_properties : HgAAAB4AAAC9497+AEcMPaoh9tR3Q0nma6ACiB63DPzvE+WdTyaxjuacps1SiqMoRR/oSRzyUMp/e+j96svap+iak/XTxMVq0YwZHEnKcm/j29evv8TyPoe6305Gr8H54MBxpaO5hPIYOD0OeO+0alFObYTa2vwVXJuxmEp2vggiv7gbTO+Wy80W3EkRssaC8PhBPOuLxiQNqg0so8bFOLc+xOSYLZeFA9KzLQEU2DraarkK1i4fs6s0xAa8yzDXzJzBJ/VtKf0s8sH6mgj3X49E+feMfH3hQCuWksS/H+FnSN+zsdmOgFUtoMSrcVOSEHy34LWs9t7uWjayTDbR/6hEZclgZWc3mhgGFs392xvxGVgCMzSpzY8Q4jDKxlxOtRM/PQT4WoxJ6m7iYdIG+ASVFulA9WtzCPTPerWXtn8DteZBx9ZASVlT1jiDRcMDuCLTXO2Y3IZ9GbbujaCC8uZjlAb0GjIYPZAqPTmS3vqJrQoSthy22j+WMiqm8q7vUrjbvt4+kaERXADG/UoRZxzk6YUcyPXF1qjMthSTmkUTlqSivy4HkQ0Rhz5Fw2jsPFAYFawf7EeOnpUxzEgajtbzgV94FhGVURaRjEmXSD4fiKO80EnrszUmkDn8BwTdJu8l07Api/6dy+C+Ctc8LZ1t5SyjLqAgYV10kdh30YeEYrTYsCJvm19gcsyA3rZMgFhyVu0RViDcRYFTQiha4vhfeLTH8jbYBrAdH35rBLaXmNcfusdLEoU4TH+kDZZ4t6lsVqOBKUUsM4CKAicOatwJJ98QNYV7ndyXcUYOaqv4U02iMQ5IQr2RfSG2S8qkvUAz83jV+J+kQhl8bELhK/Ydk3zVg64IXacNAJ4GgTlVS6Xibvl0MDqlIIYbnRw+mPDHhcYCPu99jxMJ2gYoNglHh1efMA5sPBRo90ovLRzKWCemc1BCG7dLS3Ep72TWpKxVzd1xFCf8MkRliuDOBSLrUazLaoAOsZw3dqBFJH8Ba2h5mQWG0WfrvJtQgTx/t9ZQDbRoIHKau80LAYtGYY6/Vo5iJasYFsKAmgTmG7U/qGssTsHZup0DkMpAuKdSRGQlcQwIQ/ZlZGoUoKIt3XRZ01GxxJJoJebAR5B9Ass/lNkKdaHGQ1Ya67b4ZP7LNjDGOiUipiSlcHBK0lKS565OIe2TCUGUrGWfJny9RnI+8dkY+LHf/uZFd6oFxw4klwzy9Qjf+cMS8A2OXatT4cl3Uxx1foIy3ubxuHzh9cjD424Dq5rnpIBT/5xhQGaDYN3JaNhuhEkjG3ilnliOsLeSiYs1qVLrpahU8Pid4LZLW2MSr+VCjZHc+O33RBGogXf1dclbiu4ICMSHw/OLdfak3OpEp/mRhHFB37No5GqYjSiXIdAvZz2zwjPaLLRZC8Vt3ZuB0cG0SnODGW6uXVfP
+    properties :
+     x : 2
+     y : 85
+     width : 111
+     height : 36
+     data_binding : proveedores_fincas.altitud
+     accelerator_key : 65535
+     tab_order : 2
+     group : GR_campos
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : EDT_Area
+    identifier : 0x2ac59e370ca5e88f
+    internal_properties : HgAAAB4AAAAa6hlQ+HaG2zQhPNgyRpK+lXJKagaVb3q+jHS+xROe33NTeW/N8A+8gCVDEy6XTVEl3ghwC+x6vdQK0MdnBcDUjJRGzv2ekZ5ORWGIYliXMJi2sjZ4bct6qh6Ri+Zfmf0M+JEAIg5GD9rdSO0OnF4ERO750fJfrJ+z8k2YGuhIkhmjv7aIMECDZbY/PCtAod08924I9zPC2PXt7fKpXwENYMyHvWS4atCnT5sm9YcZqvD4tVZR6f8oSPnPG80F43gPLjEnOExyfKduf+OjfLT6zxC1thIAGLAQXGbbHRjln+BeczO1nOBOjh8n2kn04IgPrSyN702BqpYCZg7wYXvwAZEa6fbghKX3l1rMjLMxKC7axVyKwZcD3mn3RRhYZ2mVSEpHVazWLaAU1dgXlV0UA08xud5zLXp8aBHbbZqnbQuf/KaqA2u0/z+pn/4IsV5i0JgViuLtSKUla7DYMxqIzrduhidJ3JsTJxTiY7r3oyFoTp9GQgEwZrBA7aTQaWDRIgMTXaXS20iPidlFn4UYO299bZykTVTD4YujHlZWIcnQfp+i16R4O+nOXlv2CM/hCsywOpVCkUjfxbAvBRxeI/hK+omc6rmCN2HwazEMVRhIPJcxWnp/51kuksv6tUsmsucFZVSO/vGMK8B3nm/M4n8z1cmwE2rHsy2DuaR7rdovHJlBjwnAezI8fKPv0Q3d4VUdu2Vb3GcGW9OO1ynui8+g0ee/UbL4eDgendrNnHiAsQZhbEaUTjzs5G+N0NxVhbU4gdy7te8lfDQdyL8PHZQo+B6IYdP2SSaDx4Ohdp7fr6Mlwu3g3aRl8Pa2F/yMHgFRpqSTJoW2B5wiuicfB6GGU5ulxoEgifZWRh4F74snWsmFrB6tcupKiuMhycJqmMxxamR7+zf30pRhlxd2mFkPHRrwA6jyv9GvDNs+4dZRSXo4nQyKwf4KA3MvEUTUUPNPwJTc77PJ6sYqM9aCAXH8gOAxJOMcCes44MBKj2/3m1M0To6IAvvE5TMKSExwtaayOMloTBMTTsN1lZE3zD+cJfGuIxpGbbj1gbgba2HSi3tojAQfzaQF4bWIVl3ng7k+HdHcXlCwxYYtszgoxWCMcIbOU8YKkeNiJJOvjPtJTG0motYC6hqlvzUe21U5uz5Yi3KIwyGYdwwuF6MtlFOHdFM1W9TltsDcne+opD/qGijOb1zSyTVMRtzu7RUY82JkoYVr/m6P+GNuRcEci+vCrwPgAPGk1C6I9BLTgHldlyGMp5lHHMcfnGVJgZ8tAQn8MCGj3JJi/+4a7Ax/9MLGomT7dhVLC4ObduZ8ZGqiaD3tVs0oQAMHd9BtRWpVWQM493kT0AyjqDn/YvTg5hgHzjNU6SmIjIZ/FOB+ssZGdWvfeP6GZbNwu/L/1QuxQj9ElM2HIVs1xt0=
+    properties :
+     x : 146
+     y : 85
+     width : 111
+     height : 36
+     data_binding : proveedores_fincas.area
+     accelerator_key : 65535
+     tab_order : 3
+     group : GR_campos
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : EDT_Produccion
+    identifier : 0x2ac59e3b0ca8f7f1
+    internal_properties : HgAAAB4AAADFm1mdMypU1UIq9RNKwK26UzweAgfqus36AsWPcz0eNohErLzP/bGq9EQCEPpbBHUxPHDGNFJ+yMJaRfZWM02vJXN8Q5jXDpTKriq79D5ab1LPP1Qev75GvFMAuA4/4BozfzTHPLEVIIUsFqLyRRm0hGxcPbZpeT7CMO3+GtP00cmiuBJlea7hsyUWAGMpZZyO3AGamWxA4mbt6bitiQcEVHJDi64cc7ybCIm8ClqIv40aYLls56NdvdJWD3agZPTKnQgCnAsw0PR8YxCyHtuT9CNAjT8sL+ZMwBY1FQBtLP/gUT/kjbopYYF4eu5byLGmcrtWmzyatQ9eZ3j0zoB+RvXZZxlxzmOiSmO9UmIOKw5osKM3yDycB9ItqoDsLfkm/SVwUDLDbpuvOlcD9JkWNLHqfrrjtCumwJrBFyDGyj0MTnzbrmnSe+rgdYrsBHqbFOFmj7M24ykMNBN5zuWwkQbVcezfLsj9HCGF7jJRFK+JerJH6bx1zvMGHrPqUtb/EuCigxKHnH4sZm8RsbnhCnmdZemsVlyc9RzNXIcDtKmr7C/S6cWaseWLulQ6lalsvOJkRLcNpTI925x/WzGPb5Qff20xzaET7EaItC/5EPcIgGxN9Vq242xnfg/9dLeYdSnUCFr5jIzwVFBsvYMH5Y8DOWkxbXrWSIogfgjXGJBXH6FNX97xtxiib5AQ5vMJPGczRgzBr/Mc4W/mrwy86V+UxIFkKIzCnebks/LthryZJcqf3lg8PCr3ZxxUY3E/oLRqBgfToyDLxd1ENZj+6aDr8Xqex9jKkQn6CUqR72M3l6tsyTkXa/JNNXStXUSeRmPOaFLWdOpVO6DRq31f1eNvsgqmDLQ7mXUu4HOn53JlAoDpw5NxBJwdy9gEi9D9T/sl/MjBg2UFw3cPzE9lnvBOdRQJ8Gs69kOupeJ9Ip+7Iz0NPxdBHkb3l72FjfiWYizRatyV8Ibbj4LbTiGjF1h9XBg5/Uw/nSQpaQnJoDOPogEsmfHsGbxOI/I2/5n8HUvp58lNQMh9iGhUDxyNqgm/P0dP7ZmaLfgDe2iHjqo42xvN39MgewWkDiDQIjEhWGiK8gTWCkpl6RcjvpX/OTlKSRDOAiTD7I/4TxNJyiAko2qGouNsHF6OXlHKDYOt4ozXCC+cpeHqwQvKWvil5julMTxvxUQXxn5VAdi+Iai6AHmDuoYiMeKeJc5vnBWVJIfdIJxy/kn/eIG64lq7ZwLZtU2fgNcA1yYX919fZPuHcaYX3XiO3/idwV6g8kZaj2drpXSPFcnDkVeRJghxIW8Xz5qYyZkOJdHCm03FgbX69hvzf3FpItA+RXEYFdPl/71t0TEKQKyCOO2hFixekKC2sm6WJMiSesl/Rcjitoqnf1/fK63YLtqIPm8TBN/tixiQwkAE1aOR17PfcLZw8DQ=
+    properties :
+     x : 2
+     y : 123
+     width : 176
+     height : 36
+     data_binding : proveedores_fincas.produccion
+     accelerator_key : 65535
+     tab_order : 4
+     group : GR_campos
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : EDT_Ubicacion
+    identifier : 0x2ac677a504814072
+    internal_properties : HgAAAB4AAAC99mZfgpvzr4qyw5lAk+6DWkHlstTkPLRmmRWgarmdhoU6oQIEBzYLJbQnbTfWIPNv7BBXvMyypK89vzg3CWnJDyxXfptQw2I8ux0DRhKwsAdnIEXh0e0ND2+tqAM9Uz71BQAbrdn2wIjUvMKjX0MESah1Zs0Yf27ttob83BjBkKMoj8fQhxS4imZyh5ewdTos9B1qrd9vyBiF8689+nnkxaQK/nfEwUDv9h+MmNcWhPHDCiV/V5ve+CJiZJItJNtcgJ2UVZ7+8VhpjrWQ0NZ4ox1glmURwhBy7VO4XWRYX4a5Ifsc5l9FGL+1TTV96Gn3Fphw70QySdEINIQ4ASkf9rqFUrLagLg0GoirioVRe3N6AosXxY6bYSVjRuvRdhKdXL+v3z/sN50ftg0pqSnBs2oYARVNdJVh0IguxzY4KmFiDRoHLQMlif5Fv9JAYzGIhO2+l7cI7SG/TQHkDRlKw8rDkerzV8YzyrLO1GxUwpAh2vqrNOyhLXtdSkYL7qIKuYWUh/Hb0nHPHsQGEBMW/7jLZHXVuJVKihNOAJejT+uvpBWV1T7uBv4V2hBc+3kjheVEUvyoYLO0VwIbqYFZaIUh/bh8rl0cwwVTrhSvMz/IdaY+8w42UeKjOSwqozk+vmJLVN3AA6YT8x0flm+/VyhR1cDiYCbiaKvpRlfJSJ0KI5r4Esk92e9Kv/jEgIscrp6wbiiVndK84Bp8tIBzVxDVo8ExzNA7f+9VhDBOw7TpeRdFQQRltXOBZj1gwkqOuVKnHMdePTcpefknpWYKF6/F3nBuxOLS1tFJqcht6x6SYerhswEyPiTpsgL4rZ4yV3N3fD+Z+qF8UAkvMudEaiWseY/uBDOxRB7+IL0u8cHyA/w1TtNuRnl12o9YQdOf4MVtVsf5Wmc1q4gQ83AYnuhfsGlbLdWplGZ5BsLESTAhsNp0mq6/E12D9HQ5qftlq3dKGGnv86uflBbEsxU0K57BYA68mciWtxMicMOkOQjouoAPMDTPhHXiuF1AIVQKQMrIyhjpGGXaCcREbftLG5W89gtjb+PWP/iA2+SA40Rsg2Kkpj2tGLUbY6+GpU53xM4oiddiQxqe3oMqb+8asTfb9zVQqnCJPNcBcvBQdF0kiNvOb/alRpUs+u0ko/UMgRqLfMqBXxEOAND+05bWF8AaboIA0ya4en1Pi4oKOj9Gg9ZbXKx6feWACmEj+TYi3Ey52iM4N5m2+yAZEaXG5jykn1s0zctAUz1LgzqYWpWUgdQfNdxEfx7xI5GW8HIJQ2zj567beM119xK6z0nefah+SIBMji0IZ1FhgB1usFFck8h0GX8zXgc0ObWeOrtPX5NFa2gWzWrnTZ3fHpK7WqmuCnqVgoB8KUVcOyfeSXK3UiDetjx6Lyq3suiIWzbiGKwuGg==
+    properties :
+     x : 2
+     y : 167
+     width : 255
+     height : 36
+     data_binding : proveedores_fincas.ubicacion
+     accelerator_key : 65535
+     tab_order : 5
+     group : GR_campos
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : BTN_JL
+    identifier : 0x2ac6832c05c2477c
+    internal_properties : HgAAAB4AAADub/A8dTWeA8+QK0bBs6IXl01t2zX+VeVv2xknK/3qET3LTwiLLDdVJ+fvuT7ega58sHKF3NmdTsElR8TIPb4Unu/VtcDwTiHhIWzajakP4J7CzHu217Bo3/K/QrEFevSEnVZHgm3MurLAs+cu1BBJ0PSXFJbGFOfd+HDjaHvJt+YIELGqtEe2YKUrY16IRibRhyOA6P/DvgZB06rgdKUAWvTa3JVfhqoz8A1MKtbt1wm+Hn+zjbAH2rnjn8IE2xQAdbq64hNJkv5gbD4wNi5LhF1waT+VqlccDGPrKRm4FkO4XHulJxDzKURcolvitB0Wz6zMm7jnAHmAyVpZVBBxPuJJWZOlnX8p/M6G2reyaySpShJdqI4dMMToodHlGsOSekprWfeouMpe7L/r6NDvgfYuxuCRkZPQWO9FEx+MlKp7K1fSEbzqgIxQ3N3UWmRNz39HefrPWW59XABke9Z1uuqhQ2GPfebfDoofxgRw7mBNyRhzd2HwQ70asWBpZ6lWaRj4B2ilIpRWIQH/UbNvbdX1qDGxV6wtxvJFkfdmn/kDQ6gv6roxSltJsk/hQ/YxkOM9oe7xdMUNa7MmovI7hZfDmEqh5+hhGVIaHgEGmIDukw0RLZ4A6cD99bUodYSC3Cejeq/FouEdNO45IJCNIF51uYVxzaugnvm/3sZHdHLkSua92DOczQk6HepUL+kAdT8251t0sSvsex57Q/k=
+    properties :
+     x : 265
+     y : 175
+     width : 40
+     height : 25
+     accelerator_key : 65535
+     tab_order : 6
+    style : {}
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         OpenChild(WIN_Mapa,EDT_Ubicacion)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : TABLE_QRY_fincas_certificados
+    identifier : 0x2ac6dc44068f4c51
+    internal_properties : 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
+    properties :
+     x : 8
+     y : 220
+     width : 300
+     height : 131
+     state : 1
+     accelerator_key : 65535
+     tab_order : 7
+    style :
+     scrollbar : {}
+    columns :
+     -
+       name : COL_Idcertificado
+       identifier : 0x2ac851950cb9900d
+       internal_properties : HgAAAB4AAABz5d5JETtwwCg1uWf/ZhmMgPAhlqZjp8ocNALvtcCD6l68U+kSgitUW0aXmgl4weHqUgrTn2iQ9ZMXxnD5kr+3edVhKo795/nkGQH7+cogDEC5u1eevVUx2FFkcxJiZDwj9+3ulCVjDB2cC4xjJn3nuYf5m04iQAtaH1XI+P+87cn2VNQ/JYF/AZr4CALMwbh4zq0LVg2DqK55HJ6UIYVQ23LX6QUElYMU9z3LRm4h5N4ewSfBSB3bMTd8R+Kl6FNId/KloIL7kBoAwjgnQcTNOB1KLJFKbCmB4FoBqP5M7w==
+       properties : {}
+       style : {}
+       type : 2
+       content :
+        internal_properties : HgAAAB4AAAB7YlZMvyDwPDBrWGDyC/SxkB0YtOm7JW+bXBvbovx43aQANvaSQL4MihJPWuDM3iJpRew+hyJ1mWGFeMccw5g4Pd0Et4QIEa/e6LSBUzsxOCPoE26bjEq4P4qBfzgZ82oO0m+cbzFQG3+RPBI9dXKxf2sMRp8seR4CDQ7YHMiioOnYI99IQQETdVab4kyKhZXBLsDv6LrY+220T373/ubCpueldLtvF7Lg4mrU18Hn/vOSyqD7AluWpmMUoIG2/9K7q+/zfV3hPfRMFIX43EgO+wUjBUPWwQ0z0UNjKpnh/sAJAtTFj5/TDxB985i+6jQFUNrq3Zy2GdaWgE7x3GTrrvPXwELRBEziZN5Ev8MZB4pbjNhLsvi3SBW/UESI2o/Rr6km0Tj1OHI/X4K49fmOYHB6JTkJ+EUCq1j67qerY9Y/O6Q2K5Z+dQMBWhpvQSdpvyP2lGh8iePfa+GIlScw77Qge1m59nkMExnlM82Ab/YVG/ovCBdzESmLS5UJfvaFGcyQ2d34Gd5ruTPI+pkFAOmF2CIyzg/ic5FM7z7L1zFzo+1nF072F70KnsOnxGX9wRh92Gc3sxRfwtvXyeXHsJMbOt1zOqhmgOPUKvzgT9GhlVGU29xcjJ9+Qveo9fRN5orNdNB4VxLGhjEo4ZrAMzVgotkvRiiNi6dgsY8OBNVe5ALifOk2MpBu/St0J6TUXJI6QZYpexYa0TM5zx/mu9HYQTCCczCJTz9X+ibw4ZSQ8I42oRRsiuYfAca6rYIpQ9c6fKWMwORGNw8DkGBohNH8I0HQvzsoHXW+fojopHga+aku4XhgGTEktRLYodklRHBAzL376Xs2N6nW41exkXMc1L644h4F3yTPBE2XbN7Xv9hgmXIMDfMl275yOarP4cTzUKtWyxWY/PdAIuW6Vlp+lsRQz276lWwa/tBZB5yIgoEKmGUPT5zXOtjpVvbt7S8jI5eCxdnKHJLXj1CGgSNtCZUXd2qjjw==
+        properties :
+         accelerator_key : 65535
+        style : {}
+        type : 2
+       code_elements :
+        internal_properties : HgAAAB4AAACzetePsoRlHaQBN5RSLGx1RJJYp9+xzkmET4TIKHIiqR15h4vLqPAKdTlxUbCnjlytU1I3Xz1MPOwZGonIHqQ=
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 338
+           enabled : false
+         -
+           type : 339
+           enabled : false
+     -
+       name : COL_Codigo
+       identifier : 0x2ac6dc4406924c80
+       internal_properties : HgAAAB4AAABfSZ71L9FnvK/h+vOv+QoxGwdyDwC3SJrSpsnt1IUE/nBCQdUEG0dsQJ2x8UV3T0CZTj4Dlc7riEEXEfMs05W3WNON4Z8VikU9kUcZbFBF2cXsbGd8LZQz/HcUMNaxyjLDpkiLA14XGlfGNSN6zQugFUB+dfdvtysX2roLYN+d2kPKg9ZDnpE9LgcmgRtb2inbEpn497bXRYdfiIGZegaDyA519w6LqadAtzptue37BUvX4QLM6IDeV5NKaEy8Ykna
+       properties : {}
+       style : {}
+       type : 2
+       content :
+        internal_properties : HgAAAB4AAAAcrk8MfFHIni2UxJ1rZLLvm7BGZXx+RjcnsP92e99vAVXEN2JrCmEua/vFEW73dyl9WTeo179Szh6SHAIcajRqmK6j1FLN+wCKEOYR2+Fk0ts40uZL4mf13GTc/TfHAKk31oSUZDA0PcPMqcih5hUd1eO+bgs87mAXyE8wGiTweq49vxBp/S91wZbUIvutNuT3vxFMbUQrUH9aB4v12agla+2H6Bkcb8kooesPMO72hrNZGZXDOtPYX9raKXdNnn9qPJ+zSh7G2u7TI0HCfvm3zZ7tSUTg8HHnS3hlmuQLESfa2lryx4o4B4EQ59StVRwL7J2f8Eslz02QFW9hLsJ8B0Fz1lIA+oym/ca6jmW3Ln+FIcvA/xIq/z4BPXObqJT6sviSFNHEuJe+tfA5unKCvqIh78n3Lv65YV7zPjISTroZnA0NAvq6WUCJ+V985cPMwOywdg6VwJKMDBxkjRZAhxDsfGlb1pPE72LPJbN3i8qT5wMdUNsTFCbIZ14kKXAQHd7LBWoiRwCcHlt33uChNeQmyl9ixZF2VjBEPzdgD0DXYBmkJrjU09fTISjXXF6F9QHipkgQAtzI38zuU8MC0r4s2i5BdFoUlkGdoNG1CYLjdSDKQrb6piOo0xgpKlzyyFzBXEMD/KGAMqiZSnFIwjVUT4g5m1Bh5UPQM44wwlx8iGE5/1dbiUOR7FOoHWZiOzXufK6SYBcJwPW6SwI0FsnGppk6pe81/vjBk9rHhCzAc6SsD8/9MJjFCh806QurKtits04BO09BiMCnk6p7FUwBEffkgPL8f/x1NAQK0eK3Foru3Ftpxl1mJ/GZD6Ui/j1q3kAJAl/IIVf4DYjoOFdqq2AHmROpS8Px+hsGqxjO18hxP8Uqi5zAMa1NZZySn/bd+/tpukcyrkXm66BLC0mvEVeNPGGBhjQcKqFmUwhiXTEwJ5IhEugCm3pPFXaeLthT8ebfkM++NxboiRdDhQzyYPY4TqP4SHDjwP3b3y4THw==
+        properties :
+         accelerator_key : 65535
+        style : {}
+        type : 2
+       code_elements :
+        internal_properties : HgAAAB4AAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 338
+           enabled : false
+         -
+           type : 339
+           enabled : false
+     -
+       name : COL_Estado
+       identifier : 0x2ac6e5490a298624
+       internal_properties : HgAAAB4AAABqIYr1wzYX3cVTVU8NKyxj1x+RSJJiYAxp4O4DCj5qv5oXglLvrNSCdK7+rsz4x1bEd4XDtAnu/zRXerERgGzHakDKV6AY7hlkL0ZlIN+ORky0qVSocDEd1idYtSiUB7MIJw6uY2XFD1pNLE724jsxdQDQAD0Tl5aGNex5W99nnrAKQv+xKGohsRs1/rQdECKVOEehNoCqKjpVsiYo+a61A7ou4CbPjFsEaXi/esfRfVEEWV1p2RpLh+YJw/P0oaBYxeuWte4=
+       properties : {}
+       style : {}
+       type : 5
+       content :
+        internal_properties : HgAAAB4AAAC+IAl0OvKkfrt3LkBpGDJZdoZxuFc0PVAKMQ+nvAh6baJyqkNQYuq7aykiBT68tFN+Lp1bThoxq+48aANgJWc67+lPQQmkxibrwymONyg/s+h4EDDirFMNZMt646hKLlWhb+JwSmLgZzXuR5tBnvJDnFt2E/kWuPjy85yrvdhTRfpBMytsy06jjaLlRWuiaMu3sW9T/NtIcggCJCPXijATwfZP9rIY4OBM7X2xABVuNhITqF6uWCRp0d7TrpdMZsk0qvbkMO2RX+MNeorr/sElgUF/5gwOx1glsXMX30/4vpAsShpkRjnxZbdDGBe+eJze2hkirwax85utlyBumKffEEAxHbB3TBiV6EsUX0bt3e0YOFPAFUZ32SElWJIaCzxlglKyf6oRiFb8KIDaho663cfS/MosKSXNWGeGMec9xc11PyCr41ue/OXWPdChaCDVzjFImh7R7VaVUlWQ8V32ZPy80wq6PyNlhW1qCt4bammYOBKuSfC8ndts1ezMMt9LxnzuzAAKuGJxYL8fJNhY7K8eQbWDjpTlBLDxKg/Fr/rkPK/SE7qU5NwIyxjsYrT7GuN1oRFChMHiCgLyqjaEbE1D/uBLMb1bI4SdtxNq7PBdKvlcqyD10KDZM1E49xl8p+TXFXfYZM9HetddbzOpJplPt/fEOYZuBFcU6E7jtyz4fGawB45a8eB1PjW3/XQwwLtSbHYhNzRQHPGVzxMERl+6t7NNjXZdw7utNrO81FcS384Ct8ZaVq8EoiKHf4waxeTHk6S7n6fPDRHjI9ZB63SEWlF2GLzOoQ5Kre/zVp65O4Qe9Op06tId7xGwXG6V7CkMFwRHbEgS6n0+WPzrRxtYeTAcRWKHzUy3v4CKwbFxF1bkpN0DoxMCWQ==
+        properties :
+         state : 1
+         accelerator_key : 65535
+        style : {}
+        options :
+         -
+           internal_properties : HgAAAB4AAADL6KGbjikwvoKsF1g4BaRuMR2qtTIoT9BlyFXyNsUB6LCEBsmmLqa/W1buyjRyokvZNMRkYGxCww==
+           properties : {}
+           style : {}
+        type : 5
+       code_elements :
+        internal_properties : HgAAAB4AAAA6NJCgzOiOfnfal7XOu1kKLkrORBuGdeDEGLlmWN6cl1/K3mfi09oaSeFV3sBKQOq/GMm1xovr9XnUUW2Z
+        type_code : 5
+        p_codes : []
+     -
+       name : COL_idfincert
+       identifier : 0x2ac6eb9b0ae73700
+       internal_properties : HgAAAB4AAABWMOhC8pVjNqTo8Gd1jjHqLLylTFrfLjDH3Z1Zu2iMRYo4S3UBAVEtevGJ12jKfiYcY4Fa091sPtg8T7va2SdClH7NTmfpdclpPG/7qz0SfeOVqsxMi/WUrZ0f1R28P+KgMopEg8F8Zzx5YXD2m3Ux1UVNHeskpYmsD9ho/UEzWwOjdXXcPv/SfuinwJ/3B2PmV8UPGEM1U56FoXJMrwusfgdtUXKG4rr4vjJiwyLMIx4hDL/ha83drJSk5K218xMeLIwRJjMbvttZ1Q==
+       properties : {}
+       style : {}
+       type : 2
+       content :
+        internal_properties : HgAAAB4AAADM2R5ST81Ir7MPCx9op1Wc8Ijm+ViwnjDxLct8HtgATWcuLg8D9QW64e7bTD+9p4m0wvfwOXweEiBzTSkQZRx+2N+1PfLM5rv2t4aaqBKh5duF8gOVYR2nypjs5OAZTap90Vs4Ee44d0anvNv/aGBem9HqaTZprqiW3+EHxlpZUav/hd3aJUCQiTLdFp879RHZQ2bZPUO71xgRjT7JRyq05w0+X4JVND9wGRx+tZkgRmpicKCNTlI9S2XE3fkGLYUrgK6metT7ytl796kIUdSEzjDEUGqO8hoOSgSba7MVQsT59+M25AU9mmJMkydDI15795S67FfD5yzl7zaCB101YChIjJOIcikSQU9yyTRUtd0I4yxokJoRK+IQw7jF2Z8pTrMRPYzgi4ZJyeZRb8RbUbYANb1/r/Ldc1ZYlao/+BCHOCsFIicHp2N7jiCfgIdZtWjY25nv2e50V1L+Uv6EVTq3nG2Q3UCZtcCUQdL2fpufNkb/8nj/N/C90t8rWOtjA+S51mB7klvTJZ8m4oQ0kUGRznqaljTN1+dW7E8Yrr4Ab//nFgFj7iCok8/jaIsBGNQMbQx9VRMn/MYBvcmrFGsRLE/zg0c5w0avJx8HdHw87HJpfAvlUbALFc0FliGYFy2n36GGbQ7pi0TK5v1x8pRZJYeJSnW2ICgUipLE51J/Sduc0wrgJhqexsI8kS8UekZEq/oP67oY99HBv3ZBEiKN0HKWkHTi4R3pEmDJiQgVhjifnbBQu8P8wrgI7RZNRZuxXGZ6NibkVxQKOWyQwamIKWj2v5cFaMmBl9gOIMiuHxjhVviQTfI3HR6fUTx4uRTI3SDIp/wrgh1pyzpRkMYxoYl9tDjm+sgpS7W8/EjjjF7MR66B1m07+d5ddYmw8qvbnuuwj2Rdg01NZQ7g8b4AkeaP20rmWQfmozX6tkp9Dn8Loelqd+/z1z5GPXmJaPPkVFYXzc4SaBegt+C6/cB43pYx2UdhLdRju/ZOguaqO1x/miiJDNJ+MIYhbiyEtJB96zwpx+4G
+        properties :
+         accelerator_key : 65535
+        style : {}
+        type : 2
+       code_elements :
+        internal_properties : HgAAAB4AAABwp+rlZdgvvvA21nWdL/okBV6Yxk+c1RBu7cRygM1DV1+KMMpck8XJOVB2ZwUKbzaFR4iiSz/54irNrcLV/S5l/8N43xozLpDMWbrZiKyXsI17r96XpE0JODkx
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 338
+           enabled : false
+         -
+           type : 339
+           enabled : false
+     -
+       name : COL_id
+       identifier : 0x2ac850960c93ac72
+       internal_properties : HgAAAB4AAACzsn5kXrFMDh57OUN87Zxx8IQ8jVWuXujEyt5pC+hkvDaT0IIDKNENOdje34DNIGCCfD2b0hZpT6l4vOu1TDQAa+yVxjNGyiVrzVnAazOSZ7tyaTKrWP2663TMgbzWxEdX8TBhfUpmplNA0Jk0qFVR1ENWUPNTWW18N3Iq9tXUPM/Y07bks0gRbxZN6NNiVsC/QT4BfZDE4JFltxz44OcYpx/hsJoy6a3TfjUSIugf78ZZHC1f0A+2CEl8DEdck5zZl6ZB
+       properties : {}
+       style : {}
+       type : 2
+       content :
+        internal_properties : HgAAAB4AAADM2R5ST81Ir7MPCx9op1Wc8Ijm+ViwnjDxLct8HtgATWcuLg8D9QW64e7bTD+9p4m0wvfwOXweEiBzTSkQZRx+2N+1PfLM5rv2t4aaqBKh5duF8gOVYR2nypjs5OAZTap90Vs4Ee44d0anvNv/aGBem9HqaTZprqiW3+EHxlpZUav/hd3aJUCQiTLdFp879RHZQ2bZPUO71xgRjT7JRyq05w0+X4JVND9wGRx+tZkgRmpicKCNTlI9S2XE3fkGLYUrgK6metT7ytl796kIUdSEzjDEUGqO8hoOSgSba7MVQsT59+M25AU9mmJMkydDI15795S67FfD5yzl7zaCB101YChIjJOIcikSQU9yyTRUtd0I4yxokJoRK+IQw7jF2Z8pTrMRPYzgi4ZJyeZRb8RbUbYANb1/r/Ldc1ZYlao/+BCHOCsFIicHp2N7jiCfgIdZtWjY25nv2e50V1L+Uv6EVTq3nG2Q3UCZtcCUQdL2fpufNkb/8nj/N/C90t8rWOtjA+S51mB7klvTJZ8m4oQ0kUGRznqaljTN1+dW7E8Yrr4Ab//nFgFj7iCok8/jaIsBGNQMbQx9VRMn/MYBvcmrFGsRLE/zg0c5w0avJx8HdHw87HJpfAvlUbALFc0FliGYFy2n36GGbQ7pi0TK5v1x8pRZJYeJSnW2ICgUipLE51J/Sduc0wrgJhqexsI8kS8UekZEq/oP67oY99HBv3ZBEiKN0HKWkHTi4R3pEmDJiQgVhjifnbBQu8P8wrgI7RZNRZuxXGZ6NibkVxQKOWyQwamIKWj2v5cFaMmBl9gOIMiuHxjhVviQTfI3HR6fUTx4uRTI3SDIp/wrgh1pyzpRkMYxoYl9tDjm+sgpS7W8/EjjjF7MR66B1m07+d5ddYmw8qvbnuuwj2Rdg01NZQ7g8b4AkeaP20rmWQfmozX6tkp9Dn8Loelqd+/z1z5GPXmJaPPkVFYXzc4SaBegt+C6/cB43pYx2UdhLdRju/ZOguaqO1x/miiJDNJ+MIYhbiyEtJB96zwpx+4G
+        properties :
+         accelerator_key : 65535
+        style : {}
+        type : 2
+       code_elements :
+        internal_properties : HgAAAB4AAADsTy7HqAN9twHNXriXdv42nGngtUQtl9IGLuQXmtruQj5MjUzKY2IFglivXwZ+xCjdxA50/2IH2Np0l671uUEG+OBu
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 338
+           enabled : false
+         -
+           type : 339
+           enabled : false
+     -
+       name : COL_idcertmovil
+       identifier : 0x2b13075316424374
+       internal_properties : HgAAAB4AAAAm0GOamWj969Nuqz1QKU/A6NSXKuqfHSsmynyoyH+TTa6AYnoGZWOIEjObY12v+PQlwUE5TYWwMuoHMWD6rHJyZOSvVQvdCtyh45PHKefR3jgRFYAXxL9jsKzsdOgGytkLezfKgd+Ojl4Zt3F6yj7/FgH/mKL6VOwmPwIdPSMibd4B585mVmX1YoRMDah9yKhXJsn4ER4w+mSDyK4U1B7M5dQMAt2Fiv6FAIyxF/HSj7EIWr+vuvziNLNsW9/k2ExLfExpAunsxNkPMJCjs+lq
+       properties : {}
+       style : {}
+       type : 2
+       content :
+        internal_properties : HgAAAB4AAADM2R5ST81Ir7MPCx9op1Wc8Ijm+ViwnjDxLct8HtgATWcuLg8D9QW64e7bTD+9p4m0wvfwOXweEiBzTSkQZRx+2N+1PfLM5rv2t4aaqBKh5duF8gOVYR2nypjs5OAZTap90Vs4Ee44d0anvNv/aGBem9HqaTZprqiW3+EHxlpZUav/hd3aJUCQiTLdFp879RHZQ2bZPUO71xgRjT7JRyq05w0+X4JVND9wGRx+tZkgRmpicKCNTlI9S2XE3fkGLYUrgK6metT7ytl796kIUdSEzjDEUGqO8hoOSgSba7MVQsT59+M25AU9mmJMkydDI15795S67FfD5yzl7zaCB101YChIjJOIcikSQU9yyTRUtd0I4yxokJoRK+IQw7jF2Z8pTrMRPYzgi4ZJyeZRb8RbUbYANb1/r/Ldc1ZYlao/+BCHOCsFIicHp2N7jiCfgIdZtWjY25nv2e50V1L+Uv6EVTq3nG2Q3UCZtcCUQdL2fpufNkb/8nj/N/C90t8rWOtjA+S51mB7klvTJZ8m4oQ0kUGRznqaljTN1+dW7E8Yrr4Ab//nFgFj7iCok8/jaIsBGNQMbQx9VRMn/MYBvcmrFGsRLE/zg0c5w0avJx8HdHw87HJpfAvlUbALFc0FliGYFy2n36GGbQ7pi0TK5v1x8pRZJYeJSnW2ICgUipLE51J/Sduc0wrgJhqexsI8kS8UekZEq/oP67oY99HBv3ZBEiKN0HKWkHTi4R3pEmDJiQgVhjifnbBQu8P8wrgI7RZNRZuxXGZ6NibkVxQKOWyQwamIKWj2v5cFaMmBl9gOIMiuHxjhVviQTfI3HR6fUTx4uRTI3SDIp/wrgh1pyzpRkMYxoYl9tDjm+sgpS7W8/EjjjF7MR66B1m07+d5ddYmw8qvbnuuwj2Rdg01NZQ7g8b4AkeaP20rmWQfmozX6tkp9Dn8Loelqd+/z1z5GPXmJaPPkVFYXzc4SaBegt+C6/cB43pYx2UdhLdRju/ZOguaqO1x/miiJDNJ+MIYhbiyEtJB96zwpx+4G
+        properties :
+         accelerator_key : 65535
+        style : {}
+        type : 2
+       code_elements :
+        internal_properties : HgAAAB4AAAAFnDAVMIyDegvJpWS9pPdiGE8K6YLDNSNnAq2aYLmNFV/97gOtEOm5vEnSZhkHoW6do7UffblQt9sGAg==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 338
+           enabled : false
+         -
+           type : 339
+           enabled : false
+    type : 9
+    controls : []
+    code_elements :
+     type_code : 9
+     p_codes :
+      -
+        code : |1-
+         // The control is using a query with parameters to display its data.
+         // The parameters of this query must be defined before or when initializing the control.
+         // The query will be automatically run if at least one parameter was defined.
+         //
+         // See the help for more details:
+         // Query with parameters, Using a table, list box or combo box control
+         //
+         // Parameters of 'QRY_fincas_certificados' query
+         MySource.Paramidfinca = gnidfinca
+        type : 14
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1+
+         HSeekFirst(proveedores_fincas_certificados,idcertmovil,TABLE_QRY_fincas_certificados[TableSelect(MySelf)].COL_idcertmovil)
+         	IF HFound=True THEN
+         		HRead(proveedores_fincas_certificados,HRecNum(proveedores_fincas_certificados))
+         		gnidfinca=proveedores_fincas.id
+         		OpenMobileWindow(WIN_Certificado)
+         	END
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 340
+        enabled : false
+      -
+        type : 263
+        enabled : false
+      -
+        type : 262
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : BTN_add_partida
+    identifier : 0x2ac6de6309b893a4
+    internal_properties : HgAAAB4AAADCldjYVkDlTUC2Ua6nq7//l/LWSgTwfbRvdEEXsDIY1YA4mCwDtmveqSL8Khm/gGZ30KKjz+aJ3+C2figfhZE+fRdVY6HgwqWPmli+BCejZ9PqBhwsBr/Sln61fQRh739jib/eql0J5AUPMDQHyQi8zkzoUa5KEH0p1GJ0WFEEwXsu+r6B6LSSsvspH7oDoporv+ukFh20AtHj+PhB1gZrapJS8L/9Pdi6M483ahA1havuOAC1k48F1fU39A179qv87dzwpcFvXE03/2lf3/v1eid9OH3Rniq9qnCarmkFb9AGBB11Nhgnki1qz+XKnNvvWstAC6fP5HrlNV5z0KLngyFqPZUKWw1auQd1pL6isOVLQlIwtHyLvmw4JWU4UPHTQuQX+FAv26D5WpuRnwEgGQmpanpS5cOPbWpfeqI4GcgGR5bCuCHPQugYXC8Yd4jENrpPQB9xRpQEcJd3HOtQYR4/SIRfctFeJOaLktjdYB4LMIVfwmr7iUtFhUPh3x8feMoPGVuVTb/Qx7M/di/Xz3ANB9J9ffff9zoYbmm04204x9wkjOHVtlCIQOU4dqjk5WC9RbKSs2D3pBWfVtF4T2jhBeu605i2gvRWsL7dcpQPecovcoqTIQZXRIHT5FN70/sLY5bHjtFqUQtbEz/lYINAih+nCpFokWSLM1t9INSlgpdAXbV20YWXkJqS2+hmNzcDfyp9kziRNqzUmI2fhNZ7un3k8NN36CVh4mHPMuTcPP06+uqswIMbx9woVhddhmO8iNpDYez+ihRksWZNt+YMvxmbl/oT3IsCjGeRvSfVQUgHotRUzkXar9c=
+    properties :
+     x : 260
+     y : 358
+     width : 40
+     height : 40
+     tool_tip : Agregar pesos
+     anchor : 1
+     anchor_ratio_size_x : 0
+     accelerator_key : 65535
+     tab_order : 8
+    style : {}
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         if proveedores_fincas.id=0 then
+         	Info(<§$0000§>)
+         	return
+         END
+         
+         HReset(proveedores_fincas_certificados)
+         proveedores_fincas_certificados.codigo=""
+         proveedores_fincas_certificados.estado=1
+         //proveedores_fincas_certificados.idfinca=gnidfinca
+         proveedores_fincas_certificados.id=proveedores_fincas.id
+         proveedores_fincas_certificados.esnuevo=true
+         //proveedores_fincas_certificados.idcertmovil=NULL
+         
+         //calcular el mayor
+         //nXmayor is int = 0
+         //FOR nSubscript = 1 TO TABLE_QRY_fincas_certificados..Occurrence
+         //	IF TABLE_QRY_fincas_certificados[nSubscript].COL_idfincert > nXmayor THEN
+         //		nXmayor=TABLE_QRY_fincas_certificados[nSubscript].COL_idfincert
+         //	END
+         //END
+         //nXmayor = nXmayor + 1
+         //proveedores_fincas_certificados.idfincert=nXmayor
+         
+         OpenMobileWindow(WIN_Certificado)
+        type : 18
+      -
+        type : 161
+        enabled : false
+      -
+        type : 65659
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2ac59d830c832921
+  internal_properties : HgAAAB4AAAAGaQtCMdAsA1BD8eZtOp+NM/q3+nHzRxtKGjiBpFz1xoltwVxEE2AMZOaap+KwGIpXBEEPy2OLrnTHBXiD0TrY1GWaiiPrDmBXLw1rUewmZz3MePo7rnfTa7ffa+cLurTKVPyGHneU5/zB6tHfzQdj0jrcgOCRBswXUwlSntjUMZLlCeSX1Y0q6EC1rR6WNPukL1CN/MVAQdUMJLfdQ4uDUr75pC3SEoo2n36pxPKxUGYjVRYna4YD6KSqQ7OIGTzd98vk2TJK/VpyEkjbwhO58Mr3NOdcHLvfnaleBekYG21K6qDTnGVNfDOZKlLrTKlaIaDpa2yqZ4OJ/94ul2L49PGa/+PFkyZrmApDmQGyIXQOKCNjAGOketN152R2DBasubIzu4kWUlMdZu3gcHSpT8z4Egz7x9VODwc=
+  properties : {}
+  style : {}
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : HgAAAB4AAAC7LLhUimlj5DAjqB0aVHKziN4hvCyTvtpCy5zUDIDK5OKDGjG4MJkDHV6newThzgYw0hAR6zbkPuNHoWst73kXkecteIPwFhjg2StEX+sjhcd1YRoxbgooC/PnBOjMqihxVeEGx5SLosGpBHA9w92jNZ9h5RXm29ZPB47HIh+bz2UhXgsiLocpXO1n1EsCwe5mOoMjZOyQLvHcDyiet19LKnUWVWEIREM3Bb5+7np2ZiKz/+5Fp0r2kLpyjeelu3jsgxn2FnYJynOCc3lchtlHAfc5LW6GlWYNwArq7UiYTp8=
+  properties : {}
+  style : {}
+  options :
+   -
+     name : OPT_Ok
+     identifier : 0x2ac6dad50646b2f8
+     internal_properties : HgAAAB4AAAC+KjbSfmVHlhEvLKfdORemcIwV383wKjHKL/hS5mjS9K3KTXxcgcdJjQO0pQPyzpM5JWZ/FI4LagBvLTX3KyqboKeT0s0OAVJMBP0o0DDCy7Z7vMz0aVGvBvx7M9BQDh0Y9enOEotPP8KqXO/jjJJxHAAjLgyoBcNlqMHY75wYNRWqIiopdDxt+vxphPvAvPZoNIYgAXFPV9gQ4474G3gVOqUYfGaQwohbpsZPeRa2UIU9dEQ9mCUbMh3ERYRXjIRPqM/hnNiuiFKsSq+oLqQIq0Xi+XpM/EuvBVTWK4iSrGByQsYUAV0M73f/
+     properties : {}
+     style : {}
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          ScreenToFile()
+          proveedores_fincas.esmodificado=1
+          hsave(proveedores_fincas)
+          gbgrabado=True
+          HExecuteQuery(QRY_Proveedores_fincas,hQueryDefault,WIN_Productores_Form_Click.sproductor)
+          TableDisplay(WIN_Productores_Form_Click.TABLE_QRY_Proveedores_fincas)
+          close()
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - es-ES
+ popup_menus : []
+ message_bar :
+  internal_properties : HgAAAB4AAAAsBHrJSU4MzaaXu4E1S19xLqqmjzqsot8nLC4ZOlGt5HNEG+QnKymnnNLYojVmf85GbX8czvNX9Evwl9ymuQCFprwvxx8K5Y1XNu3x1b/6IcB1342aYIAVLF9waw==
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MyWindow()
+      gbgrabado is boolean =false
+   -
+     code : |1+
+      FileToScreen()
+      
+      if proveedores_fincas..NewRecord=false THEN
+      	gnidfinca=proveedores_fincas.id
+      else
+      	gnidfinca=0
+      END
+      
+      HExecuteQuery(QRY_fincas_certificados,hQueryDefault,gnidfinca)
+      TableDisplay(TABLE_QRY_fincas_certificados)
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      if nuevaubicacion=true then
+      	EDT_Ubicacion= WIN_Mapa..ReturnedValue
+      end 
+      
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+ code_parameters :
+  internal_properties : HgAAAB4AAAAqrd/dnpA7E6HdMDGpZzzaBCJrbGCwqmgAdI2eM6AYpx5V5ncyRwhgiOYNLyS4E5p3pX0JkZgB0VxEZtLT4fDdkxbcDCaNzshsB0cqpRI=
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1ac59d49020647f9
+  internal_properties : HgAAAB4AAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      es-ES : Debe Grabar finca primero
+     index : 0
+custom_note :
+ internal_properties : HgAAAB4AAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : HgAAAB4AAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

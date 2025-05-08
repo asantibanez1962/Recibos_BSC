@@ -1,0 +1,3 @@
+//MO017-018.TXT ANA00017 TO ANA00018
+re_transportistas		NNF*	re_transportista	new name re_transportistas
+re_transportistas		FRN		

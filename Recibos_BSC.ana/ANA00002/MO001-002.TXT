@@ -1,0 +1,4 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+BitacoraRecibos		NFI		new file
+ca_certificados		NFI		new file
+calidad		NFI		new file

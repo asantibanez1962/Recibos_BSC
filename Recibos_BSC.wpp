@@ -1,0 +1,1054 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Recibos_BSC
+ major_version : 30
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Android application
+    identifier : 0x44e3a157031d98a9
+    internal_properties : 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
+    configuration_id : 1809492979626116492
+    type : 15
+    version : {}
+    language : 8
+    code_elements :
+     type_code : 159
+     p_codes : []
+ elements :
+  identifier : 0x44e3a157031c98a9
+  elements :
+   -
+     name : COL_GlobalProcedures1
+     identifier : 0x44e3b405074b8de8
+     internal_properties : HgAAAB4AAAA+JBYKuebO4e7NapeYDzqblPHDG7tt+d6yUntNeKFrrRPfJfhGwXQkx3FrVd0T7+ErKw==
+     physical_name : .\COL_GlobalProcedures.wdg
+     type : 7
+   -
+     name : IW_MLZ_Options
+     identifier : 0x44e3b40507538e65
+     internal_properties : HgAAAB4AAACkooyoF0zkh1CzRO2GtZFKZMUjO49ORKFO56+o6j/da0W95Kqop14O/SeRbzepUUexsQ==
+     physical_name : .\IW_MLZ_Options.wdw
+     type : 8
+   -
+     name : QRY_bitacorarecibos_all
+     identifier : 0x44e3b405075e8f9e
+     internal_properties : HgAAAB4AAAA9GRUJtuPL1OPCU5iRqwe0Q9x+jtoELsa2cbPPYF2xBz3zrdKNumsdzHZgWNgI8OAoKA==
+     physical_name : .\QRY_bitacorarecibos_all.WDR
+     type : 5
+   -
+     name : QRY_BITACORARECIBOS_CONTAINS
+     identifier : 0x44e3b4050760901b
+     internal_properties : HgAAAB4AAADoZtDM+6AIE9w/wGkCPpdAyFsH32nfKrF2paQQLUBcpED+PUMcK9qKeaMdmxvVrSPtdQ==
+     physical_name : .\QRY_BITACORARECIBOS_CONTAINS.WDR
+     type : 5
+   -
+     name : QRY_entregadores
+     identifier : 0x44e3b40507629088
+     internal_properties : HgAAAB4AAADOVCZ6yfa+8f4dukcoVunDBLHTOx3WjoZSCnIAZgUX8R/DwV/2EcT0l4F7Rc0D//HbWw==
+     physical_name : .\QRY_entregadores.WDR
+     type : 5
+   -
+     name : QRY_entregadores_all
+     identifier : 0x44e3b40507649088
+     internal_properties : HgAAAB4AAADnY8/T0I2lRhFkcbrzC6ZkodCo4Gx1f7enthHvCbLgOMBgaiYz3Ik7LujSLvbqlgrycg==
+     physical_name : .\QRY_entregadores_all.WDR
+     type : 5
+   -
+     name : QRY_estado_adelantos
+     identifier : 0x44e3b40507669088
+     internal_properties : HgAAAB4AAAD6UCJmRQIqNTJR7gtsro2nGFWnz483SuaiZrQ3hAWPoReL+ZfCTfioW8U/uXl3A/XfZw==
+     physical_name : .\QRY_estado_adelantos.WDR
+     type : 5
+   -
+     name : QRY_estado_credito
+     identifier : 0x44e3b40507689088
+     internal_properties : HgAAAB4AAABTr4ufLBkRypX4ha7HAwo4JQSMZGYGRBhWDTG2ZyLoeEi4kg5f6J3PsmxWomKeWk62vg==
+     physical_name : .\QRY_estado_credito.WDR
+     type : 5
+   -
+     name : QRY_estado_recibos
+     identifier : 0x44e3b405076a9088
+     internal_properties : HgAAAB4AAACmrI6SEU7miValsn8wlpHLDAlbQ/PTxhNKCOv3RCV3YV+zkX/uGcz87ymTbTWrV0mzsw==
+     physical_name : .\QRY_estado_recibos.WDR
+     type : 5
+   -
+     name : QRY_fincas_certificados
+     identifier : 0x44e3b405076c9088
+     internal_properties : HgAAAB4AAADKQDLW1ZKaRQIhPvu8FCFboCF/p4QkGvd2gdLBF4ORf3lJI+1ynUh4a9XPKennkwXPVw==
+     physical_name : .\QRY_fincas_certificados.WDR
+     type : 5
+   -
+     name : QRY_Hist_Recibos_proveedor
+     identifier : 0x44e3b405076e9098
+     internal_properties : HgAAAB4AAACJhfGVEk/niFemR+yF3+RuMxZi+kARmcdKKETvU0ZMjHC8Osappl8R8CqUbDSsVESMlA==
+     physical_name : .\QRY_Hist_Recibos_proveedor.WDR
+     type : 5
+   -
+     name : QRY_precio_Recibos_CASR1
+     identifier : 0x44e3b40507709098
+     internal_properties : HgAAAB4AAAAkIgwol8xkB9AzxG0GUlvpspP5YftKTr9O6xYW9rnTFfc/uUcoJ96OfacR77cp0ccxMQ==
+     physical_name : .\QRY_precio_Recibos_CASR1.WDR
+     type : 5
+   -
+     name : QRY_proveedores_autorizados
+     identifier : 0x44e3b40507729098
+     internal_properties : HgAAAB4AAADlYc3R7oujvAta+wBpp+iyZwo2Xv43sjFfeIPfhea0DDjk8q61UgO1VM7IMPDgmAjwcA==
+     physical_name : .\QRY_proveedores_autorizados.WDR
+     type : 5
+   -
+     name : QRY_PROVEEDORES_CONTAINS
+     identifier : 0x44e3b40507749098
+     internal_properties : HgAAAB4AAAAYdsDc65CYQwwvMPmyEhfFbh9lLSGHE0JyAohd2LFjvUfviQdsm0p6adPNK+vlnRP9BQ==
+     physical_name : .\QRY_PROVEEDORES_CONTAINS.WDR
+     type : 5
+   -
+     name : QRY_PROVEEDORES_CONTAINS2
+     identifier : 0x44e3b405077690a8
+     internal_properties : HgAAAB4AAADgXtjE41jQi1SnWOGKzNt5Zls1ddsy4gdS6jx4TENJvzWJP9GUs2IS8SuVYyPdpRvlbQ==
+     physical_name : .\QRY_PROVEEDORES_CONTAINS2.WDR
+     type : 5
+   -
+     name : QRY_Proveedores_fincas
+     identifier : 0x44e3b405077890a8
+     internal_properties : HgAAAB4AAABj31tPfCmBmqWIFd5Xg/qo1bQ8dNf+kn9Op64pKEJIuAjY8q7PeC1fAjymEpJOKp5m7g==
+     physical_name : .\QRY_Proveedores_fincas.WDR
+     type : 5
+   -
+     name : QRY_Proveedores_fincas_all
+     identifier : 0x44e3b405077a90a8
+     internal_properties : HgAAAB4AAABxzan9Snc/cH+eL9Rdg4w++/6K0nkcH8pyQpppQHoY4BzQ9prRfjdpGAL8xEyEfGxU3A==
+     physical_name : .\QRY_Proveedores_fincas_all.WDR
+     type : 5
+   -
+     name : QRY_Proveedores_fincas_sinparametros
+     identifier : 0x44e3b405077c90a8
+     internal_properties : HgAAAB4AAACkooyoF0zkh1CzRO2G3svxAiNZgabCmCCiFjrrZTXnMct7LdOop14O/SeRbzepUUexsQ==
+     physical_name : .\QRY_Proveedores_fincas_sinparametros.WDR
+     type : 5
+   -
+     name : QRY_recibidores
+     identifier : 0x44e3b405077e90a8
+     internal_properties : HgAAAB4AAACRbcnd6pefUB9+DzR9t/yGK64qspqSoj2K/AlWdQ4ExAjU0r6xXhdJOOLcJOzknAz0fA==
+     physical_name : .\QRY_recibidores.WDR
+     type : 5
+   -
+     name : QRY_RECIBOS_CONTAINS
+     identifier : 0x44e3b405078090b7
+     internal_properties : HgAAAB4AAABWPL7iwb72+UaVIs+g/DW+RmkFlabJagp2qQsPcjrSdppAewV+iTxsHxmDfQX7h3lDww==
+     physical_name : .\QRY_RECIBOS_CONTAINS.WDR
+     type : 5
+   -
+     name : QRY_RECIBOS_POR_BITACORA
+     identifier : 0x44e3b405078290b7
+     internal_properties : HgAAAB4AAAB92VVJdiOLlKOCE9hRj/AhKUaM/FTCKpZCTiafAI0B12mb2rbNeitdDDagGJhIMKBo6A==
+     physical_name : .\QRY_RECIBOS_POR_BITACORA.WDR
+     type : 5
+   -
+     name : QRY_recibos_total
+     identifier : 0x44e3b405078490b7
+     internal_properties : HgAAAB4AAABCOLru3YqivRopNnMEJEkS6r3p+Wp+m1iOmyTgAooKxnL4w10qJdCAY93HMfHvi31Hzw==
+     physical_name : .\QRY_recibos_total.WDR
+     type : 5
+   -
+     name : QRY_recibos_total_por_bitacora
+     identifier : 0x44e3b405078690b7
+     internal_properties : HgAAAB4AAAA8GhQAv+TM3+j7nKXOIO9sFGtTy3m/CO620VhmX14+qgLc+xVg76bWtW9pV98R6d8pKQ==
+     physical_name : .\QRY_recibos_total_por_bitacora.WDR
+     type : 5
+   -
+     name : Query_precios_impresion
+     identifier : 0x44e3b405078890b7
+     internal_properties : HgAAAB4AAABaMAIGpeLK1ZLxjqvMIOECkuWx8TeghjZKaM0l+4YOgnZUBxli7ZjIu2VfWdkX49U/xw==
+     physical_name : .\Query_precios_impresion.WDR
+     type : 5
+   -
+     name : Query_Precio_recibos
+     identifier : 0x44e3b405078a90c7
+     internal_properties : HgAAAB4AAADrZ9M39LH5Ii0AnabPXc77L3wawnbsf6Z2wi0hVjtT1Xf56ChX8KXXirQuigrGsibudg==
+     physical_name : .\Query_Precio_recibos.WDR
+     type : 5
+   -
+     name : Query_Proveedores_ALL
+     identifier : 0x44e3b405078c90c7
+     internal_properties : HgAAAB4AAAC0kpyYJxwUFyADlF3WXjvgNFdzKxcmeAxWnb71G5SAqETazTNY967ejbchn2eZYVehoQ==
+     physical_name : .\Query_Proveedores_ALL.WDR
+     type : 5
+   -
+     name : WIN_Acceso
+     identifier : 0x44e3b405079490d6
+     internal_properties : HgAAAB4AAACV8f0hnvuz7PvKa5CZSTxspwr2HpVMl7mO96EJtEbUbFhEUEBFwnMlxH54QMAwyDiAgA==
+     physical_name : .\WIN_Acceso.wdw
+     type : 2
+   -
+     name : WIN_Autorizado
+     identifier : 0x44e3b44707b89333
+     internal_properties : HgAAAB4AAAB3019DYN1VVmF0AWw7t6lTT3427tKztqlWTaUNv0xG6mqKT0RxnhlLPvji3qZaJppi4g==
+     physical_name : .\WIN_Autorizado.wdw
+     type : 2
+   -
+     name : WIN_Bitacora_Recibo
+     identifier : 0x44e3b44707c99352
+     internal_properties : HgAAAB4AAAANCWW5BnM7ZHOSIwIZpo+sy47KEqya2c6s1VZkX85ExEjUXDeTvDttHAbwyEi4QLAYGA==
+     physical_name : .\WIN_Bitacora_Recibo.wdw
+     type : 2
+   -
+     name : WIN_Bitacora_Recibos_Table
+     identifier : 0x44e3b44807da95c3
+     internal_properties : HgAAAB4AAADVsT1hXjtzrLuKKwsRt4t/vyy6kqKQhdGvxBblzl8/uQPN0EWStTNlBD64AIBwCPjAQA==
+     physical_name : .\WIN_Bitacora_Recibos_Table.wpw
+     type : 2
+   -
+     name : WIN_Bitácora_Recibosold
+     identifier : 0x44e3b44807eb9640
+     internal_properties : HgAAAB4AAACno4+TEE3lhlGksb3romLKN3qGjkguvIOnNn48x3akvAj0ajy4T8n77iiSbjaqVkqysg==
+     physical_name : .\WIN_Bitácora_Recibosold.wpw
+     type : 2
+   -
+     name : WIN_Cargar_Datos
+     identifier : 0x44e3b44807fc96dd
+     internal_properties : HgAAAB4AAAA7F2OnBEHp8v0QrYmXTzKfhZCsPArxwYJOp99/hbTm4i7yLfkMM7XnmoR+ejq2QrYeJg==
+     physical_name : .\WIN_Cargar_Datos.wdw
+     type : 2
+   -
+     name : WIN_Certificado
+     identifier : 0x44e3b448080d970b
+     internal_properties : HgAAAB4AAACehPaqGUbugU5tCmoxAeDWkoWxsZiSMB2C35vyxFY+kqZki5x8lBREJxGLdT2zT0GLiw==
+     physical_name : .\WIN_Certificado.wdw
+     type : 2
+   -
+     name : WIN_Entregadores_table
+     identifier : 0x44e3b448081e972b
+     internal_properties : HgAAAB4AAACJhfGVEk/niFemRyd+TxNt0Wx4uJjhXcaOd1Ftu2Ay3ho2FwAv2V8R8CqUbDSsVESMlA==
+     physical_name : .\WIN_Entregadores_table.wpw
+     type : 2
+   -
+     name : WIN_Enviar_Datos
+     identifier : 0x44e3b448082f975a
+     internal_properties : HgAAAB4AAAA8GhQAv+TM3+j7nJiHidrDPq8lvQLTaEt3gtU4nY2HSYtLDwgmIqbWtW9pV98R6d8pKQ==
+     physical_name : .\WIN_Enviar_Datos.wdw
+     type : 2
+   -
+     name : WIN_Finca
+     identifier : 0x44e3b44908409788
+     internal_properties : HgAAAB4AAAAbd8PH5KEJEt0wzarw82/ecxaiOgFoJAastVQBJOasrFDcio28VNWHeqQemhrWohb+Bg==
+     physical_name : .\WIN_Finca.wdw
+     type : 2
+   -
+     name : WIN_Fincas_Table
+     identifier : 0x44e3b449085197b7
+     internal_properties : HgAAAB4AAADLRzPX1JGZQg0gPTpgZMM5hfT8pBdh0kiFulekoGqgAMAgmQ5MxEV3atTOKurmkgbOVg==
+     physical_name : .\WIN_Fincas_Table.wpw
+     type : 2
+   -
+     name : WIN_Foto
+     identifier : 0x44e3b449086297e6
+     internal_properties : HgAAAB4AAACtqYWZJhMbxJPyg+y6Hz0+tTB8PBsxmmOCXiFW+hB6nqJOum3yHpvNvGZQqGiYYFC4uA==
+     physical_name : .\WIN_Foto.wdw
+     type : 2
+   -
+     name : WIN_Mapa
+     identifier : 0x44e3b44908739834
+     internal_properties : HgAAAB4AAAAsKgQQr9RcD9jrjOm37Tnv6JnnryzcL4O28X/x1zPhP8lpr3n1E5bGpZ8Z568h2c85OQ==
+     physical_name : .\WIN_Mapa.wdw
+     type : 2
+   -
+     name : WIN_Options
+     identifier : 0x44e3b44908849863
+     internal_properties : HgAAAB4AAABEwqyIN2xEZ3CTJAEfln2ySh+Z6WFQ4EZKpNNMmp91i2FdBgKNuz5uHQfxz1eJcWdR0Q==
+     physical_name : .\WIN_Options.wpw
+     type : 2
+   -
+     name : WIN_Parametros
+     identifier : 0x44e3b44908959882
+     internal_properties : HgAAAB4AAADYtoCcK1DYg0xvcP2rE3m97O27Y0efQ1J2yfr5UsfVwz2ViY8BD4o6KRONayulXVO9RQ==
+     physical_name : .\WIN_Parametros.wpw
+     type : 2
+   -
+     name : WIN_Productores_Form_Click
+     identifier : 0x44e3b44908a698c1
+     internal_properties : HgAAAB4AAADxTSl9yve/8P8er4iWP861az46splQo2V2ZbuRJPacrAD8i40WMrfpmIJ8RMwE/OzUXA==
+     physical_name : .\WIN_Productores_Form_Click.wpw
+     type : 2
+   -
+     name : WIN_Productores_Loop
+     identifier : 0x44e3b44908b7993e
+     internal_properties : HgAAAB4AAAALB3MXlNFZAs3g/XogurH4V/CSAsoYy3W3etTLnH2ZR+V75TSMhAW3qpQO6qom0sYOFg==
+     physical_name : .\WIN_Productores_Loop.wpw
+     type : 2
+   -
+     name : WIN_Productores_Loop_2
+     identifier : 0x44e3b44908c8995d
+     internal_properties : HgAAAB4AAABDP7vv3ImhugUoNTJoA7n/pYLoSBrRIDFDb+XE5knNM5V/nH1EzE1/YtzGMvLuin5Gzg==
+     physical_name : .\WIN_Productores_Loop_2.wpw
+     type : 2
+   -
+     name : WIN_Productores_Loop_3
+     identifier : 0x44e3b44908d9998c
+     internal_properties : HgAAAB4AAACV8f0hnvuz7PvKa9RS/td40bLMHLqKh4Ck32bjCBcHgU+djYxa9nMlxH54QMAwyDiAgA==
+     physical_name : .\WIN_Productores_Loop_3.wpw
+     type : 2
+   -
+     name : WIN_Productores_Table
+     identifier : 0x44e3b44908ea99ab
+     internal_properties : HgAAAB4AAABKwLJWVRIaxYKhvr/1ongMsIfvx/H/aWS1ubsGq5726to0VzK3Ucj461VPqWlnE4VP1w==
+     physical_name : .\WIN_Productores_Table.wpw
+     type : 2
+   -
+     name : WIN_Recibo
+     identifier : 0x44e3b44908fb99ea
+     internal_properties : HgAAAB4AAABJxbFVUg8nyJfmh+C+bCduxVbQcNOu+dtfiK+2KfMjnWuxfxruGp/RsGpUrHRsFIRM1A==
+     physical_name : .\WIN_Recibo.wdw
+     type : 2
+   -
+     name : WIN_Recibo2
+     identifier : 0x44e3b449090c9a67
+     internal_properties : HgAAAB4AAADPSyd7yPW97vkcuYbty0Bvl6Ay8ljQRCqo4vcZRukt4xk3UkjBSMHzloB6Rs4C/vLaWg==
+     physical_name : .\WIN_Recibo2.wdw
+     type : 2
+   -
+     name : WIN_Recibos_en_Bitacora
+     identifier : 0x44e3b449091d9ad4
+     internal_properties : HgAAAB4AAAD8WtTA/6QMHyg73FnAh1llcnUBEaPZ29Nc+aMSL/4WOt4M5DbmY+aWda8plx/RqR/paQ==
+     physical_name : .\WIN_Recibos_en_Bitacora.wpw
+     type : 2
+   -
+     name : WIN_Recibos_Loop
+     identifier : 0x44e3b449092e9b03
+     internal_properties : HgAAAB4AAAByyKr+TTpyrYrZZseurjzWdju15dCzJXa2kd6wIeuhB80x8ikACYAw0023AYF/e21X3w==
+     physical_name : .\WIN_Recibos_Loop.wpw
+     type : 2
+   -
+     name : WIN_Recibos_Table
+     identifier : 0x44e3b449093f9b32
+     internal_properties : HgAAAB4AAABwzqj0M2hAW2R36FXc1XqnyvtBSQhj0q2Lffeip5WHYesLJ3Tad/KiQfvl01ONdWtV3Q==
+     physical_name : .\WIN_Recibos_Table.wpw
+     type : 2
+   -
+     name : WIN_ReciboTablet
+     identifier : 0x44e3b44a09509b80
+     internal_properties : HgAAAB4AAADJRTHV0o+nSBdmB2lHmcmweXRwYGjc7mqJ/+koGwiKVpJObK+eqx9RMOrULPTslATMVA==
+     physical_name : .\WIN_ReciboTablet.wdw
+     type : 2
+   -
+     name : WIN_Remedida_Form
+     identifier : 0x4529db130247d245
+     internal_properties : HgAAAB4AAABi2FpOfSqCnafxkX0374m2LLMro4n+rhmuQ6s19y5ualKcSQlN/XYBCD2nEZFPK51n7w==
+     physical_name : .\WIN_Remedida_Form.wdw
+     type : 2
+   -
+     name : WIN_Remedida
+     identifier : 0x4529db130236d1f7
+     internal_properties : HgAAAB4AAABLx7NXVBEZwo7oNJCaoV1VKaoktBiD7H9PLKva+gsDxQvRJK2aqBuk71ROqmpmEoZO1g==
+     physical_name : .\WIN_Remedida.wpw
+     type : 2
+   -
+     name : WIN_Recibidores_Loop
+     identifier : 0x4529dcf504c52cc7
+     internal_properties : HgAAAB4AAADkYszo14ykRx27aJV9MdVSQsOZAbE0HoeI2ndu0CX34dsrXMDwHDlHQufRL/fpkQfxcQ==
+     physical_name : .\WIN_Recibidores_Loop.wpw
+     type : 2
+   -
+     name : WSDataSQLZService
+     identifier : 0x47f7ce2615514140
+     internal_properties : HgAAAB4AAAAJgp3D4Xz+OkWc1F6QLZwdzSF2ZtFcWG0SuygIEXct37LAAzhUyY/08/gA
+     physical_name : .\WSDataSQLZService.wdsdl
+     type : 22
+   -
+     name : WIN_Menu
+     identifier : 0x469bfd10028c57db
+     internal_properties : HgAAAB4AAACZ9UFFYt9XWGEuVCei15/pxVL4iENay0V2aU3IZ6F1S/03ojVA+lavQvrk3KRcJJR8hA==
+     physical_name : .\WIN_Menu.wdw
+     type : 2
+   -
+     name : WIN_ReciboTablet_L
+     identifier : 0x46bf839c0214aaf0
+     internal_properties : HgAAAB4AAABudxm4EetWioYPY/eXbuMThc3nxyfC73mO3k88tfQUzEAEclBihOMGZbVil/PjGQ==
+     physical_name : .\WIN_ReciboTablet_L.wdw
+     type : 2
+  other_elements :
+   -
+     physical_name : .\Exe\actividades.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\actividades.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\BitacoraRecibos.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\BitacoraRecibos.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\ca_certificados.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\ca_certificados.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\calidad.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\calidad.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\CastigosBroca.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\CastigosBroca.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\estadocuenta.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\estadocuenta.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\HistorialRecibos.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\HistorialRecibos.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\Interface.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\Interface.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\interface_hijos.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\interface_hijos.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\InterfaseImagen.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\InterfaseImagen.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\niveles.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\niveles.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\Parametros.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\Parametros.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\proceso_recibir.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\proceso_recibir.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\proveedores.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\proveedores.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\proveedores.mmo
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\proveedores_autorizados.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\proveedores_autorizados.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\proveedores_fincas.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\proveedores_fincas.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\proveedores_fincas_certificados.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\proveedores_fincas_certificados.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_cosechas.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_cosechas.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_cuotas.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_cuotas.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_parametros.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_precios.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_precios.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_recibos_movil.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_recibos_movil.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_tipocastigo.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_tipocastigo.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\recibidores.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\recibidores.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\Recibos.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\Recibos.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\remedida.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\remedida.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\Tabla_interface.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\Tabla_interface.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\Tabla_InterfaseImagen.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\Tabla_InterfaseImagen.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\Table_Contenu.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\tipo_adelantos.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\tipo_adelantos.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\tipocafe.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\tipocafe.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\tipocedula.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\tipocedula.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\Usuarios.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\Usuarios.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_consecutivos.fic
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_consecutivos.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_tarifas_flete.fic
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_tarifas_flete.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_transportista.fic
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\re_transportista.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\recibidores_sifon.fic
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\recibidores_sifon.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\remedida_ruta.fic
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\remedida_ruta.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\zonas.FIC
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\zonas.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\cldd.fic
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\Exe\cldd.ndx
+     configurations :
+      -
+        internal_properties : HgAAAB4AAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 1809492979626116492
+   -
+     physical_name : .\WSDataSQLZService.wdsdl
+     configurations :
+      -
+        internal_properties : HgAAAB4AAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 1809492979626116492
+  array_of_analysis :
+   -
+     analysis : .\Recibos_BSC.ana\Recibos_BSC.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ data_directory : <ExeDirOrDataDirCommon>
+ common_generation_directory : true
+ user_groupware_executable :
+  internal_properties : HgAAAB4AAADCxDply4lZduY5iJcZcRAdFnI6dCgR9v+gMChE/j2bunylrNPTx1KgBhX4IP2upmyQXqwFfqPm6QVFnbvVq3I4DsFCNPA4i3sqSitKtDC7v5eT
+  connections_history : true
+ user_groupware_site :
+  internal_properties : HgAAAB4AAADCxDply4lZduY5iJcZcRAdFnI6dCgR9v+gMChE/j2bunylrNPTx1KgBhX4IP2upmyQXqwFfqPm6QVFnbvVq3I4DsFCNPA4i3sqSitKtDC7v5eT
+  connections_history : true
+ languages :
+  - es-ES
+ code_elements :
+  type_code : 0
+  p_codes :
+   -
+     code : |1+
+      gdfecha_acceso is date
+      gthora_acceso is time
+      gsNombreaplicacion is string 
+      sfile is string
+      
+      sCampos is array of String
+      sNull is array of string 
+      sCamposimg is array of string
+      sCamposExt is array of String
+      sCamposExtimg is array of String
+      sTipodestinoimg is array of string
+      sParametrosimg is array of string 
+      sValParametrosimg is array of string 
+      
+      sFilltabla is array of String
+      sFillTipos is array of string
+      sFillcampobuscar is array of string
+      sFillcampollenar is array of string
+      sFillcampovalor is array of string
+      
+      
+      sTipos is array of string
+      
+      gsSqlwhere is string
+      gssqlcampos is string
+      gssqlvalores is string
+      
+      sWhere is string
+      gsTablename is string
+      sParametros is string
+      scamposlocales is array of String
+      sTiposlocales is array of string
+      sValoreslocales is array of string
+      arrSParametros is array of string
+      arrSValParametros is array of string
+      
+      sListacampos is string
+      sListavalores is string
+      sWinname is string
+      gsParzonas is string
+      gsParzonaswhere is string
+      gscodigofinca is string
+      
+      gsParFecha is string = DateToString(Today(),"yyyy-mm-dd")
+      gsProveedor is string
+      gscosecha is string
+      gscosecha2 is string
+      gsrecibidor is string
+      gsrecibidor2 is string
+      gsessifon is string ="S"
+      gswsurl is string
+      gsfinca is string 
+      gsidfinca is string 
+      gbReciboconfinca is boolean =false
+      gsactividadanterior is string 
+      
+      //leer cosecha, direccion de los webservices
+      pos1 is géoPosition
+      pos1..Latitude = 10.015425
+      pos1..Longitude = -84.117597
+      nuevaubicacion is boolean = false
+      
+      gnidfinca is int
+      gnidrecibo is int
+      
+      gnLastplane is int = 0
+      gsStablename is string 
+      gsTabla is string
+      sorder is string 
+      gsClavereciente is string
+      gsusuarioreciente is string
+      gslastcontacto is string 
+      sUrl is string
+      sservidor is string
+      sBasededatos is string
+      sUsuario is string
+      sClave is string
+      sInstancia is string
+      gdFechaIni is date
+      gdFecha is date
+      sProveedorinventario is string
+      gnIinventario is int
+      gstiposdocumento is string
+      
+      arrSelcuentas is array of int
+      arrSelprovedores is array of int
+      arrSeluuid is array of string
+      arrSelnombreproveedor IS ARRAY OF string
+      arrSelNombre is array of String
+      
+      arrSeltipodoc is array of int
+      arrSelnombretipodoc IS ARRAY OF string
+      paramsolicitudesid is int
+      gnParamsolbodega is int 
+      sId is string
+      
+      //TimerSys("Revisar_Login",100*60*60) gsrecibidor=Parametros.recibidor
+      
+      //HRead(Parametros,1)
+      //gscosecha=Parametros.cosecha
+      //gscosecha2=Parametros.cosecha2
+      
+      gscosecharemedida is string
+      gxCantidadremedida is numeric
+      
+      //IF HRecNum(re_parametros)=1 THEN
+      //	HRead(re_parametros,1)
+      //	gscosecha=re_parametros.cosecha
+      //	//	gscosecha2=re_parametros.cosecha2
+      //END
+      //HRead(Usuarios,1)
+      //gsrecibidor=Usuarios.recibidor 
+      //HSeekFirst(recibidores,recibidor,gsrecibidor)
+      //IF HFound(recibidores)=True THEN
+      //	HRead(recibidores,HRecNum(recibidores))
+      //	gsessifon=recibidores.essifon
+      //END
+      gbInicial is boolean = false
+      
+      gnaccesodatos is int =1
+      
+      
+      gbSalir is boolean=False
+      
+      gnClddrecibossinfinca is int =2
+      gnClddrecibosconfinca is int =2
+      leer_inicial()
+      //gnClddrecibosconfinca=re_parametros.clddrecibosconfinca
+      //gnClddrecibossinfinca=re_parametros.clddrecibossinfinca
+      //info(re_parametros.clddrecibossinfinca+" "+re_parametros.clddrecibosconfinca)
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+     type : 196608
+   -
+     code : |1-
+      
+     type : 196620
+   -
+     code : |1-
+      
+     type : 196626
+   -
+     code : |1-
+      
+     type : 196623
+   -
+     code : |1-
+      
+     type : 196619
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+ code_parameters :
+  internal_properties : HgAAAB4AAADXPUOq6bQdTI/fs1mC0I6nimWl2G84EsAbne5i32IM05uoRA==
+rad :
+ internal_properties : HgAAAB4AAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : HgAAAB4AAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : HgAAAB4AAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

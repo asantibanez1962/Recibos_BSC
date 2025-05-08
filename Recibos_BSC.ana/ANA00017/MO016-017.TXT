@@ -1,0 +1,5 @@
+//MO016-017.TXT ANA00016 TO ANA00017
+Connection to 'Z:\Tabla_interface.XML'		CNX+		
+Connection to 'Z:\Tabla_interface.XML'		CNX+		
+Connection to 'Z:\interface_hijos.XML'		CNX+		
+Connection to 'Z:\Interface.XML'		CNX+		

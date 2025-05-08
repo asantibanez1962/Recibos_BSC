@@ -1,0 +1,3 @@
+//MO032-033.TXT ANA00032 TO ANA00033
+proveedores		TAR	380	new record size: 380
+proveedores	cldd	RUB+		cldd is a new item

@@ -1,0 +1,3 @@
+//MO007-008.TXT ANA00007 TO ANA00008
+Table_Contenu		NFI		new file
+Connection to 'C:\Users\w7\Documents\interface.xml'		CNX+		

@@ -1,0 +1,7 @@
+//MO004-005.TXT ANA00004 TO ANA00005
+niveles		NFI		new file
+Parametros		NFI		new file
+proceso_recibir		NFI		new file
+proveedores		NFI		new file
+proveedores_autorizados		NFI		new file
+proveedores_fincas		NFI		new file

@@ -1,0 +1,6 @@
+//MO003-004.TXT ANA00003 TO ANA00004
+estadocuenta		NFI		new file
+HistorialRecibos		NFI		new file
+Interface		NFI		new file
+interface_hijos		NFI		new file
+InterfaseImagen		NFI		new file

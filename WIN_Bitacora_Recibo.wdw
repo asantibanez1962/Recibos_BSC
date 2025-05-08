@@ -1,0 +1,941 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Bitacora_Recibo
+ major_version : 30
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Bitacora_Recibo
+ identifier : 0x2d2fba1f1046dfe1
+ internal_properties : HgAAAB4AAAC1PSvHF6wUwWzuB8WOSGLA/MJ1NNFxYlPUCtingSWTzYfURswbkZsQ1xCzuGIRyBkzD1k1E6UGakW30x9y17WgFywDmtp1aGonAHK09vfyuli+GliO/Bo5Beb+Nddx+SsI+zvhOuaXMEBc8A//eaD4nPzZJByTr9pJXKOOVw3B+uDbAU5BBIrZV9gLqsDtZyYqHgtLKc1nLMqkNCF7kwnovT3jst3zbYBWUN3iqe0pjKA9Jt4wmlDe9iinfW3C7wWQvbKa2gzfo096w5j6bVWxF2yczEBYjuor0dVzNMs4lyaA0aOY9vKaBjGJ1JUOuUu9q0Cw/NY/W1GdQMr9mLR5hnOcGcZpQjOrYRwIBnTDvE3/nt9L25OSbYA2bQ4449Rz1cJtPYpGYjrIeGBFJL5dbDP3DaLArliYBDy4Pd2KrvaZc71fpaCscux8OZAWjUVAA5VbxSfODqEt2zIB5097YB7azeFLXz/+iGGmfGKh9VhIwsKKcDVJwphwJHRrPODpE67+VsChZdiKsPULnz9tQsAGfmw7TfHEE6n5Ff4CaJ2WZc+BgXqeBh7yWo6bqoo4xFuL1NHUfGeMCma3gR3k1AMloiIz56aK/nlWX+g1KG4GyLtW0FcGSU2xZHgc+I77Q6f9KduySiqupKMpK8YHWDdzaEJu+kr9p1tNP6F6d8pAnABdYrYY00Ar+UwSI1EK53pdfZaGLGvjAaVPz+cafRt3P19aGcBoGdp/LCc24HWTcqUVJHbOrY4F37/r6ilVY1aQ3a0oiislKAjodEwHT8UKvr4ycz9v1w==
+ properties :
+  width : 440
+  height : 455
+  heightMin : 528
+ style : {}
+ controls :
+  -
+    name : EDT_numero
+    identifier : 0x2d2fba1f1049dfe1
+    internal_properties : HgAAAB4AAADgp1qUvkOrG4kv45gVcvtAebqFdJpvzmWdpTuZFdLYEFnKQ76ashxnnKZoL+9tE3w3azwWWMq/v031ZaJJNxLhaI+3mbPbOkzM3ZJ7vicHcOqzoTPia4PRZZOhIALVJ7TbdUx0eaXQPKmv8iByOCdNBsOLz0BPEGowrxm6OaI+QVcuYJUcgx29QV/2SMRnH4q1qJWamVxptuIwU4if4/v2Dln4vxyvzrSz2TCL4QL5eAf9LdeGqUb2ijZ0XWe36B/W3cFXZPVvEJtavRzZuf9cgXKob5jjCuQqobQz3ZA0hZzQsHRHQ9cWTy/9hibkZxznxZc02hK4Nq9kY+DgEap3pCemTijWwJ6NEXoAByg1nZgQ3QCDM2SwQVRLhbDNXDFGaW0bKxrISnFbCOjcRqb0sjYHmfrgb57NBg3mO+cXA1WeO3/McDuUXtn3HZftcXINwDYXJhPSUPIPIBg2x3QWSWggczDvE+4a0OvkYL6ZIQJxm+jtqudshvlIL6fQE0j6cIzpaaIGI419aQUFoLOqqiipQMho5J3N8C4qittrNmbPGOYaXzKgtr91vtRTvdkyEjH6/bIPeP9gen6y4Iy7zOei4kS+AiGEC1EI5Y1fcLAhSzOR5iu7l/c6RhHuFhrFebuf02xzK37qvIDGakWPed+zRgxA5zu3Q5Hpy/8WpWLuWvAqjugDdxndA3NDTeit1lQkjAGnfIdOSF53WV49/VlmJWalvFYDWjrlk58MEzpH/aLGMDP2JngOu6ZhP+8O5v2PMUu8wEEP1CuNz5oud/h8NKys2IigKGeZzSsZFTat5ak48KcnohP/751r1IeFJRmYSeKHM6ksqDaOTfyUR7O9QZZWPpRBC1NdztiHu12d5hfWAAXbB9i4KyhHuHDtDMUWW81DdERDUA7n8uEFnrQ0evhQ85rePwvSh+HFrzwc/MW7fS286FZjx76L6auw+/mxFYolfi32C8ylufH7iJPuncZvoyTJuTN/xEZpElUuRgPgxBwyKNYv6x8Ia/OnLvPqEDkSB3d8b/ynLsW7mfzJgfLl0LBb+ZHCoDtzQG3umOrLQodaFe0FU43lW0IVdnG28bGJrYjE3810ZEVlm2Ju1HCf4t+96ELTjqnkztYUwqt9xA7yL+q1KaGJITnYuwQzwHnfLcXppZdaeKKtT1HfxvEyxOi71laYgqnMyS65OsACdkcFRp+tfqHfHToQO7UhxPlkqwQp28INj6xUmSUxX/TfSCp1r+2rLZR7FivrSgufkUHmnUwEpYYlz2meMUXzbULhAh51nOOxS0OkKKqgLFSVZSkHSzaiOZmGaMliXPTv1mLpcKSra6Ur9khCt5LoUz20spoIqrUQdBsh4Zse0WbH9rk1XL+p5OLxaTxDfceVgPLf9fXAHc1Mj6qoFgD3ilCqoUfBgwCmemG5WA==
+    properties :
+     x : 6
+     y : 4
+     width : 133
+     height : 38
+     state : 1
+     data_binding : BitacoraRecibos.numero
+     accelerator_key : 65535
+     tab_order : 0
+     group : GR_campos
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : EDT_TextInside
+    identifier : 0x2d2fba1f104fdfe1
+    internal_properties : HgAAAB4AAADoUH5M49G9Qt2/ZU19LW17APKjcvDbTluaOfBdJfQ5JBeb6VpkvEVeEDaBnRfu/8tPLA/UZrjpPLoGqnseMRB2LPbLJKnjJJ6iij2UGOzF2jGe/9GokxcOzOEz+O0WAvAdCjir/bg0zIkk8zo9AajJnGI90JpzK/vmo9lTajR+JJutRx3oNr+UG2pujFPjjGGdMT2yqZWuTOIv19Ye0y1vN+AGJh/N5MQ+uiuwyEjTx2PnaBw2kD+USAWkrzJtL1Ic1H78VykvYTT2f0g/omNAu/w/1q4LKsOwMXc2E8BF6JNAJYPIHUaNi5RJCDWKqgiVXPE9kJcJwYUUYlu1/AL6zcx5wbeGoyYlxnkJWL4QwlYc3zBd5ZkzCOXaweaXY81hCgIzWZwUn29uxcxuEqByhcvZYzn55xR51jsWI9hWNk/L7WccNCpbGEf2wcHYNzDX+u4plJoMl6egq1E1ERueQDMNIxVLWqn7YnFLznkb/D6UvA4gQqY6BqvGNTYiWhQwoy1EQ2JYkXk74ZnRxsJ/nANZCBc4sfuSyYmCNIaNkQNfJTeCGRBR3CvWirS72RMuKdUkGaE4ORC42jPVVjqYL7ZjBo7GN1zins8aOmJ2ILc0s/kbM54/rlkvE9Sp91vPtj0pZ3tNj+GF6C9rJYiZmQjqVtJ0HP9m2KTcP02sQPnE/ko/30ZqUboh6fZhNJs6wyGtvyszfvDgLAKUAGUPpig2cxqG2g4VNMHFpcCGVds8gtuQ6Ub9BS+tjtq+uTCKSCJJDkLjDEL+KJhII9KX0NxPYIK6t2G5CaEKkx42oHs98cABlSfcZ7zasl3+lsQIHKrpQ18GXuZOcEsf4GnFHsLXtI4x4flodfH+QGiBOzg54mudSjGYgYJCc9b6gpWbSQo2eiGAc+1iqciHCUWw8UR1ZphB2hyK+dw/hw9jW576O9RvAzxd3e+cnJtriM1iOX3tSLKjXZOP+/sGtK/lwBm6Ts73HuS8qzYesKvdMVajEayYzh/RAKyxWZqKgtIjsVoPBkMzeSQGPSQIPeb3NajOsZCVTN2WK1/e+SOd6AitXwCIz6oAjXgNk1CC3Wq5bw41Dba7Gm8zvgaXOe7YG/aIP280okvNeMBNMQ7Z1fQF7lV6b721h7Kw7OYCTNfrVX138s8pz/UdwP+UqJeWxoBiaOk6weaa6+B7EUaRmv+5BfB/c3XNzW/7RbSvxNSPLqNJUpHR6LoeFHYNGr4IkTEDjcvQ9DnK9fjOeDhtEf9lDkyqph5TIMPsmNVdhoYPUcBPQA3kmIVQLkRg1AxM+6MDKKdGxNMgVbPP8DwU1cg7OAtvhfFxSsRlCfFoKshWMkjMQlxKtVbKoDTzWy3tva1pVMMFjRFOgif+/Ac93kxYT8JZ48FbvoZljSc+D3XEU/ehjRuGtDilnNXqLtrPyRjkkQ==
+    properties :
+     x : 10
+     y : 322
+     width : 428
+     height : 71
+     data_binding : BitacoraRecibos.observaciones
+     accelerator_key : 65535
+     tab_order : 14
+     group : GR_campos
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : COMBO_Recibidor
+    identifier : 0x2d2fba1f104bdfe1
+    internal_properties : HgAAAB4AAAAILcUOidG8czOQ4pTNr/fT7NmvV+abE9ru1FCbcV9LPNNfLXUBm2ahket8jiA9Sj25oOxFD7uMyxwhOP6mukWarVw/ISQnr9oxgvtUYMkyAqkbReJvWoFYjBzqBUcrbouj3zzk3aDeXAGsV9AwtcoY40s6JgDw8xi6EKXx83T9FsPAGXqLpCIOgo+ufleAknQ77IGvEmtIjWtW5ylSAcZYs3Uqb4MjLT7ZjVCOmU1oDnGsKyNZy5Eyy1NFwccmzjVMcDAR8vQlZHK879wuJcrc9CkhaPhF+TGGFmwkgdhkC5iMfN/m1NO1mjNiRfRrughZ4OHQbO5ZNwdINpTlteMcyS4zu7OJNEq9OFGxhy/qASNCTscq7QqzzLp2IAB023ugDbPUgtCkLIZUHW7WDM1ugkyG0jNE/EIzkuY5l1aCOjNb0tePWl13IQGI6PjbqPrpWyLiL/rO1OzG4R4NLUrkq1pkEwK22M8noPGvJ0HxEQlMav9mHyBd6Q7JvDhMCqDKNWIhL/8VPdntf2gxFbJmu5vTiIemJhs9xo+EOuxJ/QR7F3wPyt5rSt0EEkgxYqHhzjz2Xn3Nz2iVNo2qR0sbyDKdm1QMEeV2AdFqTatEwoaEAmHj8v0BB5D3zK9rpc4VwefzIQZ68tTgrWklUDAbcu/e3deU1kE9BkFoFUhUvv+HhX+22W9DXZUriFf62iO6tSzXMPoICkZCzTjYvsYXpsOUV2LDvUwQ7oF8kaFc3IcNQecrT1zZXMEZr+t9Yepv/WHwR8+DC1wWjX4tdVW++711nezV048/9CrIgGBZAvaZkVXsC5oNsdmTBOZcMiEbc+Oq5REsSFcOdZd531IckyrpKKRtSe1PWjoDBan15IVHcN/TGrhgctNzjUCKuXyhmPq0MxHOOIupQoFuzLzdCVa9VV34lqhQe6wiAjCh5vGbevctvvS5HGLr7w4+A+i0GvVuX9t7oaDEWoDyITRtAZiZh7BfyxapmVZg5uAM/SbWF9GW/xiHO8nxP9oMdSwlY8SpfibZnAO3OV34/L5Nh6jU9ovyE5WBaIGEsGGuE5p86iF4n9QCRQko2x9dCWEqUsIbUWR7H8kg782KpdrFveN2Qm60vp6hi5B7zBxzQCNdkkw18cvmyCwVp+/6elnZ+N0Ad8xP59H8d1VHXd6wHLKaUFu+US1T+YpgEog7PdNjLxoY15+ybfklc0Cl/YFOp15SGGbjr+SXLaFcr8myrROPQqSPQe9AgJjlVkXzqsOAAJHlmCRxCTkpo3oRmXmMY3V412sm2yD0Xz7NtXyc8ZVyBnOdBHDg7aPSkR3sbP6N1AiFs3Wl8ud/ZoRECiQIQBIcNcTOlqNSC/o62pZfSIFbvr1sPDCUhKoQNB/9SU1orYeguLSvsyKhU8cp/hoWo5pwturJanGbehGZz7wMP6qn0PZZc9rntZ2fxhM6xzm+TJUF1VfDXQz8nc/UmWZ7YT/zrYOACZVcsUhfJBFknA3EnGsxXp8oWV+OCjn68y5709blKXZFRF8s8ya8L77pG95/1knwpMPUAvVBQ44QLNeO9LNU0mhkCg+4HgxQZajhu82DatIlWuY3XdtxeqkzYSeekIUgpgitStL0cWNiNXG8J9fBX1niuPQa+p63Eot9+BOYL+eTlTookqAGe0nihGEn/wwtlcIWpNCuJunMY7nKoATrDCK4J7tyeYFakROMxUqquXvwbv9kdu8N6SEcsmaH6lVVBkAf20atpV38wTOvQVvfKu/QYdqdObTX06nggD7XkSXzeGRFfM/5COfm0RlrhGolxjAt3RZiXIvR/qhIXVhwpDpU8zsJPx5MxPWe358G7w9iK2lj2yHUMeL7WCkD2B/21QRhCaXtyPmcN0AoxEG1r7gHUIPAVVR0MX8jLSyGDXDmTvD47aHfJfoPSLxsEuB1l7QuaTsfldseVR/BhN6TSU6eQi9Vtvw/GBcCTEBUO/ywWqdB0FULJjYEE3T6OVcxfdOb1WQ1wDBGNK6URahMuTav1jV3liswe7OMCBKx1UhXdBcFTV4UTvn26NPr+29CsjD+zFtL7Bf/1FBRjQtyuVk1h+aJTxpH1L+z0j6FkwwUO5TZr7IcVMKNrZZez3GWPQhe4jXTL5o5IGVgpWock613HX8IDpG0i/nvYcw3kLTf4XgY9ymVG3kwcO8H0thwsLzkULxMiVX0XYMtGD06m+6UhjPRgFGZH2d2MiZjeKV0XmdvOT0/f2yX8abblAdd1mRyKSveXP0C
+    properties :
+     x : 10
+     y : 115
+     width : 395
+     height : 38
+     data_binding : BitacoraRecibos.recibidor
+     accelerator_key : 65535
+     tab_order : 5
+     group : GR_campos
+    style : {}
+    dropdown :
+     internal_properties : HgAAAB4AAAD0amoVnISYujZ3ELcfNSizYsO9W9VsemF9inu3ebv8lTpghL/gwiFIaV1VrI9WcvLLThNX//4oLPEIF/FUJkl8ii0+VdMfb6MibIQbP/75FGBwZ6IeChBTHzyjuJ41AMoVIH6QvUb4kNcEgZoQ/fkNp0yHpJcyhjbT8bRrycQw4uSP7LN1mglkhcw8EetHwpaA3jiztO7dv4XWZgYmlUwXxniWc1TGQhJoUa9TDYPB75EFOCLLPQKOm4LvG9sa/OOkzxk8h8F5HqcNHbTw7GEx4OT5NcjeKWNwjvIsh2ph0SN8gqGTTBD2Gl9ibR1Gvyig8rcHMyq743rEf+zqATmWQiPKMti52ANyYqeX71769d1PdLpCth8GbXKwm+nhrE7+yFDJm2zXcO/KhTqVvdSzi7hURWt00TGCklJGL5k2umplxRndxK7lsDgqt9cX4G/eEz6mYY2v/aU2Uv1MCSqTNmJHHonam4W16ShPH+1+RZrzRtr64RAQw2JqFL8xdHKM+K6/6Rl/fjhJaNlvKZWbjrd9AEWbIq9Jmbc3XBZzlm281ll091MySqJ+Xz4IGyHTaM9spInx3RdcXsGYaDA4JEg/daTp/Sew2yIZwJM4ck1TIHZb4qqbwSumcWUoDJn8S1ZMGu+AVHUDOgE7FuQLpYk/AiFnaJ7wRiJYb39SuEaHrr2ZbdM9aLp+DhzYFbCiZwKQToZPxbxoPiCH7CXVHfkF6bUjXnYUd2VPugdzeTZ2CyJMDWPw/SSzuK7hO5PBUZVLVrilqKskQy+eGabO3bhjo/VbwT8CXJ/oSWl/qk9kmAIXc6BvX8GwzRS23MjFAGfIdqu9Db6aK1Mp7Xy2yVPg6F9Ap71smWgHuPieUZn3jVvxLogQx/UMLeXe1DgbGVwbe2qJZamosnOHRVum8VZPo1OuGxsZy45VCDEJ7PnKlk7qE+QWPA==
+     properties : {}
+     style :
+      scrollbar : {}
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        type : 17
+        enabled : false
+  -
+    name : EDT_Fecha
+    identifier : 0x2d2fbace10ba8c45
+    internal_properties : HgAAAB4AAACITWIAy+X1u0F6OFuBGbyhS+jJPG5o7E+4O1xnb4T3BAOKH9u4hbnQzrFwAvrVTsGTEvGqM5lHoHAkTHMlqHbYi9mYO3FMAdeOjEC3VGiB8/ZyXTa/eERj47MbaWHfhhO6Jta8fkgrmkQJemCQlUdF+7RpIrZwdh+6Wqr8U5O8QnAuT0tnz3GDXEo73XmlKKQQ31KbdHqrvZMgukNkooEkDI6Yp1fD1YWklJ1idFU6zM+hmdkhpNXiAFhdhqANf6cFlolFRC08mXNQASOH720c3x7nQn+49bDiMa9I9CNT7MVUcc1kDh4Npbv+fVjKl5apTociHOkxACrlNoj4Mpek4TY2l1LgGGPMjlgabeE43rPTyoxr17sdcYvPEtqvulerCeYeJwnD3HTnNy5QuZvxJjn9+LlG0vD2CLyh/vfg/nV+Wsu9fqkHHN2VZLRj0/YhhqeVdV2lFTMRMYa2bQnC4R6YENRLBJKPncTx7xrk0y+xg+GCFy8l6LVqsY8/zgcw+xSLlLvU6V/dQEvrfk1DavFj4rxz/LCuvEYmlywMR/7BVxYQBlPQB3jK9QMeKqTIzG18Hdd0AAcO99cyIvDpTiiByO6Ec6+CG43tcqc4M9ebIDooIqJro2fS34gHjYPxtSewi6ldYXrke1d3Zz098LWf+cGnTsMXTUE/LA1jegizkXAIJ3eWPriD7D6vEwxCfbIBWvQabQncvmYpCKIgo5yBxcTCRg/lCyfAoOaa/o3sE0jlMUeMZ90zEIwTp/hXLFFNC8fv5oAv8Ns0geq5yksofClevZgwVxga0i8mK6vbYzeMu0391jRoZO/bAJlDpTvtYmcs0RMvgJu/7iZzVHR9tXiXDwhXQsa3GFn33YTlCag5FANIY7TL/nxCXiCpkwp8XdM2zDnAzPyuxpAo2R4jsydwoa9uyYt0O9YJp024R95B51y1Rfj24xDAW7Xeo7Jx3dJC0GbR8/2Epeo1uL9IJD4GoK+BpDbn7Y6mx6TAhHP8BfHyiVnXFXIY6FuoJrsEckMJoe/loKjahIWVayw/3JDx8Elei+uueClGcLGNGxQIKan9PnV0/xHZfxA3dpSs+DZ1XWogMIZQ3KVnCTnr8hFfVLqLUWui0J09Qan6SAJlwQZE1ZM5Q2c0lNJ51U2p3RsYQ0+NPqWjWjIFWGrR4YAz59ufWTIeGL7jW8lhlmoR/7voa5lxghEKmsDvC8itft5oe4QYAQ48Be9PGTUnr3UK4DWVNj23VxBdL5zkz2loggR9d3uiwEIE0NjZxxQ/lXEmB54uC2ybyU+cdCSV7tGGJ2hxG6+Ga4c35bZoDJX0LpFh+utexSdrabUS3q6tARPRcb5BBo/fUP3pkg6dRXDowp19AsQPLwA0TKrfJBqy7lQuRbrUwKOqK2HMEN6lIfMzKjK6bO856rvNQWnxsGvCZWmAtCjcx7u/4FaXXtrNz+3aBCH7r7pSnC8WXPxBweYzQQrwcLfGsN5gbbzsS78aU5WJXb9qjDqon2vkZVI=
+    properties :
+     x : 172
+     y : 8
+     width : 226
+     height : 34
+     state : 1
+     data_binding : BitacoraRecibos.fecha
+     accelerator_key : 65535
+     tab_order : 1
+     group : GR_campos
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : EDT_medidor
+    identifier : 0x2d2fbb1b10c7bab2
+    internal_properties : HgAAAB4AAABjWrZZ1ynCxSsbthz5h8fG8yvDpyF88A1lUUHy+FwDXR202MZj8keL/ZWETvbaV5kceqV8ag+pSi6uvg9DHd1Tap3kWoDSAqszQcL6eC0tOZxFEYST+KWg6IPn/w7ZqSwNDFDshKS+zwX8CnGsjKn8UVl3+JFhLiTsz5ebq1v7HdT5DNaR7tLi2qicM/Oms9FlPvyh4cPCpADpz1zL0iILIgfjhJp28NZvIKhJEpVPGqgTYsVSTpltzkCYL9X1YrkkIZcIdxtos05MK2dtpc30kyVpdDlwhtxcdxTItyN1YsEuEnVq/VHOd0RAwphnYOtSGO+37PnRXilp92HDcHxkju2nCHnPsQVHBbcGgBiSmBfDUOb7FD6wwYIGzFqyllJJQw7nnRXYZUvot96tWZB2XDsZQSZbb+1hO4jATRViZFKKUePGenRJOEc5TcAxXq14wdl/L5Y42UspBZi5wabcAzKDRvOpMtgnSIio9EPorhgnSjk0Hd97EOXLJ+25lksf6koYqgK8Hz4t32RBGnGc7pXHoW9bBHY4voRhVqEDjp1Saav7rMsI/LYLkG/fESDbvlDj4iEx9YNFSKTRu8su21Gqftb1AX4emGUDfhL1Kw2pTv9/KATZL6Wjg+cY0hsnAJ3OtSHOYBIa1kpZrUKKpguZH9tKyLPOhzNIIDNinMfwp+kr0rdhgUEJlc3SS5Bc0PTAm3H9Httutj2RkZevrmnXx1Cm0GNzT6W2ejVf5v6Okn4nQ5kjwiBFmIl2ACk89bsMoUDgFWq/y41O6EU/PaFj9ARBCPZjbCdyahyr2lQYOJV8ZUcUzuBtzu40IJ4N08Vjrc41t8ITe9VnDmO1iW1SPLL/Q1Db4knqlOQaSAj0vQE3pu3k6pl6qQxhtxIqUEHF2rYNKBLFhNK19EiFijjgO9HvxLbTtPPvJArMJlMK0nT2eikjfEd9U2LjjnDgJ9FPKsv48JACdhUz/Wx+v3J0O6XDrbrRBQAtiCZKLJvZ6/vJqQTqkKbJP3se7Ai5/ahdcoOdq0dg+3+M9POxy1f39zx+lXq8BaTHWKYDVdDbP6elz0vHcjDieYEjXstS9uCFdSRfenL+RRW+CD/bSn5MfspFDHid3pUlYyez/XRc0jjroEXEHCkBkYukVxLmSIwekGFZgMxZAS6M1b5DDC4FGF+M5sFxLnS4q8LHWsV1F6yV7gzrusqzB5oSrnNS8lV4rmT2OXjX6npbiaa7baufIQ1mlJobCDqn7cRiBTpZnqPlQQBtEFaR7ofGH+lM/rpy5uk/fT00gzT1WxX07e2MbBo17Hd5JDZ67dYA4GY7UX7R5iPqB9rHcyHUo1a9aRItWUrH81VjVoHrz7spcfh6cMTVgmo4Er4aLpmZ7R7ev4va3jJKGoiRV/BPIzjZx8/fF9In/AifhqHAxw==
+    properties :
+     x : 10
+     y : 161
+     width : 407
+     height : 38
+     data_binding : BitacoraRecibos.medidor
+     accelerator_key : 65535
+     tab_order : 7
+     group : GR_campos
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : EDT_transportista
+    identifier : 0x2d2fbbac10eeef26
+    internal_properties : HgAAAB4AAABzJ4iCHGVsYUCH3R9m3rbql/QB134OsJsKJqMgAt6cRe+WWAbV+WjxyZq6HRlqJOtRLb/W+p+i0AMvDGNXJtrTO62ZqylMU/3muxYud84sNlSq0l2qamYgZAwDpPxPQcKvy0upNW6mQm5xDl0qyb+eCdm97WvkffGO+ncuK4rjQ0/ZSNGjI+gw0M/0ueHHvbZWgyhSywbGPth07I5K3erIok0XsXI1EDPuY3gdSiXMN0xK96wvloKwJfBh6KDIvzBjSgSvfT/DM1GKKg1dsixGAaPuUWT1rWbpE1SQR+ox2oqm0XzgbWbl+tbOuKEQqmrogB495g1PxBlGT6LkpEwBJvaK/kaKYAJYUY9FMKCLeOPMCiKpZzeXmoClZmJMJOyrYVOcSAHGumdX+X39xEKDr73fckR6JPy8gtlgWj06+rc1VcTvQurN9wlo4qi2Jc2IIARAfIhAbbS32vPG5B8CfAva3zQ7h/rUr4g6Ocjh5uqaeVe2Tgg0KS+TIXWA+yGeycARfJf8fhe8X2+7brgoUYIOvVjOtJjHaLe9U78nNHgFMZPE0dhf+GjfrGpfjqv0VxBGzHdHlxyKJt8XK6BAnKYVSvGorfwj6XksF5pWG/QJBH0YA2Ai6GSx4bpr0shB3q11xBTsR27ByIeNiwwovmCOLibHXMDV0FKuiHxkSWHtW/m7Pb3aZ9iTHFMWbUDiu1CQiUl3sRNjhcAOyYHB0a9NbvbCFy/6aACv8oJeevnsdvxnFnw8aCNh+nTAd+tpteQmU3R8KwfG4+a2SXwZ7FIU1DyQgWM0oYCEC2vx5y6fuzf1WZv6w591//eGlEuDBrHBK0CUOyXcG9/jBLfEPhnxD+PuaetryfSRaWzDWkuJvBON7bumkBi6qqDj5WRmbGCnBetLkYLzWGMbIhLBmNGCfZPX7WEvN5Oz7/vQwSkJmtLJrXXSo4pKjvQz3nZanWSblKEDGQjjSE+7XAjpYka/w3kKIhLEbsiokz/yfuOJ5/QLHNz1dBQFHhD2gPV3Ihd7IIVYS+XhRRxgY7DOrGQ/VvBLlFBWeDOa8pWTBU0k7YNz08mwyvjwOT8s+krG4Etfyc7w6/6HRCZbFpB4tEfZYTeofzVipVNI7wChLtJm/Cpc1c9hZsa2NnMKZSSEQFKEQYGgDWmyVHk7dIr9cO62TsgiLwW5AuL89y3FNEPdggY5gqFJFktXb9MUHsB7kODCNMm4mfMXxsk03NVlB21eJYFWwfE3nldUeX/NDXnlUmZmYjPl++xcRtbpQ1VlhsBCpWmxyf/aPZhDSLnW/5KfXlNcONhQ5A6AL+tmOsx6BnWwSQyrJ2vmbu9K2gXhNMYF0yhDrRIkAWuN+LZrSgoTq06OSW5sVwhuDaC5WrtzYSAtjqlxpdLNBQZjtUefBxjvCw/lazK8jv5m
+    properties :
+     x : 10
+     y : 200
+     width : 407
+     height : 38
+     data_binding : BitacoraRecibos.transportista
+     accelerator_key : 65535
+     tab_order : 9
+     group : GR_campos
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : EDT_placa
+    identifier : 0x2d2fbbd810f69a7a
+    internal_properties : HgAAAB4AAABMLnlGmip6MQIYJNUZx2MvBVnVOhzLpyzP0QcrKREnI3V7OOHRKXyqNm/efF0TSqqogq0yd7Kf2QY5BtMIIwptINvfTsw1yPMdHcZb4shdFQ8E8p2Nq4DN8G/cYfIrptd1hhZJ6qK7ETMriWVwQvmAHXEfG4nw/9NPFmFJAm9aQMoldWC0tYN99TkTPrAFBr1AQ37x6dc+4gTU4SbUcRZMO8YzVoRFWGG/GWzRqgErcwK3OJ4ruW0vARsyV22CIOecMpVbwOmL6OML9CTDODji8+j3X1scjLw/mND/Crmvl/lkOkVeiIahV+aFpuuvLnF0iffpvw8ZnVfv3qRL+PvlB4EibAH8/UoZbK7VXxxdotJQsTj6igz3ILdq1ZwrWM93F3QgZLYNdpTVYDqnbDEZ4xWQLYvIM6XMXnebNGccxfurfwEmwpp+xSsKy/n2apqfZ/8fziJRGKPgIBgjj56iZAU4+59DUUhs/GWFOz85brU13F9ej0bFOXQ3EAQKPVyWuTNaJecDt1eqT0CeAj8botMgCCFFy4NjOkokbNCJCyEn9YYYeiUgbTbgOjYRC+TYoi7V3oQUijw6LDBlUG+GlWc0iGL94DbIwpznBSxL/+KHSqcRaSDn9BLHGFnpZxcTlFAyjdcvtsnSmzQeNVTVKkoB3Nnk/kGaMSaAdUV5z/uTQW04mFx2wYelVH4Hrv9VLA5lTzfXJWFTv9cL069JPwaggKWHpISj878bTbrZVVZhKRFUyMPPO2JWgUi1CCnrdmWCdsBJynbf6BDQqJCl4pPwvfkrWUe1qnPaioUfMFV2aKsxMucHm3wFYl+1nGPfzcETEWiYJv7+K1wXlPM2mzjc/URhNQQH8+o5tN1tjOGOy1EqcugK6WWh2Euk/GE3oGMBIFjOXK4/rWVgspl0qbVEvZRBKBs5pgHZUOwXENJqA8JfyFzvwApMETCPZbepbmsOSmXaYETblGOmTbZU89GV/q+z53OtE/C4Cem3EzVJ+xvH16Z8PQxSMRMZS4CyIK/CTx4YsMqaFJC3jAVdlLs+fVIRbq1TVCmkLQGiTiq1ZCrmWIGNKzpB4M7cTk0tAVbxZ9idqCI+j1QgKknxrHbHxHw9jyvJN8QmvhvMgCFuw5pCA2rQ1oXnT8NTgFxbuawQ0sZh/g/YzJT+/bZ2miULy4cXFMdORr4pZU5ZkaQvOEd+pW+8wTITBZrTecoE4A7xYQ7MwJoevXaAZvVwkuyMo/IIU02Y5Zaqky/cyLOBrMuXXPmAQj/TaiD30kctP2ZMcKw/u2TyCK6kPyXw9DJhBe/HkN0ci8EqyWws91O6TFxn7/Pahu6NmCpMT8DXuZS8K7OsS0TquQjjz0p3erxBLGWyUanO6Ct0TA9JENeNBOk2d4IEbwn94kI5sw==
+    properties :
+     x : 10
+     y : 241
+     width : 209
+     height : 38
+     data_binding : BitacoraRecibos.placacamion
+     accelerator_key : 65535
+     tab_order : 10
+     group : GR_campos
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : EDT_Hora_inicio
+    identifier : 0x2d2fbbf810ff19cc
+    internal_properties : HgAAAB4AAABQ1vyE+2SbM3n826QWMq3Pg2NqMFcR55fwuGi0dGlcRDZOcd6GlPeYwmWQaMFwv0MzC4X2+g4roSVZ1s28UJhPKXKlm7fX8dYQtUCZRQLJRjMWMQ+67KGNapHoBQN0F6dAJHVUme0rHj84AIiRMcQ3KspAUFyQ7QjdgudaaUGSvOR0uoOS/P4eA+KpIifjqtNZ9MPMgCqj/OyCIojSA2FFpWY8jBH058fW1lhbOXcWjWPey+S2vs9kepEZarHkDCo9tNRNLfSptupKPFEyNYzNAsHLeBcWDrmfh3mM7/ls4PDNIxd/e+FG/I1bh51WhNZ+jNk68c9kz3cNfwSHEUC/7odE7LsIiONCkOF9oqGiYnl7JVFKsrfOHwwSyWa5zhne6aiZM8CZ57F+oTGZquqEtMiMOe+Gg7gFmnOCDaOzwgfpEMC2GDPJc9QoDxFysK8y4s2qperW7I2NzbZxjJOZelLeYdbia1HxXWb8XWISrMX/HDCGaiXQQSUgdLAOKVh5xoRWPyasMhAlfd/rJ3wGfw4Mha44S2vjwsKGAv4UzIFkSOOcucqy9DaG3W3aVbXuY1WHMM0gpuD5HviD5HN+ITTNuh4VrhY9iHGWzaehU+q7gVdRYnRIAWBRCPpg+/ccgxOoDyaiiob3WCYVhVeDOpqv9UR823jUF9F6v/O81CH2oFeb+F+9eWq6zOAIsq735VcWMOFag+2QoNSdqaz/IVi/v5seeLIf+K/In0V0ORH0avsooUJMIIXWIG/h2To+shXK+2Zz3F7pwWOuUeHnhqgHz9hoHTidTFQyEKz71JqIirRAKb5HHXO2/HYpul4/d43/8KRCq9JMfMhUhsYyB5VdGxPR9y31Ky243ecQxTIQIWJUgYy5gHnK3wvvrGVcicFDnaGsSIRzP4CIxNK9O9Yhb2AV95yI+0LbfqXWoL9DmauLhmN30ce4AnA/kezBGuhYFX0P9Z2ORtDSvcmjjfaH/jZPgfWmBDXOBQZAzyXj3KsFjB2Mr1nNnuvUj2EbozFJBsce0J6dsK25ZjfgTGbGTo68IbUr93/Vs+If70SC7WrLawHHUnVQDGK87VxRqxd/22/+d1HmwOyh7dPd2MKLPKB88RyMxdkQ/4neTGcCr+FT/owbhjuJgtfj3T2icpWU8EvhOcYhmsU4uveKtEkgyFg2NBE0HvteVFjqN5BjQBJ9fc7doPMcq3OCtDr+6GIxzormArREs8nIO4iYcsOYHFR+2sv+P6LbwrlgVThWyr2/HvD4uQEMKNgqkOQCWbcNQ1HPlnEsMKvt/pnW9LrVYQSHH+jKTxlreGbXi+2F5Cvxp97IZXu7qcLePep2bOZ4/osbZNsbweQGgBOjvuxu2GrjpCdZbO9lGk4fM7NDCCG4pYMs05mTurgk1QHamtxieJ9WgIqy
+    properties :
+     x : 10
+     y : 281
+     width : 115
+     height : 34
+     state : 1
+     data_binding : BitacoraRecibos.hora_inicio
+     accelerator_key : 65535
+     tab_order : 11
+     group : GR_campos
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : EDT_Hora_final
+    identifier : 0x2d2fbc33110900a1
+    internal_properties : HgAAAB4AAABwFyjgoi6lve1qLwTrfFj7BdLkOP9diqFZq5BfLZI4sO3qvMxqiKs26j0gJqi6TcNZJPt/WD4ipp1PIU8qNJmGe90SH6LODj/tXfvPfS4zP7ggCPdiVWxjKPRHToJwCXpF/AE9kCRm4jGCYIN5KCLBWZBflM9XsY++3VOqas+C/nCkxZuKS/dcb551IzQN1KgIzQxdxVZhU9e4pLvr6DUOmT5npPMaZQ8CrlrHnBTuEFgTvbf59RouKAK2trb7jYgN8X5zDoX3aOFNRdw0ZyCzDE6qii1OVzldeDi2sZhtFiPw9CNlv3kshwVdmyFAJfKPRUGUHvhWIFLeJXbAp5KJ7pDInwlgubGZDQRXr3KVQYGr+k05JHLwuMzUd88LKi519asEEWSeHKnqn4sGfzTKrQyF68muG101m1GaoCBFegYF0sK1h6vqz/c2ICL7Y6d9sErpgVaE5XML4DrhatMpOY/NPca73JT18pqapypdnMeTGGKJqyJh158soPaO4IALo3qVVlNq1LWOyv1snQ+htNLdQ/B53ZlMZ6ddJmAwXMRzWxSG1HJlRzxAhB3LXOkzwymffgSPYWoUowtIK1s3StUrX0YMMCk48xXyW5gx7O7rNYDZ0hstbxs5UQneGPbO3NQluh8M2vm0IssjpRgG8cm7oQ0SSXLaGdhZ+7S6KNXEEEvJkstHvni8iVpj0/i/ynxcds/kbaI3Y2fUoYddwr3/elCC9w7aqPxGcJfN3T3ca7LbIDJKtZFVqFE0TDibJ71VQ6vIgIa9qlonH8F+7mA54OHH2+UxFA+F+mktbbTGLTJYhOSb9N81GMIhCNn0kCUKulWvKFm3eps2F7k6wy6maGJxFg6vtdAIOa3HYh4wVg04TI6tr6PhBJVjgvB+kuBX+Hbi3haZZdYvM8N52uEbKcbVXC2onS15Wr713wknJl66HjFjb2OrIsjLErq/PN3Q73ZnGWWg6dOt2bkuKjc2wseDBNf1s/Lr/kXBIyR6wC8wCUGCadhH9CfcsexJNUFtfplZCcdiPHgSYSSIfXg/QHQxdlXhGwcBFHDM5bd2jnKtja1XYL5Z1arEccUUZgyY0AWZmjveNJxQWS4HGUgKtIcAUr2j8dBL5+RjBQFCxhh5ofi3SMteozdB4xMwl0irtsD/HR/cnPTQ8EZUKI+xlkltelxOWEgFlrWYTuQCBGzMT+swB7qxt7ib69xJuBGl+WcBkYpVJG+Zk3m2b1TkKU/C80jIsefpWaWacpS6uW9LZSDCqeA99+bCZh57T2TEu1UcUDRAFx6wPiFyfZN+mUQtkn6PhhP+evRNOEu5ID+xhgdUBPpJQSLTsAPddkmD0riVKspzeR/2LOwTSh17WHv3av5ZOleLykGOGDvGqXQKsMuaSq8lVoSFdHrsBpHRA8/iO9c=
+    properties :
+     x : 161
+     y : 281
+     width : 115
+     height : 34
+     state : 1
+     data_binding : BitacoraRecibos.hora_final
+     accelerator_key : 65535
+     tab_order : 12
+     group : GR_campos
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : BTN_view_recibos
+    identifier : 0x2d2fbcb911150971
+    internal_properties : HgAAAB4AAAAy+Y5blosVkyX3DvUashW2J+yYUbQ8YBLsuT4V5noKiq7cNKupkAIudRS3GJjMyR41ER/ad3ZlfnfkZrP4enyHGoJcb8FOAm+U6+5TgkYpWS7Jfe6DtlS7dtwtVfEZxNEkU4UfDMo4gMf9qnuw/o4m4MVgksC4HW8gXd4vCjEjBucLFkAzJZ/T9Z7KPGNQ/VGSZuFydCwtuZ10RzjC4l241i2fdDtl0DB2ZKfekjVnia3NaEMBF53MgrCXuiClwrDQi0R3OJYhXyRlI7phigc5cbeCBbigEqSOcvIrlAW8OX9VIutxvjdFbn84RGL5tbGxMy/xRw24/PfUs263ca7ZOf3t8eYAOOBmZdGHGxcS4fGeA1p/dMa4vyd5yCVxfjOor6rn5xIrd4k2PfDbr4wK60ZnzSN7vjbb0fhuj0ckBHzIpAIKlHy5Q8SdYZgRSrL+6jY+tQ+cculEYIUHkYwAKbLYRzfIB7aidxXJAW3uhXlC+xBcshCxzLZ8CrNFwWhoiQxFHNvwU4Oge4TfHdTpIx/lSuM1OCoO+VNle4zy0OPwIvedLCz4M5W1AC9FEJaJtc3vEctkdm2KJe6WnpjgihjfQHzyX9vA4FzEGhX0AUR+xCbnL0YXMhxJu8a8UEar2FBMTBh+hplP8QN6Aby308B6mpaJgb3XVzqfFe+opPMAo2wSOvsTNwR9acleXg8UCysqY8MnL4opxw7HfQ7LnVWca9OYKK9GEuh8GSYQ+qVq93/XX8nXtZmduZaWZrz8vBjmGKdS/vYV55CkmjR7zX9/SWhnrn/iA/TUY32O1tY640LIMUCPvtBjK7vT9Aiv8TazN6lxaflA3akhg7UVECBEtHICQU4E2q7W22qXyUR1AhWZP0Xx+lY=
+    properties :
+     x : 245
+     y : 413
+     width : 40
+     height : 40
+     visible : 0
+     state : 1
+     tool_tip : Agregar pesos
+     anchor : 1
+     anchor_ratio_size_x : 0
+     accelerator_key : 65535
+     tab_order : 16
+    style : {}
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         //
+         //
+        type : 14
+      -
+        code : |1-
+         if BitacoraRecibos..NewRecord=False then
+         	OpenMobileWindow(WIN_Recibos_en_Bitacora,EDT_BitacoraRecibosID)
+         end 
+        type : 18
+      -
+        type : 161
+        enabled : false
+      -
+        type : 65659
+  -
+    name : CBOX_Esnuevo
+    identifier : 0x2d37be3606a4e504
+    internal_properties : HgAAAB4AAADM41trC2Jmqz2ANPdts5BBQ6ZzuTgRQXTg7GTRCMrwcV38bpQfvF5qEhkNqv2F61dDyDA6ahIA1fYqmxJh3g6af8yG+Mwy9w1BPxu8v1UEb0gtuSgzhUGNmfjfYG3WnnWP42djkkYcsQpjtN6BmJWfPciy8y08LtzIBo+32WErI72G5OyetgQomC+LOTiHwNgg8mJqqkRHUVOiiK40neCGdLWT7MkJ2PUKaRTZziFdIU/Y56mfxP9hoSOtwLkTuowVmm0xs6/0KqsaNOLHyirhYdaUtoTJLk0GViONyA1PY17X74azAWCjh6I4hW8D2G8U3o16vK/+1j2WsKJ7BiaT9Akj+rQEO9a+Xt5qJAeCEFbVrS92nRIci2eC+Yms7+lLWcQQfegxKoOsnpA2ZT4j5exj7ooTJ7aNOA2r65iaGNLozpoAuRDqtMAX+doFoxakp1G1WYnY8fgDduVOvbQDz8QsRPHl7lXVUyt8mscSsBui8qLYdF3fmmxhsLdfiOPwIpg2IjkSSxaPq/4JTnJgPjGj/Aty1ssoH9Izb42iZ0GUdSHUM4C3xgbmaGzWon8FdHkekNmLNW8Jd6D+j3mZDYZ2WxH51iDKP567L2ezvLB5k3gu+jfcDjDEE6XdLdAlT/Uay8PKl4JxW/uQLm9ivT3QRuGdngvBEaE8HG4Klc0GPxjnyc12pdftOdPhNamk5a8wzsEcc3ZjmAQ0Zaut7k9PB1RPzxY2veGN8QHJ3de4tS+3FTX+lfSHLWMoJ7hL/ne2JYTtBkNKQ/ijZKqoHLFrRtroPp3ZaS6ydluxPiSil3P323FCKKutKq2BxlG3sMqXw1AgiXsUsT9URWksOmrQg3FwzGA/u5f9/XR4bL5iFcLKg4rb6qH2xriqbyJlQ4XR0VK2prhAjJWec1YASIrJ5qVhqXChTFxBbZdsfnfpVFHXr6Qcz8IqHSe1foH793l76+VPZltc2xxEiJmdcUTxfl+vFr/rSVVBC6Ai5dGMhexTdE7OW6lEDqcqBNS2xs/KfkGdcWRHJnk8l6045wrTUMBLU7hw7lcAyyjDQA==
+    properties :
+     x : 515
+     y : 158
+     width : 116
+     height : 42
+     visible : 0
+     state : 1
+     data_binding : BitacoraRecibos.esnuevo
+     accelerator_key : 65535
+     tab_order : 6
+    style : {}
+    options :
+     -
+       internal_properties : HgAAAB4AAADANyPTP7P7pyFamINRft9zKjcvB9PaBvxJiNf07NhnRjsnJfWxAx4eb7zXxcyGWzZzow2Rqd22LjEGu8lbyn0rZGyJDYYLgRqLq6PLGmqYEQpS7G+DaubvmC1RvzX/GdCJ90jQCAezIchC8tKrJplI/yw6qhlQMotn
+       properties : {}
+       style : {}
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes : []
+  -
+    name : CBOX_Esmodificado
+    identifier : 0x2d37be3b06acf909
+    internal_properties : HgAAAB4AAAAQBy9Pr86SBxnswKMZ96z9bxKfVXRlhbjEwMg/rowem3vq/LqV6s9ZU//XwBN3AWmptiZIkGjSe2Q4hVCneOR0pUJ0vqpIIWNvHZUCDaqAcwkTy7rFT4+nl8qpamcsDAs9J6MHJsqQjfqHhBp1VJEPqTQmj/lAagBAUk9zhRVPS7l6kKAiKoiMMBt7vZz7xNAsllZevviznZtu0OJIUWSGkIlH0F0F/NniJUQ9otX5uRO0a2W74NONEXcVrKUfRkSZxokN31uQxvueVFYzflYBBdKQUuBdkhmGWiOJzJnjgzpLa8J/pfzX13bAEYM3/AcgMilmACsS8jWSqM4n6hLb8K1vtlA4v6ruchZ2KPOGKGLhIeuq4b5gC8tCzZXY21H/hWi8MaTtRnuI1rwSSYIT2YA3wiYnM7KFJG2ftwTuoA4cqna0veRWVAQnvV5JPw4Iq535HVXk3egHxmHCEZBjk/h4UN05ghnNn9P4RisOWM/urk5UMBmL0khhvKtjjOOMHqzKfv3WD36rWxo9Eu54aNvR9s1MzO3CufDtIfs47cMW+6NWreYZeEisUhYc8LUX9v9YutNZL2kzlUIgfRc3r6AUdSszBMqkWSw1KWXpukqTuZrIrE2OMKqyHa/jU84nuWuctSWo0awrIR3q1M3IJxc24DsnTLVD0/eWLmRoUyfIdaqRMzvA93HzM02f4+9uH23ymDvyRdhFHp6OG3kjSLEdiaYZnXBgb5+fS6efM7EiI0n5J8N4d+6Nx01+FfYlUMX4Z0YjGFVEIdpF8iC2ztMBcFyqlH+TEyy8cDFnpEa8ta15ZYdUYq2rJCdfLAcpoigxlYJ+A5X+p9Emk6faRHz+3Su6Chr55U0Hz4JWWrBcGzRUJUh1REukEEI41fBXLftr21QUYNpqAm+wKRS2WqTfkL/bJ+rD5vrzVyXa6CGjnsdNEWJ6CcxE22XXuG5U1llD0zkTpt9oU9S0+PW1JYChju/LwpdXrcXRY4gGFeUYBSxTUMKgK7nAuotWVLD2BoPe2i2BVRiL+q1oe0FMm0aXHPQfL5QcWsOcr1QfHA==
+    properties :
+     x : 627
+     y : 110
+     width : 154
+     height : 42
+     visible : 0
+     state : 1
+     data_binding : BitacoraRecibos.esmodificado
+     accelerator_key : 65535
+     tab_order : 4
+    style : {}
+    options :
+     -
+       internal_properties : HgAAAB4AAADGrfNhzuqK/WNZOichfMjPf47FZjlDu6+GMzQmt7jLBDcCp4CoWCwEMgWVrr5YgZW3xZEmYNfTVMYFUWrmA+cvaOR1orbvTqsWmwafqL/eUPeUmqwL2k2WF1OKDTFQD004iY6/rw2qsJ8bX43p3L3F0a1MZPibaGNMs+OuNVI=
+       properties : {}
+       style : {}
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes : []
+  -
+    name : EDT_BitacoraRecibosID
+    identifier : 0x2d37c6d90943a3fe
+    internal_properties : HgAAAB4AAABCv0k67RzpdH42OXl4yn+VnpT3MXcEu7QBtLp53qo/vTYzUHjcMC2/Kcjy8y1znStzwRqmAva37MKGXFIHukxidHqp7TWhtqLAh/e3uUFEqIjMmpm2hz5B0NCsZzFFgszR73mFy5cbkMYOaidMKstkDFcy2lucaFk+7ZM8EBqb6rrdHJd7w4qQa2pQdKYhLjfrlM22sg+XqqOuBcyjo38VVGhSs+UdO0myalOrdl7vst6qhwQTQNbxvVs3JHP+ytBNY+pRHFD4w7LBQacVfRvWnwmO3EVwYz3LJF3XZa8HFizLryckCHDghDi5yuB6SYjOGMfxSQ1++bvNGDZlYMYkyNdhRPg5hgs5ER5BIOiYc6FFNpiyDM9QXZsMr3413XR3z81ZO5Xg5c/NW1+OiAw3iuDFqSKgn0iRTrFmKlaqogks2jLJo6KDNDlbkP76gJf4mCEvV3uXWCGoHcGPIfrt7OUtvBF/RUxmX/ipAv5scyS+ANcrBm9sVXp8Fu2ZR64ALusUY6D1TgpJI/TiCenSdAO0qsK2PWC4xTpS2pvpz7NFkBo8nuw7ZJWzLeEDZEll3oeCtA8oi3tlu1tu5W/lfxNN3lc1vkKKGUEBmcKuU/74XxPFf3uRNLvoABRlGl1aDmRN25ogrupOmngKMeMBYvEsEyM5Hqa2OKlZw6JmMQh9dVwk+GEvzR2iuWK1u8fnpFd1BbcL7KeG/s4qKqhLJ/sxe5rCrfpiewyBI8fL2gKsI4otakTeSbw5pNJ6Cne6xaQQG4lety/pZ8qJgL1Xzv9EDAg0l1eFAYl+venuMPswM4+6zhEItSkKgPBmRBKbUivDIBlak3YLScdY5Bk12l7K8xBBLVgWyxlARy+SlNobvYlZsVZ/rVyXX+Zj1fqDYkS20oDfZ6fhoOVEu0572JI4pQ34jKPsHBcKdYL0e7/Ac+D34815wcGK2j4mXoucCod9h8z8Mnwu6i8PCqUv0ed6GZNxtUNjkq6DIthQll2xabm7Un2sR5mNmgWRWxwHonJ39dhLaSNXODnT2ZYZDt1FqwijC9b06VXiCcWhB0KStnu/ieiS8G0bQFz9s7703FjUz4j5VR2GNYQ5W1Lu9eBoJuL5pDeBhETCZF/tLbq66S1OLN4XwvMRVGvEx/yaNqUJC0iepMLwifkqvvabzdANeJlOYIJ7m/p7y5QHh8IkLuOiD+K4XbkYyqrC9P1BLI9eMf3SFUQXIj5+aD3AaswpI9SVq4IHMepPdb2kO3G2BQWH3zVV1X5xyui/N32TvWkEKkaMBmqjgKPAgPwOT6PWyqrNJX2u+Y0jrdqYfJ8VQGNVlcjh43rM9Gn2eQf4lyIL0SIpwRVesFZ9fiCskPav6KjO2ujxoCeJRphscOEX6pNN+273PDGDRLc8Mhgr0TPDyUq1Ejx06zyh5g==
+    properties :
+     x : 563
+     y : 299
+     width : 356
+     height : 48
+     visible : 0
+     state : 1
+     data_binding : BitacoraRecibos.BitacoraRecibosID
+     accelerator_key : 65535
+     tab_order : 13
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : CBOX_Esborrar
+    identifier : 0x2d3bba6806fb0854
+    internal_properties : HgAAAB4AAADeyt1yXBp1eS6FuVcuCvT0uXY68kswxXvki0L06PxPuuYJOnke/bzPlDymLBNzW7jRVRZt/5Ykm67DwLmfqJFVkruYkGX/0xcVhfwG6lXjD0EW4L0gM8hmxhPPyZ/+Zu6ettY8C8oCz1jMfvrJ7SeT7PYqB+nV8jXQCCtxpBj0dozzTOg0S7RD6zqiALQcns2tVvW/A45rM9nMaVoWNSlfKNbeDzOHxpbz6WOdJREZn06czI2OEWOGJQGygTCqaa8JsIrjjrHJ+x0KcvyWsiX8BtNSM2sMFFhvel4PCxeRZjZGzGTtCpadN1oj9PEKJQLE0gWlHJwmn2rl5Fl1hZmP+e++5g6zwclH5wVAJ5I9CiRxx6yHA3/aJTJwubrtI+7s1wvzqW/4xPNuv/hh96389sQHQBwhlbdT6MmqReEhzHeYXUdoMGN09InfAUeJY5F5MeoLgCXRNU1AmtmVWSfa7hoAYQUA9gCB4ZbzxRrOAfQKArFtPmyYW9Bh1D8E0r//YVeEl6iCAZ025CfMFNq4dAtA6btVN92wq+p3llmvEb2kJGRsGE8ThEgc/qOmvZUDRgrPnmSqBQmHgyiTFeorR6T3nDfe1awi07jFXudkIDar0jv+FWg8RsTuhe6/3sQf3SY3E4bxxVKtB+uXIshUiycraX/e3X2xNU00LUgVcw+c9ocxsj540Y8NjVSZOLNWKybfCl7lyXqb1rrPu+L7VBlw6CDmgsJyRVPnctUke2twzEYjkKzGRyJZV6wc7HxHFj7Z6zEU/OPOPbIO6vX6+Kl+dURLvbc1IURgT3ueuKYAUKDvKpyiHPuBwqibNRPdQvtse+ffdUdcg1EF5zQKXuILsv0/N5rPNwfZzLifIMoCcOWgwnNRAmWguAtO0KyJgzZiLylhlp6KTnfRO2soJAKSN1mOfBLZEA7L3B316tn3uW43BF+KdVRGffK5Y9td9ShGQbaehqvIMZGEXm8oZTksOAEu3/iP0amC8hy3+coQau+hY7AxUvyh0u7E2w98dCKRckUVYlruGHerrHl+cR3NvUR1ixilt8XlLUo=
+    properties :
+     x : 594
+     y : 192
+     width : 115
+     height : 42
+     visible : 0
+     state : 1
+     data_binding : BitacoraRecibos.esborrar
+     accelerator_key : 65535
+     tab_order : 8
+    style : {}
+    options :
+     -
+       internal_properties : HgAAAB4AAADJnSX7rckt0SnqPeBIvzd/KyfGRu41T0G1gq5/CvHL4q5OKQy5yC7UbzLXyDVkfzVhxE8e+K/fCYQL/1ZVPV4vUt9bSbRgjeAABCWUfpK61rO3Inbpgcbhw16pIgWjy0P0sgB0AH/S/Lop0yD5b74UuVvfP4KazR0FIQ==
+       properties : {}
+       style : {}
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes : []
+  -
+    name : COMBO_cosecha
+    identifier : 0x2d7bdf9606fadde3
+    internal_properties : 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
+    properties :
+     x : 10
+     y : 69
+     width : 201
+     height : 38
+     data_binding : BitacoraRecibos.cosecha
+     accelerator_key : 65535
+     tab_order : 2
+     group : GR_campos
+    style : {}
+    dropdown :
+     internal_properties : HgAAAB4AAACCYq5QIJMswCmVMQq4K0i0Q71xEj8ERG6rP4M+hKKnwk/HSo0353BQlf0qC0WLHXllr3z/sKOyLFWVktIjQ+50CkuxN8Kjs387NKQxGl8r36CumQwzeZkhvDijm6Gaedq3C1k01USGrjDjtPYAPoVbS3y1Cwn3B0NKBkxfuO69RRVlqopD2cwVqXXX8Q4dDCy4zsQV19KGHw+5eI9fu6nipgm8kBjlrBzpo+smsv8aGxMfcq5lxXo9Yjet+6qe89zeFa7DJXDSdWSP4PqZZtsges05pZKECFpAgaODf+jx623c0TTIN4Kk+1ZawZpyhlbpRMfZlg2wFjclv72efzST1IYBNLbFQeAlAXtZ63w/P2gTrzYCF4a+ZnpP9FcHPOV0uRIiBHkDHbv1LnVCp8AK803xOoX12knJn3rj4OxwnhQHOEyl+RbN0SUkgTo6L7bi5Qe5kUnFCawFkYFSr7TcyNBfLF7/pgz3ITlUHC/mH+OZdSPTnC3J/YpbNVh3yDaX8EUipBgQZz6L+Vas+/EPB1VKqd7WxzQPtY4ivxCLnt5uiyCD3NYZTiA7lm029w3KfAa9BTQmZgngl4qZKKYixaYEphWq3JL6cedAN9mIVI4j67mmEWsgdVkr9lpiNDdDeUsf9Z6ZfUExKRzWDHQlnCcetazKVWOyXgmxeGPoaukRQQbyFKSGqCQHvcMeOeSnM9Wn5eHsfqbsV8NidHe1No/86ASsfSEocZo0X9G710PAWMtV8PAlg6Jm+zHfnw+k+VCs1/GEl0eODH4tx+6OBlLC/M7K6qxcQFollv0NRCqYIXOAFpXAWa3djp2uDg6A6uDTSaI20ibIHoged3jaQNR+SQz473gSPtrslXHFN2wfNwBFt6gWVLbBlRovy/mG/4kDo8VJ5PVFBPZ0GcJbaHJie3cEmZfVFNCBtnJy/ErleQ==
+     properties : {}
+     style :
+      scrollbar : {}
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1+
+         
+         HSeek(re_cosechas,cosecha,COMBO_cosecha..Value)
+         IF HFound()=True THEN
+         	HRead(re_cosechas,HRecNum(re_cosechas))
+         	COMBO_tipocafe..Value=re_cosechas.Tipocafe
+         ELSE
+         	COMBO_tipocafe..Value="9"
+         END
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : COMBO_tipocafe
+    identifier : 0x237427dc084e7f35
+    internal_properties : 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
+    properties :
+     x : 237
+     y : 69
+     width : 195
+     height : 38
+     visible : 0
+     data_binding : BitacoraRecibos.Tipocafe
+     accelerator_key : 65535
+     tab_order : 3
+     group : GR_campos
+    style : {}
+    dropdown :
+     internal_properties : HgAAAB4AAADiu9jYOO8eD1CEBIH7BC1dbYRO5lc1pmmOmgI0mLreM+waL1WayL0L8rC0BMLqHqR9ZVYzaLXDtMTQmWOJfBdbFHLBvVPqv8Zr/hkrS7nhO6wO+2iqjvT+FAHW1Lv0EZLboj66aJ+W/96Qls7ZZRWmFuxO5cFV9iYl+ssw9+k/ERmxqqunlE7syP5bzNxBBUwws5qd+Y6Pm09JtmZiq9fATKawwYeyV3c/hOLHGPgEBUKP3GU/qzHaT8UOgBNV/UjDo9HPWdYXjPN+XGuTWPhrkP2WyeoLsZdjLzX9sxzf/23uqtdtcVlDXDptWnfXcI2/ZKbL48uH3lbHbX+C543IttrLlvSp8oUC5+y8Ja9XkYCBdMzM7VW6FV8wXNQi+OmbtD5uDs7TjDLYfBcWkf5R7f5dKSJg9kQzHi3kilqrqnSufz84VzVCOJnzOh2UhTxWj+bM90hQn/hT1mPynjqF5U5ilFyJU5uzhpXvqI2jgfTcWJ2H0Agi0ccvlA53aXbmCdDkXFAbgGr2JXlWfZhPOkIX57Y6/NuxgB77D76ooPmzdDoHsNcoeAu3B5fA6CO9xfNBZ5bdr2Wdz0MjcANWHMMBnss+Qxt2rLP9hY3pmg92ottmo4zjfyKNbWiWPddE7NazP1qCdHew54OODocZzWInU2ja8s4gm+fqoo/5mJQSgEhe8jFlQnXZNovmUGSqvAbxOWM9UR6bMWpaVODDJy6RavhqopRkbFqtSYGWhQzbgRXpaqHUu1MCrOvjaC0dlE9W94dJaj89bPd1T+/kN4GV+vKuJcmYe95I4umctLmlOMnExKrn5RD/jydiccRnDxU7f0Jb2QTPIFccUeuiCfyQRHnaIpx37rUkXojzOktWStfKbVtvmuSYeIYXfR67z4lDB6OwB0FVcSE1OKopGhhHXULAeRcqwbJOHMNb4tgo2Twdhg==
+     properties : {}
+     style :
+      scrollbar : {}
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        type : 17
+        enabled : false
+  -
+    name : CBOX_Impreso
+    identifier : 0x2722bd560ddc4b77
+    internal_properties : HgAAAB4AAADTuTvNrBVqReCyoQrhfESW5Q2fbTAlURVXKiSUdSbuaK+KzZ7dIVdOzoL5BhqzEXqGkWrSBnlK/uzFipq0OeRQcDQ0+XMGeEy3GjhWQjCR2uvdNMMxgE2W+slMvvYcZCeTH8CIh/qiWOTYICbsgUhTjwDaTe+zomAI6HYNxRj15buIFzXR1JPWyR7yt193hm/xGLbdEIohXSsFm5wLFfZ6NTo9q68DUmSeZbmbDqYPcWSYbARbwmHlC6SGJshpVpdD31WE2KU7f7MSyCA8LGiPyLB4TVJcFaKWW8gjKv5fauP9yNHsJ/qtcME2nPMcSzmpD/RSLXNgafcbaFN1WSjqvoamk+vcks5TiFjYCoqbWA82O+Ut7QoAAlCdb2tmZQeGdWm2LrmH6PzkwvMx68LWDkryFvPaGA1preBo1yfBEYSWRpEIe9Tu2vEBbJdfn5EZYU5QsKGh4f3p20512Qg3q227LDP1oV1K0dyTg9zSQhTH2QFQYPV2tLFYKFtVckPkOK8ACogPmmdRwnee61Ym7aoJL2DX0x5ftxPW+KK5eqzPOCWM+KIBLA/9H85fArR+E2yS6hM4K9FyxN6SHtKqmsa6XHqxvkLi9YppdTPaY+Ztq/lyPyRrhqidA3o9YKTxFB0oiaz/bHu4xxlnSTEXAUmVM6jrzI5E1Je0uhs4bKU6ZvM0Yyv7Fk0mfAS9eY36G3m+OZN8OmGXfi4Gtk0QcRt5OMi0Q+xDL944O4Q6h1tqOH1PP2WDvQTrIxIbd+LFNUpjvN03jZA4X6Aa9IIW8t2+kl0HJlfgoHPNKRJLF3OSuwDPHfRX5ZJejNf2fGreQSFHwe8+gEtVO5iWsQ75DNQFrETxYRTuRnK+ts7jeflk61S9171Xgf92J/yZjwe7Zq86Ys7cwqDbzR7bEvOEnvP2B8g7xfCqJqrLXVwIH0lYhtyGndOAtPHsru3/VaXa5QJgDa4Py7tGT91RBkhLpi0AAFV3HPEpBBXmQBMrxIPO6jKZ152wmA/ME5qNd0uUMsXDrWqWaTaIMacIwhjeiG65+YGpgfKlC6HCfVx1MnUCOiyomG9nlWXwzQuu8DPIzIACJK8=
+    properties :
+     x : 35
+     y : 396
+     width : 118
+     height : 42
+     state : 1
+     data_binding : BitacoraRecibos.impreso
+     accelerator_key : 65535
+     tab_order : 15
+    style : {}
+    options :
+     -
+       internal_properties : HgAAAB4AAAD+oaX/n6B/QPX+hMoVkLz/BjFCPrcI80CZhWcQ4mj6jNLHbWfXNCSGx7ssfy46STKgwzbEORfcxLhGOg1ltM4+W+/cQMZ7FSxJM5NDy2Xp6rJ2IBE2aFw1/W/v6FALb51va3TPe39rTen7Ya191iS0AAojC4S09BHIFNb6m5lGDehu
+       properties : {}
+       style : {}
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2d2fba1f1056dfe1
+  internal_properties : HgAAAB4AAABaPFphK+UA034D0AjdXq1YQnT3dyZAhKTUFJclShnvLsrinaI9RjlRwhzdy6VcY5FLhQN6TNRHFVzTgkDXa48bmlr27jS/dE0cLCTTz+eImWW1W7W00XiB6qLuLhPNCuPbb9dAsZ7oToRHMCtFgDUqdWEpPP3Fl9smTzNI5clNERiFKgiCDx6AcgBdHkYIQlRgD7UNn+xWqMjf4XK6OEcrIoARE1VFL/ZdK+7sJBFrKhT7W8UVjDUPf1zo5LEHOw4jE5GrefXn46cImLUt4xPN0NiDj+2hR/sLmkp0bPUtgsIXAeLyuldA+tAsDG1/iw4ldnspypje5luulLRN9WhKTsFQzDBpjuPzQcVirsX9urpQe/NkP183om9PbAtYlgiAl5DSvHNsDjc1rQE1VOCJSck=
+  properties : {}
+  style : {}
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2d2fba1f1054dfe1
+  internal_properties : HgAAAB4AAAC7LLhUimlj5DAjqB0aVHKziN4hvCyTvtpCy5zUDIDK5OKDGjG4MJkDHV6newThzgYw0hAR6zbkPuNHoWst73kXkecteIPwFhjg2StEX+sjhcd1YRoxbgooC/PnBOjMqihxVeEGx5SLosGpBHA9w92jNZ9h5RXm29ZPB47HIh+bz2UhXgsiLocpXO1n1EsCwe5mOoMjZOyQLvHcDyiet19LKnUWVWEIREM3Bb5+7np2ZiKz/+5Fp0r2kLpyjeelu3jsgxn2FnYJynOCc3lchtlHAfc5LW6GlWYNwArq7UiYTp8=
+  properties : {}
+  style : {}
+  options :
+   -
+     name : OPT_Ok
+     identifier : 0x2d2fba1f1055dfe1
+     internal_properties : HgAAAB4AAAC+KjbSfmVHlhEvLKfdORemcIwV383wKjHKL/hS5mjS9K3KTXxcgcdJjQO0pQPyzpM5JWZ/FI4LagBvLTX3KyqboKeT0s0OAVJMBP0o0DDCy7Z7vMz0aVGvBvx7M9BQDh0Y9enOEotPP8KqXO/jjJJxHAAjLgyoBcNlqMHY75wYNRWqIiopdDxt+vxphPvAvPZoNIYgAXFPV9gQ4474G3gVOqUYfGaQwohbpsZPeRa2UIU9dEQ9mCUbMh3ERYRXjIRPqM/hnNiuiFKsSq+oLqQIq0Xi+XpM/EuvBVTWK4iSrGByQsYUAV0M73f/
+     properties : {}
+     style : {}
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          //IF EDT_medidor="" or EDT_placa=""  or EDT_transportista="" THEN
+          //	RETURN
+          //END
+          
+          if consecutivo()<1 then
+          	RETURN
+          END
+          
+          CBOX_Esmodificado=true
+          ScreenToFile()
+          hsave(BitacoraRecibos)
+          
+          if gbBnuevo=true
+          	re_recibos_movil.consecutivobitacora=re_recibos_movil.consecutivobitacora+1
+          	re_recibos_movil.esmodificado=true
+          	hsave(re_recibos_movil)
+          	gbBnuevo=False
+          end
+          //gbgrabado=True
+          if swindow="WIN_Bitacora_Recibos_Table" then
+          	HExecuteQuery(QRY_BITACORARECIBOS_CONTAINS,hQueryDefault,WIN_Bitacora_Recibos_Table.EDT_Text)
+          	TableDisplay(WIN_Bitacora_Recibos_Table.TABLE_QRY_BITACORARECIBOS_CONTAINS)
+          else
+          //	HExecuteQuery(QRY_RECIBOS_total,hQueryDefault)
+          	//TableDisplay(WIN_BitacoraRecibos.TABLE_Recibos)
+          //	TableDisplay(WIN_BitacoraRecibos.TABLE_Recibos_total)
+          end 
+          close()
+         type : 32
+   -
+     name : OPT_Imprime
+     identifier : 0x25243eb9145ed936
+     internal_properties : HgAAAB4AAADVN47WyxcQJ1Iim1SrjysrqGSgPqItTLbiSkP8gn958yFDmdTgRRyoHHaagNDGa2JvwycUjGor5xnbmyT7GzhzKeNeV3zpVlYFnAujmcH5Ctqqzy37atjiRLWe8xkrsINHd83a+F4cWPNoI4d3Fz/9Woj2vwuIC/y6BF9j5z9pdqbPyGWEALO1s4DM7a8DQq9zE4D3ipyVlyXqfuy+ui6GG35d5jwm/Q233/QH5clwQeIbiHMDS15CKBCWe9Y9KQlW7j987EkHUUu6K0nwqNALQi8LQd6NOCO2BivBApHm3I7/D0oolR60F2tj1aPWIA==
+     properties : {}
+     style : {}
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          imprime_bitacora()
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - es-ES
+ popup_menus : []
+ message_bar :
+  internal_properties : HgAAAB4AAAAsBHrJSU4MzaaXu4E1S19xLqqmjzqsot8nLC4ZOlGt5HNEG+QnKymnnNLYojVmf85GbX8czvNX9Evwl9ymuQCFprwvxx8K5Y1XNu3x1b/6IcB1342aYIAVLF9waw==
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MyWindow(swindow is string)
+      gbgrabado is boolean =false
+      gbBnuevo is boolean=False
+      HExecuteQuery(QRY_recibidores,hQueryDefault,gsessifon,gsrecibidor)
+   -
+     code : |1+
+      
+      FileToScreen()
+      
+      if BitacoraRecibos..NewRecord=false THEN
+      //	gnidrecibo=recibos.RecibosID
+      else
+      //	gnidfinca=0
+      	IF BitacoraRecibos.recibidor=0 THEN
+      		ListSelectMinus(COMBO_Recibidor)
+      	END
+      END
+      
+      if BitacoraRecibos.esborrar=1 then
+      	GR_campos..State=DisplayOnly
+      END
+      //HExecuteQuery(QRY_fincas_certificados,hQueryDefault,gnidfinca)
+      //TableDisplay(TABLE_QRY_fincas_certificados)
+      
+      //buscar si hay recibos de esta bitacora
+      if BitacoraRecibos..NewRecord=False THEN
+      	HFilter(Recibos,bitacoraid,BitacoraRecibos.BitacoraRecibosID)
+      	HActivateFilter(Recibos)
+      	HReadFirst(Recibos)
+      	if HFound(Recibos) = True THEN
+      		GR_campos..State=DisplayOnly
+      	END
+      	HDeactivateFilter(Recibos)
+      end
+      
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+      //COMBO_Proveedores..Value=gsProveedor
+      //SetFocus(EDT_Cantidad)
+      //sCodigo=gsProveedor
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+  procedures :
+   -
+     name : consecutivo
+     procedure_id : 2105008388621925747
+     type_code : 14
+     code : |1+
+      PROCEDURE consecutivo()
+      
+      IF Combo_Cosecha="" THEN
+      	Info(<§$0005§>)
+      	RESULT -1
+      END
+      IF BitacoraRecibos..NewRecord=False THEN
+      	RESULT 1
+      END
+      nConsecutivo is int=0
+      if COMBO_Recibidor..Value="" then
+      	Info(<§$0006§>)
+      	result -1	
+      END
+      //sLlave is string
+      //hseek(recibidores,recibidor,COMBO_Recibidor)
+      //if hfound(recibidores)=False THEN
+      //	Info(<§$0007§>)
+      //	reSULT -1
+      //END
+      
+      //ValCompKey is Buffer
+      //ValCompKey = HBuildKeyValue(re_recibos_movil,recibidorcosecha,COMBO_Recibidor..Value,EDT_Cosecha)
+      //hseek(re_recibos_movil,recibidorcosecha,ValCompKey)
+      HReadSeekFirst(re_recibos_movil,recibidorcosecha,[COMBO_Recibidor..Value,COMBO_cosecha..Value])
+      if hfound(re_recibos_movil) then
+      		HRead(re_recibos_movil,HRecNum(re_recibos_movil))
+      		nConsecutivo=re_recibos_movil.consecutivobitacora +1
+      		EDT_numero=NumToString(nConsecutivo,"05d")
+      		gbBnuevo=true
+      		RESULT 1 
+      else
+      	Info(<§$0003§>)
+      	result -1 
+      end
+      
+     type : 458752
+   -
+     name : imprime_bitacora
+     procedure_id : 1523411710078645716
+     type_code : 14
+     code : |1-
+      PROCEDURE imprime_bitacora()
+      
+      //revisar si todos los recibos están impresos
+      HFilter(Recibos,bitacoraid,BitacoraRecibos.BitacoraRecibosID)
+      HActivateFilter(Recibos)
+      HReadFirst(Recibos,RecibosID)
+      WHILE HFound(Recibos) = True
+      	IF Recibos.impreso=0 and recibos.cantidad>0 THEN
+      		Info("Recibo sin imprimir "+ Recibos.recibo)
+      		RETURN 
+      	END
+      	HReadNext(Recibos)
+      END
+      HDeactivateFilter(Recibos)
+      
+      BitacoraRecibos.hora_final=Now()
+      WIN_Bitacora_Recibo.EDT_Hora_final=Now()
+      FileToScreen(WIN_Bitacora_Recibo)
+      HSave(BitacoraRecibos)
+      rCant is real=0
+      rCast is real=0
+      rTcast is real=0
+      
+      rNeto is real=0
+      
+      lf is string =Charact(13)+Charact(10)
+      sMsg is UNICODE string 
+      HReadFirst(re_parametros)
+      
+      HReadFirst(re_parametros)
+      sMsg=sMsg+Charact(27)+"!"+Charact(10)+Charact(27)+"a"+Charact(0)+Charact(27)+"E"+Charact(0)+"------------------------------"+lf  // let.pequeño, izq, no bold, lineas
+      sMsg=sMsg+ Charact(27)+"a"+Charact(1)//centrar texto
+      sMsg=sMsg+ Charact(27)+"!"+Charact(20)  //tamaño grande
+      sMsg=sMsg +Charact(27)+"U"+Charact(1) //?
+      sMsg=sMsg +Charact(27)+"E"+Charact(1) // bold
+      sMsg=sMsg+re_parametros.nombrecompania+lf
+      sMsg=sMsg+Charact(27)+"!"+Charact(10)  //tamaño mediano
+      sMsg=sMsg+Charact(27)+"U"+Charact(0)  //
+      sMsg=sMsg+re_parametros.direccion1+lf
+      sMsg=sMsg+re_parametros.direccion2+lf
+      sMsg=sMsg+"CODIGO ICAFE "+re_parametros.codigoicafe+lf
+      sMsg=sMsg+"------------------"+lf
+      sMsg=sMsg+"BITACORA DE RECIBIDOR"+lf
+      sMsg=sMsg+"No. "+BitacoraRecibos.numero+lf 
+      
+      HSeek(recibidores,recibidor,BitacoraRecibos.recibidor)
+      HRead(recibidores,HRecNum(recibidores))
+      sMsg=sMsg+ Charact(27)+"a"+Charact(0)+lf//IZQUIERDA
+      sMsg=sMsg+"RECIBIDOR:"+recibidores.nombre+lf
+      sMsg=sMsg+"COSECHA:"+BitacoraRecibos.cosecha+lf
+      sMsg=sMsg+"MEDIDOR:"+BitacoraRecibos.medidor+lf
+      sMsg=sMsg+"TRANSPORTISTA:"+BitacoraRecibos.transportista+lf
+      sMsg=sMsg+"PLACA:"+BitacoraRecibos.placacamion+lf
+      sMsg=sMsg+lf
+      sMsg=sMsg+"FECHA:"+DateToString(BitacoraRecibos.fecha,"DD/MM/YYYY")+lf
+      sMsg=sMsg+"HORA INICIO:"+TimeToString(BitacoraRecibos.hora_inicio,"HH:MM")+lf+"HORA FINAL:"+TimeToString(BitacoraRecibos.hora_final,"HH:MM")+lf
+      sMsg=sMsg+"-------------------------------"+lf
+      
+      HFilter(Recibos,bitacoraid,BitacoraRecibos.BitacoraRecibosID)
+      HActivateFilter(Recibos)
+      HReadFirst(Recibos)
+      
+      WHILE HFound(Recibos) = True
+      	
+      	sMsg=sMsg+Recibos.recibo+" "+Recibos.proveedor+" "+"CAT:"+Recibos.calidad+lf
+      	HSeek(tipocafe,tipocafe,Recibos.tipocafe)
+      	HRead(tipocafe,HRecNum(tipocafe))
+      	sMsg=sMsg+tipocafe.nombre+lf
+      	//BUSCAR EL PRODUCTOR
+      	HSeek(proveedores,proveedor,Recibos.proveedor)
+      	HRead(proveedores,HRecNum(proveedores))
+      	sMsg=sMsg+proveedores.nombre+lf
+      	
+      	rTcast= Recibos.broca+(Recibos.cuartillosbroca*0.25) + Recibos.rebajoverde+(Recibos.cuartillosrebajoverde*0.25) + Recibos.rebajoflote+ (Recibos.cuartillosrebajoflote*0.25) +Recibos.rebajofloteseco + (Recibos.cuartillosrebajofloteseco*0.25)
+      	
+      	sMsg=sMsg+"CANTIDAD:"+NumToString(Recibos.cantidadinicial)+"/ "+NoSpace(NumToString(Recibos.cuartillosinicial))
+      	//sMsg=smsg+"  CASTIGOS:"+NumToString(Recibos.rebajoflote+Recibos.broca)+"/ "+nospace(NumToString(Recibos.cuartillosbroca+Recibos.cuartillosrebajoflote))+lf 
+      	sMsg=sMsg+"  CASTIGOS:"+NumToString(IntegerPart(rTcast))+"/ "+NoSpace(NumToString(IntegerPart((DecimalPart(rTcast)/0.25))))+lf 
+      	sMsg=sMsg+"NETO:"+NoSpace(NumToString(Recibos.cantidad))+"/ "+NoSpace(NumToString(Recibos.cantidadcuartillos))+lf
+      	sMsg=sMsg+"% V:"+NoSpace(NumToString(Recibos.verdes))+",% FM:"+NumToString(Recibos.flotemaduro)+",% FS:"+NumToString(Recibos.floteseco)+",BROCADOS:"+NumToString(Recibos.granosbroca)+lf
+      	sMsg= sMsg + DateToString(Recibos.agregado,"DD/MM/YYYY")+" "+ TimeToString(Recibos.agregado,"HH:MM:SS")+lf
+      	sMsg=sMsg+"-------------------------------"+lf
+      	
+      	rCant=rCant + Recibos.cantidadinicial+(Recibos.cuartillosinicial*0.25)
+      	rCast=rCast + rTcast
+      	rNeto=rNeto + Recibos.cantidad+(Recibos.cantidadcuartillos*0.25)
+      	
+      	
+      	HReadNext(Recibos)
+      END
+      HDeactivateFilter(Recibos)
+      
+      sMsg=sMsg+"TOTALES:"+lf
+      sMsg=sMsg+"CANTIDAD:"+NumToString(IntegerPart(rCant))+"/ "+NoSpace(NumToString(IntegerPart((DecimalPart(rCant)/0.25))))
+      sMsg=sMsg+"  CASTIGOS:"+NumToString(IntegerPart(rCast))+"/ "+NoSpace(NumToString(IntegerPart((DecimalPart(rCast)/0.25))))+lf 
+      sMsg=sMsg+"NETO:"+NumToString(IntegerPart(rNeto))+"/ "+NoSpace(NumToString(IntegerPart((DecimalPart(rNeto)/0.25))))+lf 
+      sMsg=sMsg+lf
+      
+      sMsg=sMsg+"OBSERVACIONES:"+lf
+      sMsg=sMsg+BitacoraRecibos.observaciones+lf
+      sMsg=sMsg+lf
+      sMsg=sMsg+lf
+      sMsg=sMsg+lf
+      sMsg=sMsg+lf
+      sMsg=sMsg+"--------------------------------"+lf
+      sMsg=sMsg+"FIRMA"+lf
+      sMsg=sMsg+lf
+      sMsg=sMsg+lf
+      
+      
+      sMsg=sMsg+Charact(29)+"V"+Charact(0)+lf
+      //info(Parametros.impresora+sMsg)
+      nRes is int =0
+      sImpresora is string = Parametros.impresora //
+      nLargo is int = Length(sMsg)
+      sMsg1 is string = ""
+      m is int = 0
+      n is int=0 
+      i is int=0
+      //j is int =0 
+      m=( nLargo /1000) + 1
+      //m = m *2 
+      //	IF InAndroidEmulatorMode() OR InAndroidSimulatorMode() THEN
+      //		nRes=1
+      //	ELSE
+      FOR n=1 TO m 
+      	i= ((n - 1)*1000) + 1
+      	//j=  ((n-1)*1000) + 1000 
+      	sMsg1=Middle(sMsg,i,1000)
+      	nRes= imprime_texto(sImpresora,sMsg1)
+      END
+      //	end 
+      CBOX_Impreso=True
+      
+      ScreenToFile()
+      HSave(BitacoraRecibos)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : HgAAAB4AAAAqrd/dnpA7E6HdMDGpZzzaBCJrbGCwqmgAdI2eM6AYpx5V5ncyRwhgiOYNLyS4E5p3pX0JkZgB0VxEZtLT4fDdkxbcDCaNzshsB0cqpRI=
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1d2fba1f0260dfe1
+  internal_properties : HgAAAB4AAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      es-ES : Debe Grabar finca primero
+     index : 0
+   -
+     text :
+      es-ES : Debe ingresar Bitácora
+     index : 1
+   -
+     text :
+      es-ES : Debe indicar Proveedor
+     index : 2
+   -
+     text :
+      es-ES : No se encuentra consecutivo de Recibidor y Cosecha
+     index : 3
+   -
+     text :
+      es-ES : No se encuenta Bitácora
+     index : 4
+   -
+     text :
+      es-ES : Debe indicar Cosecha
+     index : 5
+   -
+     text :
+      es-ES : Debe indicar Recibidor
+     index : 6
+   -
+     text :
+      es-ES : No se encuentra Recibidor
+     index : 7
+custom_note :
+ internal_properties : HgAAAB4AAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : HgAAAB4AAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

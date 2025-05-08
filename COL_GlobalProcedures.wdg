@@ -1,0 +1,1601 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_GlobalProcedures1
+ major_version : 30
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x19b700d10049e378
+ internal_properties : HgAAAB4AAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      
+     type : 720896
+  procedures :
+   -
+     name : Procesar_Xml
+     internal_properties : HgAAAB4AAACjE+qjare9NQknWzIKTrrmejBsYkmyuQF4h+bNo1XAoBbpS58djMDCmKuGsTpCh6o+O1fibMQQqX2p/hTFUkGiDfefdUDT43A59QUVbv4vqM99+cnw9R+wfgFhxxi5+qboJCUlazmS/4rIgmOMgJepq5JiiKLxWCj57SXbjMN05ZYUuH8lgF5uosB0p/qF0Dl0ZgmyCPJUGzQbd42gRUw/fGXElYourHVc2xuUNrAOdFlag/nwR8PK/pyQiYCmzAiCabafzLu/3ywoy7UoIz4CKNwr26uwrPcJKOJ9GDEQ016bimruPezbjZ2HZhosmToKDS0OE9ZpNiF2/XeDFLYPr9NdmJ0IwEMjU0ANNkdytOxksi/t7By5EfjdcFWzOVD0PCxdp46j346P6HAmn7GWnbnqIWF+YjY6vTdlPcG9C5+DOKgKmiFpR6T4OOGVcqIUWA1fV/4zCyB30/2SWPO+os+3Mm4TtSj7aCs73xZGxEi+cOnHcLQOP4zzb+ZmpTIw0FLNs6WnKDI1SxA5IF4uF6ztMO3S39EVV/Ai6lusjBZUqoebLrov9dY4OYuPkWHFwXNYfue7GmYUbfKtEP9GypaLPGuLzrSM7Nb7l8rZb4D2V2tmU/nRz3v5bWarZkE+eeBu+mMFOICdpG8RO7gOoeRF2JdTPGvnh/hcMBhbznZklcUYiF3Js2WQm+/OMjZBfNQBvnw8JAyamHBozLsmoFWwUy/BiNj0F+61hVCzX1S/TgglfNGAF11sQrhrcm84NpVYBmDssJK3RcUX9zVokSr9yrByz2TEbParWCXb1R273+Bs8F3dMJsPk1YpSf0z/EqyU82HHZUtuUL+1qBWWnAdYyIApUA8mCPm0dZ1Z8eyzbikPHFzKObuTpdt9sWTOuPE3MawxF1wQMuBHcZo7xHc+mGoVKNbtcvsFpWLnHyKdKnxg468V6S00eNwdB/ipuoq+NFBBaIAK9SdMElVoqcCOYG/wTzrwVp3oEKEFiJ9cUPTrwL183ZUr/5p0wb6eJuzikxg4GXNyN9PDP3CRNMxL5dJOfiwJSOK3YWgWQpeejzOO572HqxT6p+bjFFBBMgxeGGnFXQbfxeYPkGGuj96v4KfTfyd7Kd30qdGu6WCfIx/hwzyMM26T/qydzidoUU1t2veaYtUHK0vv0Sb04umw7Pnu2yfH/iaKiCJPB1agvmOYD7sud7wxtMLMRvGbEfiEBnv5EpCeLtwkrwXIswD8byJO/15NweERI3Fju9L007Q+CKdMeLv3ppBeC8KVYgL118/12dIc8e2Nmkwk6uk7hXmA5wjF4cC1XT8q39krUVbR8guRcKqqK/xD/B6mcbZsy6abJmlIm772mEJFikI4c0OUEWA7Tj7iHVIlyeYWy/2pqdtk81ikxyh4/9jd6KE6I59NKFAP5v1XreVSPE4cAd3MJH7rm+oomtSFB9m93Fo7Le4dGveY7E1mH8pJMzQ54Lt4HjwlsoM7hCc0YCyShW2p1GRCu5zceCMYMGTJfHpfzCVkDNN7/IWN7Sv4SpSmS3+TKeTB7qEGEBf7p7wPiEnxqyP1+9Vfx0+j0b9V33F6fAsZFEqUsTxfq9wN4SYfCc=
+     procedure_id : 1852950755238622077
+     type_code : 15
+     code : |1+
+      PROCEDURE Procesar_XML( sfilename is string, nTipo is int)
+      //nUm is int
+      kfill is int
+      sFtabla is string
+      sFvalorbuscar is string
+      
+      
+      gsfilename is string
+      s_name is string
+      xml1 is xmlDocument
+      //info("tipo "+nTipo)
+      IF nTipo=1 THEN
+      	xml1 = XMLOpen(sfilename, fromFile)
+      ELSE
+      	xml1= XMLOpen(sfilename,fromString)
+      END 
+      //if ErrorOccurred then
+      //	Error("abriendo XML", ErrorInfo())
+      //END
+      j1 is int 
+      k is int = ArrayCount(scamposlocales)
+      //info(" string "+sFilename)
+      name_tag is string
+      IF xml1..RootNode..Occurrence<1 THEN
+      	      Info("Archivo no tiene raíz")
+      	INFO(sfilename)
+      ELSE
+      	FOR EACH unRaiz OF xml1..RootNode
+      		name_tag=unRaiz..Name
+      		//info("raiz"+name_tag)
+      		FOR EACH  unXML OF unRaiz
+      			name_tag=unXML..Name
+      			//info("fila "+name_tag)
+      			FOR EACH uncampo OF unXML
+      				name_tag=NoCharacter(uncampo..Name,"a")
+      				j1=Val(name_tag)
+      				IF j1>0 THEN
+      					s_name=uncampo..Text
+      					gsfilename  = sfile+"."+sCampos[j1]
+      					//	INFO("CAMPO "+gsFilename+ " VALOR "+s_name)
+      					
+      					SWITCH( sTipos[j1] )
+      						CASE "S" 
+      							{gsfilename}=s_name
+      						CASE "N" 
+      							{gsfilename}=Val(s_name)
+      						CASE "D"
+      							{gsfilename}=StringToDate(s_name,"yyyy-mm-dd")
+      						CASE "T"
+      							{gsfilename}=StringToDate(s_name,"yyyy-mm-ddThh:mm:ss")
+      							
+      					END 
+      					
+      				END
+      				
+      			END
+      			//defaults
+      			FOR j1=1 TO k
+      				gsfilename  = sfile+"."+scamposlocales[j1]
+      				SWITCH( sTiposlocales[j1] )
+      					CASE "S" 
+      						{gsfilename}=sValoreslocales[j1]
+      					CASE "N" 
+      						{gsfilename}=Val(sValoreslocales[j1])
+      					CASE "D"
+      						{gsfilename}=StringToDate(sValoreslocales[j1])
+      					CASE "B"
+      						IF sValoreslocales[j1]="0" THEN
+      							{gsfilename}=False
+      						ELSE
+      							{gsfilename}=True
+      						END
+      				END 
+      				
+      			END
+      			// si hay fill por cada registro
+      			if ArrayCount(sFilltabla)>0 then
+      						for kfill=1 to ArrayCount(sFilltabla)
+      							//leer en la tabla, el valor del campo sfillcampobuscar y llenar con el valor de sfillcampollenar
+      							 sFtabla=sfilltabla[kfill]
+      							 sFvalorbuscar={sfile + "."+sFillcampobuscar[kfill]}
+      							HSeek(sFilltabla[kfill],sFillcampobuscar[kfill],sFvalorbuscar)
+      							if hfound(sFilltabla[kfill]) THEN
+      								HRead(sfilltabla[kfill],HRecNum(sFilltabla[kfill]))
+      								sFtabla=sfile+"."+sFillcampollenar[kfill]
+      								
+      								{sFtabla} = {sFilltabla[kfill]+"."+sFillcampovalor[kfill]}
+      							END
+      						
+      						END
+      			END
+      				
+      			//
+      			HAdd(sfile)
+      			//		INFO("Agregado ")
+      			//		nUm=HRecNum(sFile)
+      			//		info("cantidad "+nUm)
+      			//		hsave(sFile)
+      			//		nUm=HRecNum(sFile)
+      			//		Info("cantidad despues de save "+nUm)
+      			END
+      	    END
+      END
+      
+      RETURN 
+      
+      
+      
+     type : 458752
+   -
+     name : Procesar_parametros
+     internal_properties : HgAAAB4AAAA+lRWrNS+FE+M+S13clGt636f5oe57/txvBSKwhslrcsn3ZQgBGGVNyqlQMMP31upxxVy2EkklxWis+NFKv5nU06ZKMIt8jNzvw9ahRLUTDN/DZE4YQ2i+tTp8NUAIJWqmYDr7qKKGj/8hsDYXD7DPwWYAVhCIkZBDujssIonBfiNIBs9zVPGgQwI7qbeYbO3z4JMQRs1bvPiuSnI+51tPEcF1b5yfWYAAuaCMd5XOE+Cz3FbBASCJDlTOLbYX8htp2+qwtQPi35sF4vId5O9FozvicJgyIrJfJGuHU49NP+JaxXG0ZHLClHBTNh2c+Ts3j9sZ6I5sDQXGlAOdgC7IYWP2oY9iXzLf+pq6hO/FBVKokZWR
+     procedure_id : 1854528584491349666
+     type_code : 15
+     code : |1+
+      // Summary: <specify the procedure action>
+      // Syntax:
+      //Procesar_parametros ()
+      //
+      // Parameters:
+      //	None
+      // Return Value:
+      // 	None
+      //
+      // For instance:
+      // Indicate an example.
+      //
+      //	sparametros (UNICODE string): <specify the role of sparametros>
+      PROCEDURE Procesar_parametros()
+      li is int
+      k is int
+      IF sparametros<>""  THEN
+      	StringToArray(sparametros,arrSParametros,"|")
+      	StringToArray(sparametros,arrSValParametros,"|")
+      	k=ArrayCount(arrSParametros)
+      	FOR li=1 TO k
+      		arrSValParametros[li]={arrSParametros[li]}
+      	END
+      	IF gsTablename<>"" AND Contains(gsTablename,"%")  THEN
+      		gsTablename = StringBuild(gsTablename,arrSValParametros)	
+      	END
+      	IF swhere<>"" AND sparametros<>"" THEN
+      		sWhere = StringBuild(sWhere,arrSValParametros)
+      	END
+      END	
+      
+     type : 458752
+   -
+     name : Llenar_campos
+     procedure_id : 1854529602398704636
+     type_code : 15
+     code : |1-
+      // Summary: <specify the procedure action>
+      // Syntax:
+      //[ <Result> = ] Llenar_campos (<sDestino> is string)
+      //
+      // Parameters:
+      //	sDestino (UNICODE string):<specify the role of sDestino>
+      // Return Value:
+      // 	boolean: // 	None
+      //
+      // For instance:
+      // Indicate an example.
+      //
+      //	slocal (UNICODE string): <specify the role of slocal>
+      PROCEDURE Llenar_campos(sDestino is string) : boolean 
+      //sFilter is string
+      //sFilter=HFilter(Interface,"Bdlocal='"+sfile+"'")
+      sListacampos=""
+      sWherelocal is string = "Interface.Bdlocal='"+sfile+"' "  // and Interface.Bddestino='"+sDestino+"'"
+      i is int =1
+      FOR EACH Interface where sWherelocal 
+      	//FOR i=1 _TO_ HNbRec(Interface)
+      	//	HRead(Interface,i)
+      	IF Interface.Bdlocal=sfile AND Interface.Bddestino=sDestino AND Interface.campodestino<>"" THEN
+      		Add(sCampos,Interface.campolocal)
+      		Add(sCamposExt,Interface.campodestino)
+      		//depende del tipo de campo
+      		SWITCH Interface.Tipodedato
+      		CASE "S": 
+      			sListacampos += "rtrim(ltrim(isnull("+Interface.campodestino+",'')))"+" as a"+NoSpace(NumToString(i))+","
+      		CASE "X": 
+      			sListacampos += "rtrim(ltrim(isnull(convert(varchar(max),"+Interface.campodestino+"),'')))"+" as a"+NoSpace(NumToString(i))+","
+      		CASE "N":
+      			sListacampos += "rtrim(ltrim(convert(char(25),"+Interface.campodestino+")))"+" as a"+NoSpace(NumToString(i))+","
+      		CASE "D":
+      			sListacampos += "ltrim(convert(char(10),"+Interface.campodestino+",23))"+" as a"+NoSpace(NumToString(i))+","
+      		CASE "A":
+      			sListacampos += "ltrim(convert(char(10),"+Interface.campodestino+",126))"+" as a"+NoSpace(NumToString(i))+","
+      		CASE "T":
+      			sListacampos += "ltrim(convert(char(10),"+Interface.campodestino+",126))"+" as a"+NoSpace(NumToString(i))+","
+      		OTHER CASE
+      		//			sListacampos += "null as a"	+	NoSpace(NumToString(i))+","	
+      		END
+      		//sListacampos +=Interface.campodestino+","
+      		Add(sTipos,Interface.Tipodedato)
+      		IF Interface.filltabla<>"" THEN
+      			Add(sFilltabla,Interface.filltabla)
+      			Add(sFillcampobuscar,Interface.fillcampobuscar)
+      			Add(sFillcampollenar,Interface.fillcampollenar)
+      			Add(sFillcampovalor,Interface.fillcampovalor)
+      			Add(sFillTipos,Interface.Tipodedato)
+      		END
+      		i +=1 
+      	ELSE IF Interface.Bdlocal=sfile AND Interface.Bddestino="" AND Interface.Defecto<>"" THEN
+      		Add(scamposlocales,Interface.campolocal)
+      		Add(sTiposlocales,Interface.Tipodedato)
+      		Add(sValoreslocales,Interface.Defecto)
+      	END
+      														
+      END
+      																
+      	IF ArrayCount(sCampos)=0 AND ArrayCount(scamposlocales)=0 THEN
+      							RESULT False
+      	END
+      
+      RESULT True
+      
+      //sListacampos=""
+      //sWherelocal is string = "Interface.Bdlocal='"+sfile+"' "  // and Interface.Bddestino='"+sDestino+"'"
+      //FOR EACH Interface WHERE sWherelocal 
+      //	IF Interface.Bdlocal=sfile AND Interface.Bddestino=sDestino  THEN
+      //		Add(sCampos,Interface.campolocal)
+      //		Add(sCamposExt,Interface.campodestino)
+      //		sListacampos +=Interface.campodestino+","
+      //		Add(sTipos,Interface.Tipodedato)
+      //		if Interface.filltabla<>"" then
+      //			Add(sFilltabla,Interface.filltabla)
+      //			Add(sFillcampobuscar,Interface.fillcampobuscar)
+      //			add(sFillcampollenar,Interface.fillcampollenar)
+      //			Add(sFillcampovalor,Interface.fillcampovalor)
+      //			add(sFillTipos,Interface.Tipodedato)
+      //		END
+      //	ELSE IF Interface.Bdlocal=sfile AND Interface.Bddestino="" AND Interface.Defecto<>"" THEN
+      //		Add(scamposlocales,Interface.campolocal)
+      //		Add(sTiposlocales,Interface.Tipodedato)
+      //		Add(sValoreslocales,Interface.Defecto)
+      //
+      //	END
+      //END
+      //
+      //if ArrayCount(sCampos)=0 and ArrayCount(scamposlocales)=0 then
+      //	result false
+      //END
+      
+      //result true
+     type : 458752
+   -
+     name : Global_Leer_Tabla_comp
+     procedure_id : 1854531316090727357
+     type_code : 15
+     code : |1+
+      // Summary: <specify the procedure action>
+      // Syntax:
+      // Global_Leer_Tabla_comp ()
+      //
+      // Parameters:
+      //	None
+      // Return Value:
+      // 	None
+      //
+      // For instance:
+      // Indicate an example.
+      //
+      PROCEDURE Global_Leer_Tabla_comp()
+      WSDataSQLZService.Address=Parametros.wsutrl   //"http://186.159.215.109:591/SQLServerWebservice/SQLWebservice.asmx"
+      v1 is LeerTablacomp
+      v2 is LeerTablacompResponse
+      v11 is DownloadFile
+      v12 is DownloadFileResponse
+      sResultado IS string
+      sResultadoparcial is string 
+      sName is string
+      sNamein is string
+      
+      v1.servidor=""   // se usa el de web.config ,esta version de funcion no usa instancia parametros.servidor
+      v1.basededatos=parametros.basededatos
+      v1.tabla=gsTablename
+      v1.campos=NoRightCharacter(sListacampos,",")
+      v1.where=sWhere
+      v2=LeerTablacomp(v1)
+      n is int
+      m is int
+      sResultado=v2.LeerTablacompResult
+      IF sResultado<>"" THEN
+      	n = Position(sResultado, "<filename>", 1, FromBeginning)
+      	IF n>0 THEN
+      		//el el archivo mediante webservice
+      		//sName="c:\inetpub\636408510915325718.txt"
+      		m = Position(sResultado, "</filename>", 1, FromBeginning)
+      		sName=Middle(sResultado,n + 10, m - (n + 10))
+      		v11.FName=sName
+      		f is int
+      		
+      		IF InAndroidSimulatorMode()=True THEN
+      			sNamein = "c:\sistemas\wsin\"+DateSys() + TimeSys() + ".txt"
+      			f=fOpen(sNamein, foCreate)
+      		ELSE
+      			sNamein = "/sdcard/recibos/"+DateSys() + TimeSys() + ".txt"
+      			f=fOpen(sNamein, foCreate)
+      		END 
+      		IF f=-1 THEN
+      			RETURN 
+      		END
+      		
+      //		n = Position(sRESULTADO, "<size>", 1, FromBeginning)
+      //		m = Position(sRESULTADO, "</size>", 1, FromBeginning)
+      
+      		m=((fSize(sName) +  40000)/40000) + 1
+      		m = m *2 
+      		sResultado=""
+      		FOR n=1 TO m
+      			v11.parte=NumToString(n)
+      			v12=DownloadFile(v11)	
+      			sResultadoparcial = v12.DownloadFileResult
+      			IF fWrite(f,sResultadoparcial  )=-1 THEN RETURN 
+      			//sRESULTADO += sResultadoparcial
+      		END
+      		IF fClose(f)=-1 THEN RETURN
+      		Procesar_Xml(sNamein,1)
+      		fDelete(sNamein)
+      		//Procesar_Xml(sNamein)
+      	else	
+      		IF IniOSMode() OR IniOSEmulatorMode() OR IniOSSimulatorMode() THEN
+      			procesar_xml_var(sResultado)
+      		ELSE
+      			Procesar_XML(sResultado,2)
+      		END
+      	END
+      END
+      
+      
+      RETURN    
+      
+      
+      
+      
+      
+      
+     type : 458752
+   -
+     name : Global_Leer_Tabla
+     procedure_id : 1904931988515817407
+     type_code : 15
+     code : |1+
+      PROCEDURE Global_Leer_Tabla(purl is string,Pservidor is string, pinstancia is string,pbasededatos is string,pusuario is string,pclave is string, ptabla is string, pcampos is string, pwhere is string, porder is string)
+      WSDataSQLZService..Address=purl
+      
+      v1 is LeerTabla
+      v2 is LeerTablaResponse
+      v11 is DownloadFile
+      v12 is DownloadFileResponse
+      sResultado is string
+      sResultadoparcial is string 
+      sName is string
+      sNamein is string
+      
+      v1.usuario=pusuario
+      v1.clave=pclave
+      v1.servidor=Pservidor
+      v1.instancia=pinstancia
+      v1.basededatos=pbasededatos
+      v1.tabla=ptabla
+      v1.campos=NoRightCharacter(pcampos,",")
+      v1.where=pwhere
+      v1.order=porder
+      v2=LeerTabla(v1)
+      n is int
+      m is int
+      ns is int 
+      ms is int
+      rSIZE IS real
+      sResultado=v2.LeerTablaResult
+      IF eRROROCCURRED()= TRUE THEN 
+      	//AND ErrorInfo<>"" THEN
+      	Info("Error cargando datos "+ptabla)
+      	sResultado="error+"	
+      	return 
+      END
+      HReset(proceso_recibir)
+      proceso_recibir.archivo=ptabla
+      proceso_recibir.resultado=Left(sResultado,50)
+      HSave(proceso_recibir)
+      IF sResultado<>"" THEN
+      	n = Position(sResultado, "<filename>", 1, FromBeginning)
+      	IF n>0 THEN
+      		//el el archivo mediante webservice
+      		m = Position(sResultado, "</filename>", 1, FromBeginning)
+      		sName=Middle(sResultado,n + 10, m - (n + 10))
+      		v11.FName=sName
+      		f is int
+      		
+      		IF InAndroidSimulatorMode()=True OR IniOSSimulatorMode() THEN
+      			sNamein = "c:\sistemas\wsin\"+DateSys() + TimeSys() + ".txt"
+      			f=fOpen(sNamein, foCreate)
+      		ELSE IF InAndroidMode() THEN 
+      			sNamein = CompleteDir(fCurrentDir())+DateSys() + TimeSys() + ".txt"
+      //			sNamein = "/sdcard/recibo/"+DateSys() + TimeSys() + ".txt"
+      			f=fOpen(sNamein, foCreate)
+      		ELSE IF IniOSMode() THEN 	
+      			sNamein = CompleteDir(fCurrentDir())+DateSys() + TimeSys() + ".txt"
+      			f=fOpen(sNamein, foCreate)
+      		END 
+      		IF f=-1 THEN
+      			Info("No se puede abrir Archivo "+sNamein)
+      			RETURN 
+      		END
+      		//SIZE viene el xml como Size
+      		ns = Position(sResultado, "<size>", 1, FromBeginning)
+      		ms = Position(sResultado, "</size>", 1, FromBeginning)
+      		rSIZE=Middle(sResultado,ns + 6, ms - (ns + 6))
+      		//	m=((fSize(sName) +  40000)/40000) + 1
+      		m=((rSIZE +  40000)/40000) + 1
+      		//	info(sResultado)
+      		//		info("size "+NumToString(rSIZE))
+      		m = m *2 
+      		sResultado=""
+      		FOR n=1 TO m
+      			v11.parte=NumToString(n)
+      			//info("parte "+NumToString(n))
+      			v12=DownloadFile(v11)	
+      			sResultadoparcial = v12.DownloadFileResult
+      			IF fWrite(f,sResultadoparcial  )=-1 THEN 
+      				Info("error write "+NumToString(n))
+      				RETURN 
+      			END
+      		END
+      		IF fClose(f)=-1 THEN 
+      			Info("error cerrando archivo "+gsTablename+" "+sNamein)
+      			RETURN
+      		END
+      		Procesar_Xml(sNamein,1)
+      		fDelete(sNamein)
+      	ELSE	
+      		
+      		IF IniOSMode() OR IniOSEmulatorMode() OR IniOSSimulatorMode() THEN
+      			//			procesar_xml_var(sRESULTADO)
+      		ELSE
+      			Procesar_Xml(sResultado,2)
+      		END
+      	END
+      END
+      
+      
+      RETURN    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+     type : 458752
+   -
+     name : Procesar_Xml_var
+     internal_properties : HgAAAB4AAADiYb1FTaz0Hu4G5YkMzy5X1YB34nZbm/GQg8cAry6JW6Xk9lgvhU+/8GldFnGbiICg9StiQaziWbSVOvFrwSCgik55nxF674q1SwX+lRlBiXEhxbFPMSPETGFqS750xKrkfgOjxmeDZlZyqRxny6i3EOctGwb+Zhp0NB7WdOgn1w2xlcAA2s4aO4KoPqmw5estgbeq8kmz0kq+ENUHkqRUrAplhLv9zRuncTV8YHQOtN3exueDSyh7Z8qoK3yOvCxOTtPIRyEj05r09u4PSXe0ZGac4v/hN2vR5h0VFPvsZo8w2sSsQG6F6lPMYAakDe/I0BBbdTewpRzst6M/xKnX1keqzqOqAAxd/V+l/5C5sb/HeMrSgTi/wv/62HC3LgbC7yulSO4qSXPb1le+uM06WKxcdLWlzyG5DIYaR0PcMmsfswme1ZP0LRYDOf+j1pY4Ytxvuhxpi4OzZOK9MmmIh2FQ21A8zJoeVABZC+4r0JLbhh6qYf3qM+Is3gVeZD9Qwa4VhR4JCH8qoX2gW0nMmLL790QFwqGsGxI1Bz7Ejbpux7BpQgEfrYBDRvXZupIzeXjb7tOcRYtc4Ml8tcm5Xo4HScuJHN73mmK83Fl0LLccr8m4dBbGRb+8rGXbRGoh15H5dlWdyAThtTsb2X66a5kYcbZGZunoiyhbSsEoaR8k3MBziTrRcT0mFQ35et+nQyan0Itw9VIqJnkS61cI02UQ4VUb5Q9Lafde5UjzN2Q30To/hthmIiTwBH1BdrNdMDVOKtks5AuOi3mOWaPljXMSyo9Pe8sFwyBGdG6RDtJOoPYcx1p1EBaahhTU5+7X/HowLnWKwzFE6ymwlS1C/HY/q9LDCuC0rKQPd0axlWEr3NnqTVdy17pF3V4TMMIr1kNXf4H2jtMzA2Ii/t3RqTFxF2112JpaJm2ufRU/aftvo9JqQcraY0/YHB/TEg4N9cRyu0EQAXKqHJEdZvnTQ1LZ6sTLsRzYChSFZd/WIHbWwoTeuZLOurGWA6ujwwCxB1NF0Tw73d9V3XgOi8+PxX5vP8ZP4N07vJOrU75D8XN/mr8Gbp1QNUwGjNKm1eBx2okCXNSlErHbz0Uur5xUNvUStECdQBhmsPX43P0sbi21Hklvh+Vo
+     procedure_id : 1917187338419135701
+     type_code : 15
+     code : |1+
+      PROCEDURE Procesar_Xml_var(sRes is string)
+      
+      res is boolean
+      gb_primerrow is boolean
+      s_name_tag is string
+      s_name is string 
+      gsfilename is string
+      j is int
+      res=XMLDocument("XML1",sRes)
+      res=XMLFind("XML1",Null,XMLElement+XMLChildItem,XMLStartWith)
+      gb_primerrow=False
+      WHILE XMLFound("XML1") //Para recorrer el XML
+      	SWITCH XMLElementType("XML1") 
+      		CASE XMLTag :
+      			s_name_tag = XMLElementName("XML1") // vou pegar nome da tag
+      			IF s_name_tag="r" THEN
+      				IF gb_primerrow=False 
+      					gb_primerrow=True
+      				ELSE
+      					//revisar si hay campos solo locales con valores por defecto
+      					
+      					FOR j=1 TO ArrayCount(scamposlocales)
+      						gsfilename  = sfile+"."+scamposlocales[j]
+      						SWITCH( sTiposlocales[j] )
+      							CASE "S" 
+      								{gsfilename}=sValoreslocales[j]
+      							CASE "N" 
+      								{gsfilename}=Val(sValoreslocales[j])
+      							CASE "D"
+      								{gsfilename}=StringToDate(sValoreslocales[j])
+      							CASE "B"
+      								IF sValoreslocales[j]="0" THEN
+      									{gsfilename}=False
+      								ELSE
+      									{gsfilename}=True
+      								END
+      						END 
+      						
+      					END
+      					
+      					HAdd(sfile)
+      				END
+      			ELSE
+      				s_name_tag=NoCharacter(s_name_tag,"a")
+      				j=Val(s_name_tag)
+      				//				j=ArraySeek(scamposExt,asLinearFirst,s_name_tag)
+      				IF j>0 THEN
+      					s_name=XMLData("XML1")
+      					gsfilename  = sfile+"."+sCampos[j]
+      					SWITCH( sTipos[j] )
+      						CASE "S" 
+      							{gsfilename}=s_name
+      						CASE "N" 
+      							{gsfilename}=Val(s_name)
+      						CASE "D"
+      							{gsfilename}=StringToDate(s_name,"yyyy-mm-dd")
+      						CASE "T"
+      							{gsfilename}=StringToDate(s_name,"yyyy-mm-ddThh:mm:ss")
+      							
+      					END 
+      					
+      				END
+      				
+      			END
+      	END
+      	XMLNext("XML1")
+      END
+      XMLClose("XML1")
+      IF gb_primerrow=True 
+      	HAdd(sfile)
+      END
+      
+      
+      
+      
+     type : 458752
+   -
+     name : Revisar_Login
+     procedure_id : 1917188029913487930
+     type_code : 15
+     code : |1+
+      PROCEDURE Revisar_Login()
+      hread(Parametros,1)
+      tHTime is time = Now()
+      dDate is date = Today()
+      dtUltimoacceso is datetime = DateToString(parametros.fecha_acceso,"yyyymmdd")+TimeToString(Parametros.hora_acceso,"hhmmss")
+      dtAhora is datetime = DateToString(dDate,"yyyymmdd")+TimeToString(tHTime,"hhmmss")
+      //por ahora preguntar si cambió de día
+      if DateDifference(Parametros.fecha_acceso,dDate) > 0 then
+      //validar usuario
+      	Global_Validar_usuario(Parametros.wsutrl,Parametros.usuario,Parametros.clave)
+      else
+      //if paso cierto tiempo 
+      //abrir ventana de login
+      	OpenMobileWindow(WIN_Acceso)
+      //END
+      end 
+      
+      
+     type : 458752
+   -
+     name : Inicializa
+     procedure_id : 1917191384287462330
+     type_code : 15
+     code : |1+
+      PROCEDURE Inicializa()
+      HDeleteAll(Usuarios)
+      ArrayDeleteAll(sCampos)
+      ArrayDeleteAll(sCamposExt)
+      ArrayDeleteAll(sTipos)
+      ArrayDeleteAll(scamposlocales)
+      ArrayDeleteAll(sValoreslocales)
+      ArrayDeleteAll(arrSParametros)
+      ArrayDeleteAll(arrSValParametros)
+      Global_Borrar_datos_locales()
+     type : 458752
+   -
+     name : Global_Validar_usuario
+     procedure_id : 1917964388212175284
+     type_code : 15
+     code : |1+
+      PROCEDURE Global_Validar_usuario(url is string, usuario is string, clave is string)
+      Inicializa()
+      
+      cuenta is int=0
+      nBr is int=0
+      sfile="Usuarios"
+      //gsTabla="v_sy_usuarios_ws_accesos"
+      gsTabla="sy_usuarios_ws"
+      gsStablename=gsTabla
+      sCampos=["usuario","clave","zona","idpromotor"] //,"zona"]
+      sTipos=["S","S","S","N"] //,"S"]
+      sParametros=""
+      sListacampos ="usuario,clave,zona,idpromotor" //,zona"
+      
+      sUrl=url
+      sservidor=Parametros.servidor
+      sInstancia=Parametros.instancia  //EDT_instancia //proveedores.instancia
+      sBasededatos=Parametros.basededatos  //EDT_Basededatos //Proveedores.basededatos
+      sUsuario =usuario 
+      sClave =clave 
+      sWhere=" usuario='"+sUsuario+"'"
+      
+      scamposlocales=[""]
+      sTiposlocales=[""]
+      //sProveedorinventario=""
+      //sValoreslocales=[sProveedorinventario]
+      sorder=""
+      Multitask(-1)
+      //Global_Leer_Tabla(sUrl,sservidor,sInstancia,sBasededatos,sUsuario,sClave, gsTabla, sListacampos,sWhere,sorder)
+      //Global_Leer_Tabla_str(sUrl,sservidor,sInstancia,sBasededatos,sUsuario,sClave, gsTabla, sListacampos,sWhere,sorder)
+      Global_Leer_Tabla_XML(sUrl,sservidor,sInstancia,sBasededatos,sUsuario,sClave, gsTabla, sListacampos,sWhere,sorder)
+      cuenta=0
+      HFirst(Usuarios)
+      HRead(Usuarios,1)
+      IF Usuarios.usuario=usuario AND Usuarios.clave=clave THEN
+      	//registrar ultimo acceso
+      	HRead(Parametros,1)
+      	parametros.idpromotor=usuarios.idpromotor
+      	Parametros.fecha_acceso=Today()
+      	Parametros.hora_acceso=Now()
+      	HSave(Parametros)
+      	
+      	IF gnaccesodatos=0 THEN
+      		Info(<§@19b700d10048e3780000§>)
+      	END
+      	
+      ELSE 
+      	Info("NO se puede validar cuentas de usuario en el Proveedor")
+      	//borrar datos historicos
+      	//borrar datos del telefono
+      	
+      	RESULT -1
+      END
+      RESULT 1
+      
+     type : 458752
+   -
+     name : Global_Sql_Record
+     procedure_id : 1929758175119025810
+     type_code : 15
+     code : |1+
+      PROCEDURE Global_Sql_Record(purl is string,Pservidor is string, pinstancia is string,pbasededatos is string,pusuario is string,pclave is string, ptabla is string, ptipo is string, pcampos is string, pvalores is string, pwhere is string,pidinsert is string )
+      WSDataSQLzService..Address=purl
+      
+      v1 is SQLRecord
+      v2 is SQLRecordResponse
+      
+      sResultado is string
+      
+      v1.usuario=pusuario
+      v1.clave=pclave
+      v1.servidor=Pservidor
+      v1.instancia=pinstancia
+      v1.basededatos=pbasededatos
+      v1.tabla=ptabla
+      v1.campos=NoRightCharacter(pcampos,",")
+      v1.tipo=ptipo
+      v1.valores=pvalores
+      v1.where=pwhere
+      v1.id=pidinsert
+      v2=SQLRecord(v1)
+      n is int=0
+      m is int=0
+      sResultado=v2.SQLRecordResult
+      IF ErrorOccurred()=True  THEN
+      	sResultado="error+"
+      //	info("Error: "+ptabla+" "+ErrorInfo)
+      END
+      result sResultado
+      		
+      //		IF IniOSMode() OR IniOSEmulatorMode() OR IniOSSimulatorMode() THEN
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+     type : 458752
+   -
+     name : Llenar_Where
+     procedure_id : 1929760666200178363
+     type_code : 15
+     code : |1+
+      PROCEDURE Llenar_Where(sDestino is string) : boolean 
+      sParametros=""
+      gsSqlwhere=""
+      m is int=0
+      sWherelocal is string = "Interface.Bdlocal='"+sfile+"' and Interface.Bddestino='"+sDestino+"'"
+      //FOR i=1 _TO_ HNbRec(Interface)
+      //	HRead(Interface,i)
+      //	IF Interface.Bdlocal=sfile AND Interface.Bddestino=sDestino then
+      FOR EACH Interface WHERE sWherelocal 
+      //FOR i=1 _TO_ HNbRec(Interface)
+      //	HRead(Interface,i)
+      	IF Interface.Bdlocal=sfile AND Interface.Bddestino=sDestino and Interface.Llave=true THEN
+      		m=m + 1 
+      		sParametros=sParametros+Interface.Bdlocal+"."+Interface.campolocal+"|"
+      		if gsSqlwhere<>"" then
+      			gsSqlwhere=gsSqlwhere+" and "
+      		END
+      		gssqlwhere=gsSqlwhere+interface.campodestino+" = "
+      		if Interface.Tipodedato="S" or interface.Tipodedato="D" or interface.tipodedato="T" then 
+      			gssqlwhere=gsSqlwhere+"'"
+      		END
+      		gssqlwhere=gssqlwhere+"%"+NumToString(m)
+      		IF Interface.Tipodedato="S" OR Interface.Tipodedato="D" OR Interface.Tipodedato="T" THEN 
+      			gssqlwhere=gsSqlwhere+"'"
+      		END
+      		gssqlwhere=gssqlwhere+"  "
+      	end
+      end
+      
+      
+      IF sparametros="" //ssqlwhereparam=""
+      	RESULT False
+      END
+      
+      RESULT True
+     type : 458752
+   -
+     name : Crear_campos_update
+     internal_properties : HgAAAB4AAABYLMcC9EIMQ/GYtD9Lfrjrfrz9UadVRexiiDxV0EHXrDbla19wIhA/2orpiTP6YFrQ6JP2Nf3fMb+b90vBuetowHSUg10T5ncGfORxAU2kZQyD2vt+McpHjzhk7HF+24Q4hpCgskexj2hvUDHC8kMQZ/2PC5CSIDIkWe+8s26y4AefhB4MqRMXYZpWiovbugmnfccxlrIZV3Hcc6MmkP8n9KrJRsdCCExccgo5yTAsbdxgvNk2K9vaQcxOV12P+L3XGKoGCCNQ23PJXSncwT73THYpY+3XivUqBZUX3598CYN5IZtv6h4sqAIiQd1Vx5C3W6EyaJZVql6zDQmxa7RVv4wOVmB0YY3VPJUlQQK/xv+HmTvGWwvTD02oX4EoMvXTjOFv2IwM1/4B4ea6Tx8yPFqaDgyXePLFKAaknkRs11+DaKtqkfi4/N5FqfHaaVnnVERHAHygAvt6ftQ003jFvWFhr6wAG52JDag+MwJACsLXcNoQOu7UFNGBzoK7rvLMc2FmxeB0ULQr88pZmspNjJeNr8r8wFqT8WR2PPTrAgGcm3MKWgD/ikvmLA6HcSPaCgyRThdRNe0uw5grObiBAUxC9ITjU6eCOMWrn1+TmRuKg1n0XCF3Zt4i8Z7w3V48CcL6OnFDaHHzyZ3R4wkUSlRBROP0yspbZA7vIszNepFPawf/GiOohyoTqr5JdSA9VVXYIaBR3bn2IxBqbdu1dE/T
+     procedure_id : 1929785937838655884
+     type_code : 15
+     code : |1+
+      PROCEDURE Crear_campos_update()
+      k is int =ArrayCount(sCampos)
+      sListacampos = ""
+      sfecha IS STRING=""
+      sTime is string=""
+      FOR li=1 TO k
+      	sListacampos= sListacampos+sCamposExt[li]+" = "
+      	IF sTipos[li]<>"N" THEN
+      		sListacampos=sListacampos+"'"
+      	END
+      	IF sTipos[li]="A" THEN
+      		sfecha=DateToString({sfile+"."+sCampos[li]},"YYYYMMDD")
+      		sTime=TimeToString({sfile+"."+sCampos[li]},"HH:MM:SS")
+      		sListacampos= sListacampos+sfecha+" "+sTime
+      	ELSE IF	sTipos[li]="T" THEN
+      		sTime=TimeToString({sfile+"."+sCampos[li]},"HH:MM:SS")
+      		sListacampos= sListacampos+sTime
+      	ELSE
+      		sListacampos=sListacampos+{sfile+"."+sCampos[li]}
+      	END
+      	IF sTipos[li]<>"N" THEN
+      		sListacampos=sListacampos+"'"
+      	END
+      	IF li<k THEN 
+      		sListacampos=sListacampos+","
+      	END
+      END
+      sListacampos=sListacampos
+     type : 458752
+   -
+     name : Crear_campos_insert
+     internal_properties : HgAAAB4AAACnwHEhVKE5sBjhbSe6QXF8eaMVULxub8e6jlKAQa4C5d3ck+9FgN5Xeu7yODc6vWge5SD9WVrKOOxH2K1StOM567dmMxu5Yvl7+wx7DeQKDQMZKOnbL1YXmTUyO5GMS8rkb6WgRpYFfQdv0KsJ5/ZzjiMbWZLQBVn8XDvJiUtdtWmFVTIEy6TUaf6mWkfFQ4xVzrvGHdz49oA98ym3MAc6BO/GfWLLDGSM3M930PFl44BIhKaVrP6ryFm8C1lfKSigUI5phykYmvdlaGp7oUsNjQaMvvp0sSKXe/72plTEVC0w3zKgeYIUP1B8AFpwhVU7s39AL35imv9W7LobIlm3sOKEmEbAGQdRmIm7EXxZgHdR0RVJuWzTDWvoxwGLPeUBsE/d6gbHeY1cjRwn+2y8jYUndtrJdPbyCAF+lvnIvKfa7IyhfiqMieNWMLtpD0CyJvTwyFxI6IeyayISkV35mE0fqaZMjR5ULKyfCsPIWuSFgswV8rbVCqwQotSZIdw9qnvdUzDW2Fnq3qQCMIZ0vBTM9/BOMU14DcQ4VEI1UktzDhndbPcDQ/+86p923woftyUw/+A9ybDRBxD1HzsL+yoSyixplkdmwz+XLMKdowZy0gJZCx5LTAJ4xDxg82ZF1R99pdAJckohl20fh7rW0WV32+X8AQedmUOhJjzW7krCVcwRNLTt0zF6Yv45olnnabQ3ZUdy4JmsHCNxlCxs+J2uam+rsl/f5mPfwHVJSwMoxIQPYaR1NFJ60sjb0NmyfZ9gGyu8zQ4plXaND0Clgs8Tk+X4iPUBr2rzwLQ33XeT8QLyOxrqUe+zzWGi7qrDddGmlrFSDEC1BveEpwraIFW3AYbER68zfetEgVks5EvdiumMUYcQU/W0UqzOz/ZPRPDzTCeOpKOR15H4kM52pj8coJ5XtuBAFZytYeLsmCMd/OjbwbCC/SjoJXmEhkOTcYdely7IzygoV1Leu0766K5Ac1dxHysmwHvzNJM=
+     procedure_id : 1929857315832553020
+     type_code : 15
+     code : |1-
+      PROCEDURE Crear_campos_insert()
+      //ojo permitir parametros
+      k is int =ArrayCount(sCampos)
+      sListacampos = ""
+      sListavalores=""
+      sfecha IS STRING=""
+      sTime is string=""
+      FOR li=1 TO k
+      	sListacampos= sListacampos+sCamposExt[li]+""
+      	IF sTipos[li]<>"N" AND {sfile+"."+sCampos[li]}<>sNull[li] THEN
+      		sListavalores=sListavalores+"'"
+      	END
+      	
+      	IF sTipos[li]="A" THEN
+      		sfecha=DateToString({sfile+"."+sCampos[li]},"YYYYMMDD")
+      		sTime=TimeToString({sfile+"."+sCampos[li]},"HH:MM:SS")
+      		sListavalores= sListavalores+sfecha+" "+sTime
+      	ELSE IF	sTipos[li]="T" THEN
+      		sTime=TimeToString({sfile+"."+sCampos[li]},"HH:MM:SS")
+      		sListavalores= sListavalores+sTime
+      	ELSE
+      		IF {sfile+"."+sCampos[li]}=sNull[li] THEN
+      			sListavalores= sListavalores+"null"
+      		ELSE
+      			sListavalores= sListavalores+{sfile+"."+sCampos[li]}
+      		END
+      	END
+      	IF sTipos[li]<>"N" AND {sfile+"."+sCampos[li]}<>sNull[li] THEN
+      		sListavalores=sListavalores+"'"
+      	END
+      	//	IF li<k and THEN 
+      	sListacampos=sListacampos+","
+      	sListavalores=sListavalores+","
+      	//	END
+      END
+      
+      k  =ArrayCount(scamposlocales)
+      FOR li=1 TO k
+      	sListacampos= sListacampos+scamposlocales[li]+""
+      	IF sTiposlocales[li]<>"N" THEN
+      		sListavalores=sListavalores+"'"
+      	END
+      	sListavalores= sListavalores+sValoreslocales[li]
+      	IF sTiposlocales[li]<>"N" THEN
+      		sListavalores=sListavalores+"'"
+      	END
+      	//	IF li<k THEN 
+      	sListacampos=sListacampos+","
+      	sListavalores=sListavalores+","
+      	//	END
+      	
+      END
+      sListacampos=NoRightCharacter(sListacampos,",")
+      sListavalores=NoRightCharacter(sListavalores,",")
+     type : 458752
+   -
+     name : Llenar_Campos_sin_llave
+     procedure_id : 1929862856346242755
+     type_code : 15
+     code : |1+
+      PROCEDURE Llenar_Campos_sin_llave(sDestino is string) : boolean 
+      sListacampos=""
+      sWherelocal is string = "Interface.Bdlocal='"+sfile+"' and Interface.Bddestino='"+sDestino+"'"
+      //FOR i=1 _TO_ HNbRec(Interface)
+      //	HRead(Interface,i)
+      //	IF Interface.Bdlocal=sfile AND Interface.Bddestino=sDestino then
+      FOR EACH Interface WHERE sWherelocal 
+      		IF  Interface.Llave=false and Interface.campolocal<>"" THEN
+      			Add(sCampos,Interface.campolocal)
+      			Add(sCamposExt,Interface.campodestino)
+      			sListacampos +=Interface.campodestino+","
+      			Add(sNull,Interface.valornull)
+      			Add(sTipos,Interface.Tipodedato)
+      		ELSE IF Interface.campolocal="" AND Interface.Defecto<>"" THEN
+      			Add(scamposlocales,Interface.campodestino)
+      			Add(sTiposlocales,Interface.Tipodedato)
+      			Add(sValoreslocales,Interface.Defecto)
+      		END
+      END
+      //	end
+      //END
+      
+      IF ArrayCount(sCampos)=0 AND ArrayCount(scamposlocales)=0 THEN
+      	RESULT False
+      END
+      
+      RESULT True
+     type : 458752
+   -
+     name : Global_Leer_Datos_Previos
+     procedure_id : 1930107029875623468
+     type_code : 15
+     code : |1+
+      PROCEDURE Global_Leer_Datos_Previos()
+      
+      i is int 
+      res is boolean
+      sUrl=Parametros.wsutrl 
+      sservidor=Parametros.servidor
+      sInstancia=Parametros.instancia
+      sBasededatos=Parametros.basededatos
+      sUsuario =Usuarios.usuario
+      sClave =Usuarios.clave
+      sWhere=""  
+      sorder=""
+      
+      //FOR j=1 _TO_ HNbRec( Tabla_interface )
+      HReadFirst(Tabla_interface)
+      for EACH Tabla_interface  where direccion="P"
+      //	HRead(Tabla_interface,j)	
+      //	IF Tabla_interface.direccion="P" THEN
+      		sfile=Tabla_interface.Bdlocal
+      		res=HDeleteAll(sfile)
+      		i=HNbRec(sfile)
+      		ArrayDeleteAll(sCampos)
+      		ArrayDeleteAll(sCamposExt)
+      		ArrayDeleteAll(sTipos)
+      		ArrayDeleteAll(scamposlocales)
+      		ArrayDeleteAll(sTiposlocales)
+      		ArrayDeleteAll(sValoreslocales)
+      		sListacampos=""
+      		sWhere=Tabla_interface.stwhere
+      		sParametros=Tabla_interface.parametros
+      		gsTablename=Tabla_interface.Bddestino
+      		sorder=""
+      		Procesar_parametros()
+      		Llenar_campos(gsTablename)
+      	
+      		IF ArrayCount(sCampos)=0 THEN
+      			RESULT False
+      		END
+      		//info(gsTablename)
+      		//Global_Leer_Tabla(sUrl,sservidor,sInstancia,sBasededatos,sUsuario,sClave, gsTablename, sListacampos,sWhere,sorder)
+      		//Global_Leer_Tabla_str(sUrl,sservidor,sInstancia,sBasededatos,sUsuario,sClave, gsTablename, sListacampos,sWhere,sorder)
+      		Global_Leer_Tabla_xml(sUrl,sservidor,sInstancia,sBasededatos,sUsuario,sClave, gsTablename, sListacampos,sWhere,sorder)
+      	
+      //	END
+      END
+      RESULT True
+      
+      
+     type : 458752
+   -
+     name : Global_Borrar_datos_locales
+     procedure_id : 1930107274688816355
+     type_code : 15
+     code : |1+
+      PROCEDURE Global_Borrar_datos_locales()
+      
+      //b is boolean
+      //b=Global_revisar_datos_sin_enviar()
+      //if b=false then
+      //	gnaccesodatos=0
+      //	result false
+      //else
+      //	gnaccesodatos=1
+      //END
+      
+      ToastDisplay("Borrando datos locales")
+      FOR EACH Tabla_interface  WHERE direccion="I"
+      
+      		
+      		IF Tabla_interface.borrardatos="S" THEN
+      			sfile=Tabla_interface.Bdlocal
+      			HDeleteAll(sfile)  
+      		END
+      
+      END
+      ToastDisplay("Datos locales borrados")
+      RESULT True
+      
+      
+      
+     type : 458752
+   -
+     name : Global_uploadimagebase64
+     procedure_id : 1930963063736943734
+     type_code : 15
+     code : |1+
+      PROCEDURE Global_uploadimagebase64(philera is string,pfilename is string )
+      WSDataSQLZService..Address=parametros.wsutrl
+      
+      v1 is UploadImageBase64
+      v2 is UploadImageBase64Response
+      
+      sResultado is string
+      v1.path=Parametros.folderimagenes
+      v1.ImgStr=philera
+      v1.ImageName=pfilename
+      v2=UploadImageBase64(v1)
+      RESULT sResultado
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+     type : 458752
+   -
+     name : Llenar_Campos_sin_llave_img
+     procedure_id : 1932029448286238099
+     type_code : 15
+     code : |1+
+      PROCEDURE Llenar_Campos_sin_llave_img(sDestino is string) : boolean 
+      sListacampos=""
+      sWherelocal is string = "InterfaseImagen.tablalocal='"+sfile+"' "  // and Interface.Bddestino='"+sDestino+"'"
+      FOR EACH InterfaseImagen WHERE sWherelocal 
+      	
+      //FOR i=1 _TO_ HNbRec(InterfaseImagen)
+      //	HRead(InterfaseImagen,i)
+      	IF InterfaseImagen.tablalocal=sfile AND InterfaseImagen.tabladestino=sDestino then
+      		if InterfaseImagen.tipodato="I" then
+      			Add(sCamposimg,InterfaseImagen.campoorigen)
+      			Add(sCamposExtimg,InterfaseImagen.campodestino)
+      			//if InterfaseImagen.prm_nombre_arch<>"" and InterfaseImagen.vprm_nombre_arch<>"" THEN
+      				add(sParametrosimg,InterfaseImagen.prm_nombre_arch)
+      				add(sValParametrosimg,InterfaseImagen.vprm_nombre_arch)	
+      			//END
+      	
+      			Add(scamposlocales,InterfaseImagen.camponombrearchivo)
+      			Add(sTiposlocales,"S")
+      			Add(sValoreslocales,"%"+ArrayCount(scamposimg))//InterfaseImagen.camponombrearchivo)
+      //			add(arrSImagendestino,InterfaseImagen.camponombrearchivo)
+      		ELSE IF  InterfaseImagen.Llave=False and InterfaseImagen.campoorigen<>""   and InterfaseImagen.campodestino<>"" THEN
+      			Add(sCampos,InterfaseImagen.campoORIGEN)
+      			Add(sCamposExt,InterfaseImagen.campodestino)
+      			sListacampos +=InterfaseImagen.campodestino+","
+      			Add(sTipos,InterfaseImagen.Tipodato)
+      		ELSE IF InterfaseImagen.campoorigen="" AND InterfaseImagen.Defecto<>"" THEN
+      			Add(scamposlocales,InterfaseImagen.campodestino)
+      			Add(sTiposlocales,InterfaseImagen.Tipodato)
+      			Add(sValoreslocales,InterfaseImagen.Defecto)
+      		END
+      	end 
+      END
+      
+      IF ArrayCount(sCampos)=0 AND ArrayCount(scamposlocales)=0 THEN
+      	RESULT False
+      END
+      
+      RESULT True
+      
+     type : 458752
+   -
+     name : Procesar_Parametros_var
+     procedure_id : 1932080661594957982
+     type_code : 15
+     code : |1+
+      PROCEDURE Procesar_Parametros_var(slista is string, svalor is string)
+      //li is int
+      //k is int
+      
+      IF slista<>"" AND Contains(slista,"%")  THEN
+      	slista=StringBuild(slista, svalor)
+      ENd
+     type : 458752
+   -
+     name : Global_revisar_datos_sin_enviar
+     procedure_id : 1940534244380068535
+     type_code : 15
+     code : |1+
+      PROCEDURE Global_revisar_datos_sin_enviar()
+      j is int
+      FOR j=1 _TO_ HNbRec( Tabla_interface )
+      	HRead(Tabla_interface,j)	
+      	 IF Tabla_interface.direccion="O" THEN
+      //for EACH Tabla_interface  WHERE direccion="O" FromBeginning
+          	sfile=Tabla_interface.Bdlocal
+      	    HSeekFirst(sfile,"esnuevo",1)
+           	if hfound()=true THEN
+          		RESULT false
+          	END
+          	HSeekFirst(sfile,"esmodificado",1)
+          	IF HFound()=True THEN
+          		RESULT False
+          	END
+      	end
+      END
+      
+      FOR EACH Tabla_InterfaseImagen  WHERE direccion="O" FromBeginning
+      	sfile=Tabla_InterfaseImagen.Bdlocal
+      	HSeekFirst(sfile,"m_esnuevo",1)
+      	IF HFound()=True THEN
+      		RESULT False
+      	END
+      	HSeekFirst(sfile,"m_esmodificado",1)
+      	IF HFound()=True THEN
+      		RESULT False
+      	END
+      	
+      END
+      
+      RESULT True
+      
+      
+      
+      
+     type : 458752
+   -
+     name : NumberInWords
+     procedure_id : 2104218685857290715
+     type_code : 15
+     code : |1+
+      PROCEDURE NumberInWords( rNumero is real,nidioma is int) 
+      
+      hilera is string =""
+      sMonto is string = NumToString(rNumero,"015.2f")
+      //=RIGHT("000000000000000000"+NumToString(rNumero,"000000000000.00"),15)
+      parte is string
+      parte = Middle(sMonto,1,3)
+      if nidioma=1 
+      	
+      	if parte="001"  THEN
+      		hilera="un mil "
+      	else 
+      		if parte <>"000" THEN
+      			hilera = NumberInWordsParte(parte,nidioma)+" mil "
+      		END
+      		
+      		parte=Middle(sMonto,4,3)
+      		if parte="001" THEN
+      			hilera=hilera+" un millón "
+      		else
+      		 if parte<>"000" THEN
+      		 	  hilera=hilera+" "+NumberInWordsParte(parte,nidioma)+" millones "
+      		 END
+      		END 
+      		
+      		parte=Middle(sMonto,7,3)
+      		if parte="001" THEN
+      			   hilera=hilera+" un mil"
+      		else
+      			 if parte<>"000" THEN
+      			 	 hilera=hilera+" "+NumberInWordsParte(parte,nidioma)+" mil "
+      			 END
+      		END 
+      		parte=Middle(sMonto,10,3)
+      		if parte<>"000" THEN
+      			hilera=hilera+" "+NumberInWordsParte(parte,nidioma)
+      		ELSE IF sMonto="000000000000.00"
+      			hilera=hilera+" cero "
+      		END
+      		if middle(sMonto,13,3)<>".00" 
+      			hilera=hilera+" con "+Middle(sMonto,14,2)
+      		end		
+        	 END	
+       END		
+       RESULT hilera 
+      	
+     type : 458752
+   -
+     name : NumberInWordsParte
+     procedure_id : 2104219772484073339
+     type_code : 15
+     code : |1+
+      PROCEDURE NumberInWordsParte(sParte is string, nIdioma is int )
+      sHilera is string ="" 
+      arrU_e is array of strings = ["un", "dos", "tres", "cuatro", "cinco","seis","siete","ocho","nueve"]
+      arrUc_e is array of strings = ["uno", "dos", "tres", "cuatro", "cinco","seis","sete","ocho","nove"]
+      arrD_e is array of strings = ["diez", "veinte", "treinta", "cuarenta", "cincuenta","sesenta","setenta","ochenta","noventa"]
+      arrDm_e is array of strings = ["once", "doce", "trece", "catorce", "quince","dieciseis","diecisiete","dieciocho","diecinueve"]
+      unidad is string=""
+      nPos is int 
+      
+      if nIdioma=1 
+      	if left(sParte,1)<>"0" 
+      		unidad=left(sParte,1)
+      		if  unidad="1"  
+      			if  Middle(sParte,2,2)="00"  
+      				sHilera="cien " 
+      			else 
+      				sHilera="ciento "
+      			end
+      		else
+      			if unidad="5" 
+      				 sHilera="quinientos "
+      			else
+      				nPos=Val(unidad)
+      				sHilera=arrUc_e[nPos]+"cientos" //rtrim(substring(@unidadescien,@pos+1,6))+'cientos '
+      			end
+      		END
+      	end 
+      	 
+      	
+      	if Middle(sParte,2,1)<>"0"
+      		unidad=Middle(sParte,2,1)
+      		nPos=Val(unidad)	
+      		if unidad="1" and Middle(sParte,3,1)<>"0" THEN
+      			nPos=Val(Middle(sParte,3,1))
+      			sHilera=sHilera+" "+arrDm_e[nPos] //]ltrim(substring(@dm,@pos+1,10));
+      			reSULT sHilera
+      		end
+      		if unidad="2" and Middle(sParte,3,1)<>"0" 
+      			sHilera=sHilera+" veinti"
+      			unidad=MIDDLE(sParte,3,1)
+      			if unidad="1" 
+      				  sHilera=sHilera+"un"
+      			else
+      				nPos=val(unidad)
+      				sHilera=sHilera+arrU_e[nPos]
+      			end
+      		else
+      			sHilera=sHilera+" "+arrD_e[nPos]
+      		end  //ltrim(substring(@decenas,@pos+1,9))
+      	end 
+      	
+      	if Middle(sParte,3,1)<>"0" and Middle(sParte,2,1)<>"1" and Middle(sParte,2,1)<>"2"
+      		
+      		if Middle(sParte,1,2)<>"00" and Middle(sParte,2,1)<>"0"  
+      			sHilera=sHilera+" y"
+      		end
+      		unidad=Middle(sParte,3,1)
+      		nPos=val(unidad)
+      		sHilera=sHilera+" "+arrU_e[nPos]
+      	end
+      	
+      END
+      
+      reSULT nospace(sHilera)
+     type : 458752
+   -
+     name : redondeo
+     procedure_id : 2263682493570492036
+     type_code : 15
+     code : |1+
+      // Summary: <specify the procedure action>
+      // Syntax:
+      //[ <Result> = ] redondeo (<monto> is real, <factor> is real)
+      //
+      // Parameters:
+      //	monto (real):<specify the role of monto>
+      //	factor (real):<specify the role of red>
+      // Return Value:
+      // 	real: // 	None
+      //
+      // For instance:
+      // Indicate an example.
+      //
+      PROCEDURE redondeo( monto is real,factor is real) 
+      
+      resultado is real=0
+       f is real =0
+      
+      if factor<>0 then
+      	f=100/factor*0.01	
+      	resultado = IntegerPart( (monto*f)+0.5) / f
+      else
+      	resultado=monto
+      end 
+      RESULT resultado
+      
+      
+      
+     type : 458752
+   -
+     name : imprime_texto
+     procedure_id : 1378054280280919961
+     type_code : 15
+     code : |1+
+      import android.util.Log;
+      import android.app.Activity;
+      import android.bluetooth.BluetoothAdapter;
+      import android.bluetooth.BluetoothDevice;
+      import android.bluetooth.BluetoothSocket;
+      import android.content.Intent;
+      import android.os.Bundle;
+      import android.os.Handler;
+      import android.util.Log;
+      import android.view.View;
+      import android.widget.TextView;
+      import android.widget.EditText;
+      import android.widget.Button;
+      import java.io.IOException;
+      import java.io.InputStream;
+      import java.io.OutputStream;
+      import java.util.Set;
+      import java.util.UUID;
+      
+      
+      //public static int imprime_texto(String impresora, int opcion) //String msg)
+      public static int imprime_texto(String impresora, String hilera) 
+      {
+      	String TAG = "PBT";
+      	
+      	
+      	BluetoothAdapter mBluetoothAdapter;
+      	BluetoothSocket mmSocket;
+      	BluetoothDevice mmDevice;
+      	
+      	OutputStream mmOutputStream;
+      	InputStream mmInputStream;
+      	Thread workerThread;
+      	
+      	byte[] readBuffer;
+      	int readBufferPosition;
+      	
+      	int counter;
+      	int resultado=-1;
+      	
+      	
+      	try {
+      		mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+      		
+      		Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
+      		Log.v(TAG, "1");
+      		if (pairedDevices.size() > 0) {
+      			Log.v(TAG, impresora);
+      			//impresora = "WOOSIM";
+      			for (BluetoothDevice device : pairedDevices) {
+      				Log.v(TAG, device.getName());
+      				//if (device.getName().equals(impresora)) {
+      					mmDevice = device;
+      					UUID uuid = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
+      					mmSocket = mmDevice.createRfcommSocketToServiceRecord(uuid);
+      					mmSocket.connect();
+      					mmOutputStream = mmSocket.getOutputStream();
+      					mmInputStream = mmSocket.getInputStream();
+      					String msg = hilera; //callWLProcedure_String("imprime_recibo");
+      					mmOutputStream.write(msg.getBytes());
+      					mmOutputStream.close();
+      					mmInputStream.close();
+      					mmSocket.close();
+      					resultado=1;
+      					break;
+      					//}  //impresora
+      			} //for
+      		} //if pairted device
+      	} catch (NullPointerException e) {
+      		e.printStackTrace();
+      	} catch (Exception e) {
+      		e.printStackTrace();
+      	}
+      	return resultado;
+      }
+      
+      
+     language : Java
+     type : 458752
+   -
+     name : inicializa_archivos
+     procedure_id : 1525012792516600016
+     type_code : 15
+     code : |1+
+      PROCEDURE inicializa_archivos()
+      IF HClose("")=False THEN
+      	Info("Error no se pudo cerrar archivos")
+      	RETURN 
+      END
+      sDataPath	is string	=fDataDir() // fcurrentDir() 
+      bResultado	is boolean
+      bResultado=fExtractResource("*.fic", sDataPath )
+      IF bResultado=False THEN
+      	Info("Error .fic"  +ErrorInfo())
+      ELSE
+      	ToastDisplay("Archivos",toastShort,vaMiddle,haCenter)
+      	//info("Archivos incializados")
+      END
+      bResultado=fExtractResource("*.ndx", sDataPath )
+      IF bResultado=False THEN
+      	Info("Error .ndx" +ErrorInfo())
+      ELSE
+      	ToastDisplay("Indices", toastshort, vaMiddle, haCenter)
+      	//Info("Inidices incializados")
+      END
+      bResultado=fExtractResource("*.mmo", sDataPath )
+      IF bResultado=False THEN
+      	//	Info("Error .mmo" +ErrorInfo())
+      ELSE
+      	ToastDisplay("Memos", toastShort, vaMiddle, haCenter)
+      	//info("Memos inicializados")
+      END
+      
+     type : 458752
+   -
+     name : leer_inicial
+     procedure_id : 1525013058806534318
+     type_code : 15
+     code : |1+
+      PROCEDURE leer_inicial()
+      hread(Parametros,1)
+      gscosecha=parametros.cosecha
+      gsrecibidor=Parametros.recibidor
+      ///info("leer inicial parametros "+gscosecha+" "+hrecnum(re_parametros))
+      IF HRecNum(re_parametros)>0 THEN
+      	HRead(re_parametros,1)
+      	gscosecha=re_parametros.cosecha
+      	//info("Re par "+gscosecha)
+      	//	gscosecha2=re_parametros.cosecha2
+      END
+      HRead(Usuarios,1)
+      //info("CANT USUARIOS "+hrecnum(Usuarios)+" "+herror()+" "+HErrorInfo())
+      if hrecnum(Usuarios)>0 then
+      	gsrecibidor=Usuarios.recibidor 
+      	//info("usuarios leido "+gsrecibidor)
+      end
+      hread(recibidores,1)
+      gsessifon=recibidores.essifon
+      //info("buscar recibidor:"+gsrecibidor+" "+HError()+" "+HErrorInfo())
+      HSeekFirst(recibidores,recibidor,gsrecibidor)
+      IF HFound(recibidores)=True THEN
+      	//info("es sifon "+gsessifon)
+      	gsessifon=recibidores.essifon
+      else
+      	//info("No se encuentra recibidor:"+gsrecibidor)
+      	gsessifon="R"
+      END
+      Parametros.recibidor=Usuarios.recibidor
+      parametros.cosecha=gscosecha
+      HSave(Parametros)
+      
+      HReadFirst(Parametros)
+      HReadFirst(re_parametros)
+      HReadFirst(Usuarios)
+      gscosecha=Parametros.cosecha
+      gswsurl=Parametros.wsutrl
+      gsNombreaplicacion=Parametros.nombreaplicacion
+      
+      gnClddrecibosconfinca=re_parametros.clddrecibosconfinca
+      gnClddrecibossinfinca=re_parametros.clddrecibossinfinca
+      
+      
+      
+      //info("fin inicial")
+      
+      
+     type : 458752
+   -
+     name : Global_Leer_Tabla_Str
+     procedure_id : 1611809988236239496
+     type_code : 15
+     code : |1+
+      PROCEDURE Global_Leer_Tabla_Str(sPurl is string,Pservidor is string, pinstancia is string,pbasededatos is string,pusuario is string,pclave is string, ptabla is string, pcampos is string, pwhere is string, porder is string)
+      WSDataSQLZService..Address=sPurl
+      
+      
+      sResultado is string
+      parametrosWS is a LeerTablaStr
+      sResultadot is a LeerTablaStrResponse
+      
+      
+      parametrosWS.usuario=pusuario
+      parametrosWS.clave=pclave
+      parametrosWS.servidor=Pservidor
+      parametrosWS.basededatos=pbasededatos
+      parametrosWS.instancia=pinstancia
+      parametrosWS.tabla=ptabla
+      parametrosWS.campos=NoRightCharacter(pcampos,",")
+      parametrosWS.where=pwhere
+      parametrosWS.order=porder
+      
+      sResultadot=LeerTablaStr(parametrosWS)
+      IF ErrorOccurred= True AND ErrorInfo<>"" THEN
+      	Info("Error cargando datos "+ptabla)
+      	sResultado="error+"	
+      	RETURN 
+      END
+      
+      
+      sResultado=sResultadot.LeerTablaStrResult
+      gsTablename=ptabla
+      IF sResultado<>"" THEN
+      	Procesar_Xml(sResultado,2)
+      END
+      
+      
+     type : 458752
+   -
+     name : Global_Leer_Tabla_XML
+     procedure_id : 1612027481291121136
+     type_code : 15
+     code : |1+
+      PROCEDURE Global_Leer_Tabla_XML(purl is string,Pservidor is string, pinstancia is string,pbasededatos is string,pusuario is string,pclave is string, ptabla is string, pcampos is string, pwhere is string, porder is string)
+      WSDataSQLZService..Address=purl
+      //info(WSDataSQLZService..Address)
+      sResultado is string
+      sName is string
+      sNamein is string
+      sPathin IS string
+      
+      sNamezipped is string
+      parametrosWS is a LeerTablaXML
+      sResultadot is a LeerTablaXMLResponse
+      respuesta is a DownloadFileBase64Response
+      parametrosDF is a FileDelete
+      sresultadoDF is a FileDeleteResponse
+      
+      
+      parametrosWS.usuario=pusuario
+      parametrosWS.clave=pclave
+      parametrosWS.servidor=Pservidor
+      parametrosWS.basededatos=pbasededatos
+      parametrosWS.instancia=pinstancia
+      parametrosWS.tabla=ptabla
+      parametrosWS.campos=NoRightCharacter(pcampos,",")
+      parametrosWS.where=pwhere
+      parametrosWS.order=porder
+      
+      sResultadot=LeerTablaXML(parametrosWS)
+      
+      //info("sresultado leer tabla"+sResultadot.LeerTablaXMLResult)
+      
+      parametrosWSD is a DownloadFileBase64
+      
+      
+      IF ErrorOccurred= True AND ErrorInfo<>"" THEN
+      	Info("Error cargando datos "+ptabla)
+      	sResultado="error+"
+      	RETURN
+      END
+      n is int
+      m is int
+      sResultado=sResultadot.LeerTablaXMLResult
+      
+      IF sResultado<>"" THEN
+      	//info("resultado "+sResultado)
+      	n = Position(sResultado, "<filename>", 1, FromBeginning)
+      	IF n>0 THEN
+      		nResOpenArchive is int
+      		nResExtractFile is int
+      
+      		//el el archivo mediante webservice
+      		m = Position(sResultado, "</filename>", 1, FromBeginning)
+      		sName=Middle(sResultado,n + 10, m - (n + 10))
+      			IF InAndroidSimulatorMode()=True OR IniOSSimulatorMode() THEN
+      				sNamein = "c:\sistemas\wsin\"+DateSys() + TimeSys() + ".zip"
+      				sPathin= "c:\sistemas\ws\"
+      			ELSE
+      				//sNamein= SysDirStorageCard()+"/"+DateSys() + TimeSys() + ".zip"
+      				//sPathin = SysDirStorageCard()+"/"//"/sdcard/recibo/"
+      				sNamein	= SysDirExternalStorage(0,ssePublicDocument)+"/"+DateSys() + TimeSys()+ ".zip"
+      				sPathin	= SysDirExternalStorage(0,ssePublicDocument)+"/"//"/sdcard/recibo/"
+      		END
+      			//info("name in"+sNamein)
+      			//info("path in"+sPathin)
+      		    //Info("SANME"+sName)
+      
+      			parametrosWSD.FNamein=sName
+      			respuesta=DownloadFileBase64(parametrosWSD)
+      			IF Left(respuesta,5)="Error"
+      				RETURN
+      			END
+      			//info("respuesta "+respuesta)
+      			//info(respuesta.DownloadFileBase64Result)
+      			MyBuffer is Buffer = Decode( respuesta.DownloadFileBase64Result ,encodeBASE64)
+      			IF fSaveBuffer(sNamein, MyBuffer)=False THEN
+      				//info("falso save buffer")
+      				RETURN
+      			END
+      			//Info("Resultado download file "+sName+" "+sNamein+" "+sPathin+" "+respuesta)
+      			snamearchive is string ="Archive"
+      			nResOpenArchive = zipOpen(snamearchive,sNamein,zipRead)
+      			//info(snamearchive+" resopen "+nResOpenArchive)
+      			IF nResOpenArchive=0 THEN
+      				nResExtractFile = zipExtractAll(snamearchive,sPathin,zipOverwrite)
+      				//info(sPathin+" res extact"+nResExtractFile)
+      				n = Position(sResultado, "<filenametxt>", 1, FromBeginning)
+      				m = Position(sResultado, "</filenametxt>", 1, FromBeginning)
+      				sNamezipped=Middle(sResultado,n + 13, m - (n + 13))
+      				sNamezipped=sPathin+sNamezipped
+      				zipClose(snamearchive)
+      				//INFO(sNamezipped)
+      			ELSE
+      				Info("Error abriendo Zip "+sNamein+" "+nResOpenArchive)
+      				RETURN
+      			END
+      		END
+      		Procesar_Xml(sNamezipped,1)
+      		fDelete(sNamein)
+      		fDelete(sNamezipped)
+      		parametrosDF.FName=sName
+      		sresultadoDF=FileDelete(parametrosDF)
+      else
+      //	INFO ("S RESULTADO=BLANCO")
+      END
+      
+      
+      RETURN
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : HgAAAB4AAADXPUOq6bQdTI/fs1mC0I6nimWl2G84EsAbne5i32IM05uoRA==
+  original_name : COL_NoName1
+resources :
+ string_res :
+  identifier : 0x19b700d10048e378
+  internal_properties : HgAAAB4AAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      es-ES : "Tiene datos sin Enviar, proceda primero"
+     index : 0
+custom_note :
+ internal_properties : HgAAAB4AAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

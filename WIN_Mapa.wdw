@@ -1,0 +1,197 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Mapa
+ major_version : 30
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Mapa
+ identifier : 0x2ac6788b0544c0bf
+ internal_properties : HgAAAB4AAACMQ521Mx854PqvhzeeDieHU+rQu908HELYCnhTW9As1z8g4zrf4WkLu7G0NqNEkwYi2BM62iZaDBjLsbryvLhFoPM/PMgrR5JircfdpdqBxzEkTLNmz/5m+fwzbf4Sp3YixfKSYZvwU+ZAftVHAJFjWV/AV9vfS1hw40e0OolNf9bNra0Wq1jTkjLLVlHHY7u3eAHVqcfOYdaSE92QYE2pq59kN94vEgtPRrYgqnOWS++E6DO1sl7Of+T2cH5YCRTRjsXGnn/59if0+xEY0X3Ksl5C+bjPVz9OINR3w406HOo+AFV71mBdtiWQyP3iKBLN9e8DFTzI23voKYNReHxCRujMeERf0EGOgD9DrcbOvzvwrk/Qnbw+5Jz2vgP/y0BPehOMOY6zSco2dGx7eRVdQqpSPXtU3bTFiN9pCOT0IPWAbVXwc9/LFcbdM5v9WGIpnmMJGveeDvrzBOaFGNgv52XPuD/XcOnVngcYPJ45j2sU+G4yPRTq5tW6UtJcX0f4g9H4IU2ke/GktxN8A6FAXAiORj9RHko+yMSByum6gtnOQsZMqtAhTCvcnsFk/sUALX8Jxvsy6c3JY1ThhgoamYT+ro/Pmly3fB9FX/iJKxkISely5Q7WmVPC89m9BrzlFunGNQJ6I/uHIRO0PqMXIK1vSAQYj24D0s0hp7p2VCRAcDw5AF7kntYGScniE239p9h5s2J86ARUX/s+ZHj4/R1/TbzsLn9jhDgKIgIEscteLmZ5Zg==
+ properties :
+  width : 320
+  height : 408
+  heightMin : 481
+ style : {}
+ controls :
+  -
+    name : MAP_Control
+    identifier : 0x2ac6788b0546c0bf
+    internal_properties : HgAAAB4AAAAsczGMj7zlMMp5bcNb3LsHe9D4D7kNMgLnas0tQKphX0tAWo0wh9NQJf+LaLhSqUM8eEXblqTfJwhvTMqXbkM0z6HSLYGk4AvxYSsr1VbDL9kaypdXRh6vZPFzg5gUlT912JicjRaUCQhL2JjwYy9PfSKDEKhobI1KT5yq3fdri7NctdID6yeoJrtSpqGuYLVd0Hk5bY82Z2T30Px/ZuodCYODc53uGiX1ciqThCMEeM1ymg15Sza1lQcBeAfVHJcstXvKU2h489OS4O/tcXM8WuxapCaoid5TpPl9tBLfaPrsBbDdKr+HAnvJUiWxi+FL+7sL0MJeIU8H9rc38rbqPS6qwlOUob5qaH43RMBxIsJhuFtSFFVhmF5B2T1EX5vetXeVnIBDAOqEz8Ldj9/vO2Csgfphkd80JS0=
+    properties :
+     x : 13
+     y : 61
+     width : 294
+     height : 261
+     anchor : 10
+     tab_stop : 0
+    style : {}
+    type : 92
+    code_elements :
+     type_code : 121
+     p_codes :
+      -
+        code : |1+
+         //if InAndroidEmulatorMode() or InAndroidSimulatorMode() then
+         //	MyMarker..Position=pos1 //MapGetPosition(MAP_NoName1)
+         //else 
+         //	MyMarker..Position = GPSGetPosition()
+         //end
+         //pos1= MyMarker.Position
+         MySelf..Zoom= 15
+         //MapAddMarker(MySelf, MyMarker)
+         //MapDisplayPosition(MySelf,pos1)
+        type : 14
+  -
+    name : BTN_Aqui
+    identifier : 0x2ac6788b0547c0bf
+    internal_properties : HgAAAB4AAACKmqBQIC5FWSzZC0Du7pf55Dm92hQuzp7qlzemPmL3j+tyTUGFQxWPtbLrKXdZeMsYhylNZfKu4OojlJ9kcH0Ltdh0m435FK0JeaunnpQKlDujt/v1ojJuBHeVlDKgypUMm6ye0GLDP5ROUoMxaITir70TFG45JkK+j9UKhfJ17Um8mJkJDzu9LQjuHBJ1ayq2IIMFfxyo+DelgT95BtQ95FE7h+IubbFNZn0u+bGqpHXbwBkNaxfA18jcszrhy4szCZ5HSq8M0W0tSS0zgH0zCIUA5Kc6BdWD1wvLFPmvFaoNFyRpidwUh8iB275GeMtWVbtL0K5QpZVBT/OQDHboqRJGCcAghjltDmtvbTcILLSfN1L9M8YqoMOkkq87oTPOhlMuwN91Tabsobt13W2WCsiidGyQu5WCxdKFmqVM5aZQViRDU1lUef3XcRyCvsaspu4lyRGvd55B3Z8c2FQ//3nkavGyYE/pRH8UEO1JpyjXf0aoJtA8KYfbVKv2fldjSSifbGgXN+Zz5olftwpZscymiMC9bsZjbaeGY3m7itU9T3wjlqr6F3HhR5tiQAgOYpHkWugRpHEaeyaXJMtXVtqllzmVbNprqSU7Ml93z87Ebkge6Rl7W+FNCWH7U9ydMyZN5Og5HoZj22rxfr+BRAxS13rI7sfi/jG+FKohwEA+9SpFo2pnQFBhgwI1SLcuozrGVSJs11TMo9/HlZSr2Ik9AHNaPOQDps3j4Bu9Cwe8z6CfYLU06sdWNgfUuOGImcyswwozDOXj+63yUFH6bFbrQNXrOEXeeEN6QwiCztI4g5LuznBVr7/v/ke5OMa+PjIX427PL4OlsnowEnGtMWaUrxC2PK2MWYrEDUK07g5EN9IsdvE=
+    properties :
+     x : 23
+     y : 5
+     width : 162
+     height : 48
+     accelerator_key : 65535
+     tab_order : 0
+    style : {}
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         pos1 =  GPSGetPosition() 
+         
+         MyPosition..Latitude = pos1.Latitude
+         MyPosition..Longitude = pos1.Longitude
+         MyMarker..Position = MyPosition
+         MapModifyMarker(MAP_Control,MyMarker)
+         MapDisplayPosition(MAP_Control, MyPosition)
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2ac6788b0545c0bf
+  internal_properties : HgAAAB4AAABarV/mVYTA5ywn5boRDvOhT8bTdu1P85fOlrQNMNhhUm2xVaAop6SwEDpe6yZkXE7j4P1Ll1+XqnjDcQR/bYZkCN6j7fc/JrB7L3WDhVBeYwlsxMZfYjfzp1dH28NXeugO5Ehqwru8P2ih0mEzYd9H9iJIdJRlBvz7S6HKOvzE1XYlRdjzYT2aVCiNjULqTH84z1QpGHEYYfmszGchGb2xfGAfiotQpBzUqbxvMmA7bgDNg2TVASAdDsZwwSEG20IPqXlCZ1CMP/gcaNY5aPUPUhRdWs2qbg1t52+cS4cyQR8kEJap8q+Xqh3v2IDJJue0k3aPuSJ0twPNs2KqC/YM6O2e++f5z+LXNJb/XU3u3bDCVHcfTLd4DifZe/D6gIogNTa/Lx2i3i85AgnEnED1OzBUtmina3kiU9s=
+  properties : {}
+  style : {}
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      code : |1-
+       
+      type : 18
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : HgAAAB4AAAC7LLhUimlj5DAjqB0aVHKziN4hvCyTvtpCy5zUDIDK5OKDGjG4MJkDHV6newThzgYw0hAR6zbkPuNHoWst73kXkecteIPwFhjg2StEX+sjhcd1YRoxbgooC/PnBOjMqihxVeEGx5SLosGpBHA9w92jNZ9h5RXm29ZPB47HIh+bz2UhXgsiLocpXO1n1EsCwe5mOoMjZOyQLvHcDyiet19LKnUWVWEIREM3Bb5+7np2ZiKz/+5Fp0r2kLpyjeelu3jsgxn2FnYJynOCc3lchtlHAfc5LW6GlWYNwArq7UiYTp8=
+  properties : {}
+  style : {}
+  options :
+   -
+     name : OPT_Ok
+     identifier : 0x2ac67f6605578847
+     internal_properties : HgAAAB4AAAC+KjbSfmVHlhEvLKfdORemcIwV383wKjHKL/hS5mjS9K3KTXxcgcdJjQO0pQPyzpM5JWZ/FI4LagBvLTX3KyqboKeT0s0OAVJMBP0o0DDCy7Z7vMz0aVGvBvx7M9BQDh0Y9enOEotPP8KqXO/jjJJxHAAjLgyoBcNlqMHY75wYNRWqIiopdDxt+vxphPvAvPZoNIYgAXFPV9gQ4474G3gVOqUYfGaQwohbpsZPeRa2UIU9dEQ9mCUbMh3ERYRXjIRPqM/hnNiuiFKsSq+oLqQIq0Xi+XpM/EuvBVTWK4iSrGByQsYUAV0M73f/
+     properties : {}
+     style : {}
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          gsubicacion= pos1.Latitude+","+pos1.Longitude
+          nuevaubicacion=true
+          close(WIN_Mapa , gsubicacion)
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - es-ES
+ popup_menus : []
+ message_bar :
+  internal_properties : HgAAAB4AAADPKdm8ON2zZA9ogOiS6KYIFYNZlnGRn+N9ZPKevWBgRiESVagdzTFHfvCwACkCasOt9FApnexsq7CNNF01k8knLdPa9uxFLlRuHcTa/mZdhqdcNibzz/GEXwKTCA==
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MyWindow( ubicacion is string)
+      gsubicacion is string = ubicacion 
+      MyMarker is Marker
+      MyPosition is geoPosition
+      gsLongitud is string
+      gsLatitud is string
+      nuevaubicacion= false
+      
+      gsLongitud = ExtractString(gsubicacion, 1, ",")
+      gsLatitud = ExtractString(gsubicacion, 2, ",")
+      
+      MyPosition..Latitude = gsLongitud
+      MyPosition..Longitude = gsLatitud
+      MyMarker..Position = MyPosition
+      //MyMarker..ActionClick = ProcMarkerClick
+      
+      MapAddMarker(MAP_Control,MyMarker)
+      MapDisplayPosition(MAP_Control,MyPosition)
+      
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+ code_parameters :
+  internal_properties : HgAAAB4AAAAqrd/dnpA7E6HdMDGpZzzaBCJrbGCwqmgAdI2eM6AYpx5V5ncyRwhgiOYNLyS4E5p3pX0JkZgB0VxEZtLT4fDdkxbcDCaNzshsB0cqpRI=
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1ac67808003ec388
+  internal_properties : HgAAAB4AAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : HgAAAB4AAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : HgAAAB4AAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

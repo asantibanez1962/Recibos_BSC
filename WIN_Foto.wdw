@@ -1,0 +1,267 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Foto
+ major_version : 30
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Foto
+ identifier : 0x2accb75d05a82741
+ internal_properties : HgAAAB4AAACk6GGuk6FwFHg/aUgAGEobrpw74c15orGSQL8ZcPZtlhEbYEWxASH23EYLX1pMGZOaHnAszaic0up27Jc1JMCQAHu2wmvCAJCu93dNS0Xm/lvgRiCxUioF+gNdrPyV8xM0VpisfMY6P+6BQqbgGvwvyLjPCjgdUfBlRrshJIx222fsA/dx32soqwN1Z0T0VemgZTJ7mWx3KPWOi6LHcnpTj83T0EwHDnaDUiIItL2CvIwCRQfaAWRXdu/ii/qRDj5bTepDnbdiE0yjMyukGWNUzWxGCLblKhNkSHH4/RTuwLawPsfC2AIk+XCumXzn61fXTd4fHEXcIljSRry+ZtTEp5cSeYwQMIq4kji55zWRgxA4Z+/SgsU58VcLzWGB0Ds+JEs6t4rPbXgsHRZiM0/JvIH0mfUYj+0unhtYdhhn7JrHTDk81U/HkKAVca+z0EMeAwIxHCUHZ81fduisWEo1/PiTd/ajyFw+au4AKyfoKyb8gw6PuD4igM69Ugl6kcQtl1UkcVDAwBwA3fOiVH4d1F5vMg3tXLCWMdzPin1P3qdkKH8QHecDAvRBVB/2kzCiblo1/9lliWXusfykGNI6xkVa7PfZyNeCjOB63vXcGihmY60qb4cACnIN2UulLdqVeIFXXoP0ewv8EPn7RzKHRCzvAAsRsZmrdVP7F8lTsD4teXhrC3S/uvfY7qbW/cg9q4I971HjrXWHb979VmIPIz10UWjU9cH5SSRrOq88xy2wV3KXi2HBGYzSZQ6tqbH9RT6djJqC5ow=
+ properties :
+  width : 320
+  height : 408
+  heightMin : 481
+ style : {}
+ controls :
+  -
+    name : IMG_Foto
+    identifier : 0x2accb75d05aa2741
+    internal_properties : HgAAAB4AAAB0FXzDVvH2audllKRn9zr5pWmjN7RExHfNhYHc8GC/mtt1yDhkHGMGkeEp3mKx9/TD2dqpC2k7WdYDkKRZwXvgTJnKsQ96zqAGinL5ipAdX5/U1MDSGI+6in73F5PIcmrK1uiuXADc+BBdeyTtAszuTVkC8HoJAtDov5etFoUszcwYtdup5DrUwWmw5p3smZqKDfAdngRwm2zeioH87gzaByxBeJhXLONkh+/03d4N1KHuSbSr3874vIW97M2vJoVUrWblJ4GUlNTlvg/6apx6HOLDZQavZU9BmOdu+XgKWOz3X/jg4kaa4e+EamO3riFtIanHxSpBKEl5F57Y/4/1HNXWEVcRZ5oTJUMBfE2jjt47hWXHzjP1puqb9Keckb03KTYD6UjhK20iMi2eYG4c9My2zZxmhPRLsNndNOmHB46UdPgCkuIukKddJGm16ofxLrWrvHeSYW1UvX6qZZNexPUmIwdLr/xIfy5l5q2b7AYKhhU1EbQHFw4mUSfad9BTcELcoGYpco2P7gElh1JUDQvm9bHDyloY5Ve8xDAEgFALzo2nFh9NTj/rDO7IQPpNiMi0ASqixAL5NWiZveVdxjbLch0YYEaO6VBojrD7Xx5Rb1BBRRB+Sk0bgf+OBhr1ZB+z2zsM3ChyoDp1jZX0V6QNJhoMQtoX07mjCbmIb7e1sQRq+rkzxyRtSJ3kyS5dyzft0Q/nEbVdCvyZrw0YJ/FiooYj9ZowAsf/Ov3buzUFBRQKK6WeyaAiL5ydP6XMDz+ecUw9BVyhQE+nN00RqIottXbqO9vYF50P2es7ZReUfYmZRulGYRn3lMOdpajLD893miy+lpB2xMzTjiACX/vs2qisqfvalRS2+Fd7cSG7u3mUhUrgAysdb1JVRvT7ikjPPC5CFc2raoADdqkRC9nNsWropM5EAbbXKJG7vHnVkRVOJyBqhRl0iw0i9WJ1qQljoEo0oV3+lDzG4ErCO0x5Dg==
+    properties :
+     x : 10
+     y : 17
+     width : 302
+     height : 183
+     data_binding : proveedores.foto
+     tab_stop : 0
+     take_focus : 0
+     accelerator_key : 65535
+     group : GR_campos
+    style : {}
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_Foto
+    identifier : 0x2ace7fc6422ffef8
+    internal_properties : HgAAAB4AAACgD1yYj3y9mhQ70SZJhn1TOj2mj0/ewe7A1uuOUfdBsldYLJmsPVltt/F1yflTWj56nRBSgRTivSn/6eyEPu3Tww0tM8DMGg4si9b9iExMnFSJB9Dme/tnUxyfrLmUKqBNrYXYJb/BSuAgwEOFqNvU0yfjnN+q4KMhcq7CUm/yCiVEvQz8yawKl3s4bfRFNYQk8Abda/HylCm2ohrRmfpV92LAiiAQf5I9Q9lgqWOuBxcrDN2u6aofaYtLRFqv8HEkH0Wb43hqbF/TflWXsPSXbLVTnG/8hZAPGVDUBB0TP8QKMEMx4pfun38gCXqurA9htqvZOI4YUlzajiFttXsdthVPfyxGFRJT2JIRbuYSXJVBUvaxG+l1roKnKjYJWMKRCIzS75UgOhW1ypRmPKhsa0H1LIkjd9LqKwoW5fSHLbWvBBbqyduJy8v3OtAVfzfVQsoVCeS7nxtTIK3NnBhT1M0FI36IsGAoHsn1q4XPIubDp+SQ1kozFbCyOayI/3ZmVgfcUe2zV4/+WzzLG6OBlvisi6Ke0Vka6ufJeBnNZNeHmsO05BpQIKOnw0PTDhTpKoikjMxyS9Pj4RuvPU2McJ21WUJP5o8p39s/rhWt5yDr1VYFldNorWSWGOMug+it8eswvOGCIjsrnJkrQRJPnEiX61tn2kVqAhJgaQujJP0Nc83xDZXPm6fqyX8v7o++pWcJ5FSaDQjJqpi63yInfDUjgqhKVov1a6aZxuGYrcTk4VulEHR/LgmUnbRtaJspmtHbtj9i1/MW47WSHGIRMMw9sLFllMN1XlD4FLjpikIhTTF1K0oJcysH8mwbUeDaqRJQH9qJXlFUW004evbjRq/XNL9f6K9vXFC/Ul4d0TwXV/aRNeOLnH85EZjk+Q+vrLnJTdAmDX2LLhKNTE+M
+    properties :
+     x : 92
+     y : 208
+     width : 124
+     height : 32
+     accelerator_key : 65535
+     tab_order : 0
+    style : {}
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         sPhoto is string
+         //bResult1 is boolean
+         ImageInfo is string
+         nPich is int
+         nPicw is int
+         bufImageBuffer is buffer 
+         
+         <if ExecutionTarget=Android>
+         		IF InAndroidEmulatorMode() OR InAndroidSimulatorMode() THEN
+         			sPhoto="c:\sistemas\ws\productor_cedula_01-01052.jpg"
+         			sdest="c:\sistemas\ws\productor_cedula_01-01052a.jpg"
+         			fdelete(sDest)
+         	//		MyImage=dLoadImage(sphoto)
+         		ELSE
+         			sPhoto = PhotoRunApp()
+         			IF sPhoto = "" THEN
+         				info("No se cargó foto")
+         				return
+         			else
+         				//info(sPhoto)
+         			END
+         		END
+         		IMG_FotoTemp..Width = -1
+         		IMG_FotoTemp..Height = -1
+         		IMG_FotoTemp=sPhoto
+         		// Get the Width and Heigth of the image
+         		ImageInfo = BitmapInfo(sPhoto)
+         		nPich = Val(ExtractString(ImageInfo, 3))
+         		nPicw =  Val(ExtractString(ImageInfo, 2))
+         		
+         		if nPich>1152 or nPicw>2048 then
+         			IMG_FotoTemp..Width = 2048
+         			IMG_FotoTemp..Height = 1152
+         			sDest = fExtractPath(sPhoto, fDrive + fDirectory + fFileName) + "_thumb.jpg"
+         			bufImageBuffer=dSaveImageJPEG(IMG_FotoTemp,sDest)
+         			//Info("grande",sDest)
+         		else
+         			sDest=sPhoto
+         			//info("normal")
+         		end
+         		IMG_FotoTemp=sDest
+         		//if InAndroidEmulatorMode() or InAndroidSimulatorMode() then
+         		//	sDest=sPhoto
+         		//else
+         		//	VideoGenerateThumbnail(sPhoto,sDest)
+         		//	info(sDest)
+         		//END
+         	//	MyImage=dLoadImage(sDest)
+         	//	HLinkMemo(proveedores,foto,sDest)
+         		IMG_Foto=sDest
+         	//ScreenToFile()
+         	//hsave(proveedores)
+         	//HModify(proveedores)
+         	
+         		fDelete(sPhoto)
+         	//	fdelete(sDest)	no se puede borrar hasta despues de salvar
+         	
+         		GR_campos..Modified=true
+         	
+         <else if ExecutionTarget=iOS>
+         	IF proveedores.foto="" THEN
+         		PhotoRunApp(CB_PhotoRunApp)
+         			INTERNAL PROCEDURE CB_PhotoRunApp(sPath is string)
+         			// If the return is an empty string vide (""), an error occurred
+         			IF sPath ~= "" THEN
+         				Error(ErrorInfo())
+         				RETURN
+         			END
+         			MyImage = dLoadImage(sPath)
+         			proveedores.m_esnuevo=True
+         			//Info("Foto grabada en : " + sPath)
+         			proveedores.foto=MyImage
+         			proveedores.m_esmodificado=True
+         			ScreenToFile()
+         			HSave(proveedores)
+         			END
+         	END
+         	
+         <end>
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_FotoTemp
+    identifier : 0x2ace8d2847d544de
+    internal_properties : HgAAAB4AAABADw6MWWa48m10fB0s8HRd+9t1WX09EyEvWWMx8J2iwcA9EBjXGgyEq1pL6C9YVsOyqAG74Gg+aOchuLDpODjuDRkff23CHDowQzvKRKAordzS64VhFDskkaEp4HT536Mt7OmU+BZgM+TL/Bn3IriVJjV1D0XEPlJPmxbual5RY/iFICtRD5Vmz+06gzmCJhfRFXra05e1njDhb48O7B872cS2Cnv+6XDv9aN8D2ECvbvWVFe/0s44r2BWNVepKVRBqOsEq4QMTvZDs67TFzoXaP44Lz6iqzFu9pj+m4rbiY47H32Ik+UL79H9OVUdis6DsWAoqpxROcRKeTF8yjhMme4/gKYH8ZvxIHTWnElZlinKOk1Xs3SFV1vOfED7sihPiPRFEL/S/bTn0PYpd4vTB/2PhtVbUC+5r8SZ19FVjo6RzX25j7xSe4+SCE2AbXttbrtpfuSI7wH5GMFmA9KX//Or/O0FYRHN+riLrxBvdszgusz4Hg/D29y8GkJc/BavR1xIYdVSzxgxCvZkK7hg54UR8m4yQ7/YOsGDdWFVQdds0yrKY1uNwKYBT/Q0Y5R1fNi3XTLlPdIMxZIGQtRRXPTY3MNrKZEwJLntEUY3G4+5t7JAs9IEdfT0pANydQI7MKDxzPSDPcnQBBxwDluDk6OqWVEeLWm1KYkqvIGJhjQuO/Z3Gd7KLMaromrqcx9nexcPQMxt+f6fyWVBxbG6yQVFZQmhMs40Yq4+AfTQ7lHk4mAuPhCwvdvJZsSkUNIz2uV/QBCbcmGgyAXi5HlgVMDL4RKgJrznhkSrUzEcJnrKOI9d9uWpXeqEpE84KieDCUxvrfwknTRNOqeoDMrD6/vi4QarsAhYB8409ws8mweq1EYR5/z6l/7qiLNUlI2qgWx9CJuYGsXPdmWWIYaAVK9fd/0cb11iig==
+    properties :
+     x : 386
+     y : 124
+     width : 184
+     height : 200
+     tab_stop : 0
+     take_focus : 0
+     accelerator_key : 65535
+    style : {}
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2accb75d05a92741
+  internal_properties : HgAAAB4AAAAWeRtSISCcswCTIXbdSu+9Q0pHimHDdws66qhRVKyFNlm9Uaw0o9C8FDbKd5KAaHon1FEf+3O7nuRX9Yjz4QoIJLoPBR8PbogjF82z/SiOGzE8pMavGgezh2eXgxPnglj+bICiGtskt9A5ygErub8vPgKYhPSdFvw7W4ECWpzsZVbdLfArEUWyrFAVzfribNewT5R5CNloofmcfB/h9aFF+GwL9sec2MioNTjLVlyPMnw5f7CBzdRZAvIcPSUCnzbLhWUeU6zAazyoFKL9tFlzDtCJpnlG4gmBMyv47xN21VvQbOJFbiMTPnmrBMSV2utwP7IbZR5YE49Zzw4eh3KIZGEKD9PVozZ7aFoziTGCcSS+WHMTULN0CiPFV5Qm3GYcKSJDq5kmYqOt9h3QYAQ5/3woYrwL1+VeHxc=
+  properties : {}
+  style : {}
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : HgAAAB4AAAC7LLhUimlj5DAjqB0aVHKziN4hvCyTvtpCy5zUDIDK5OKDGjG4MJkDHV6newThzgYw0hAR6zbkPuNHoWst73kXkecteIPwFhjg2StEX+sjhcd1YRoxbgooC/PnBOjMqihxVeEGx5SLosGpBHA9w92jNZ9h5RXm29ZPB47HIh+bz2UhXgsiLocpXO1n1EsCwe5mOoMjZOyQLvHcDyiet19LKnUWVWEIREM3Bb5+7np2ZiKz/+5Fp0r2kLpyjeelu3jsgxn2FnYJynOCc3lchtlHAfc5LW6GlWYNwArq7UiYTp8=
+  properties : {}
+  style : {}
+  options :
+   -
+     name : OPT_Ok
+     identifier : 0x2ace85a9426efd91
+     internal_properties : HgAAAB4AAAC+KjbSfmVHlhEvLKfdORemcIwV383wKjHKL/hS5mjS9K3KTXxcgcdJjQO0pQPyzpM5JWZ/FI4LagBvLTX3KyqboKeT0s0OAVJMBP0o0DDCy7Z7vMz0aVGvBvx7M9BQDh0Y9enOEotPP8KqXO/jjJJxHAAjLgyoBcNlqMHY75wYNRWqIiopdDxt+vxphPvAvPZoNIYgAXFPV9gQ4474G3gVOqUYfGaQwohbpsZPeRa2UIU9dEQ9mCUbMh3ERYRXjIRPqM/hnNiuiFKsSq+oLqQIq0Xi+XpM/EuvBVTWK4iSrGByQsYUAV0M73f/
+     properties : {}
+     style : {}
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          ScreenToFile()
+          proveedores.m_esnuevo=True
+          proveedores.m_esmodificado=True
+          HSave(proveedores)
+          gbgrabado=True
+          fdelete(sDest)
+          close()
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - es-ES
+ popup_menus : []
+ message_bar :
+  internal_properties : HgAAAB4AAADwwNalJdqoaQJ7Nw2xN9stOt76816wbsOLiiZkAG/BNiESVSidTTFH/vAwgKmCqoNtNJBpXSws63DN9J1FhBvQdKZ7axsWiTELeqEFIUN+pUTxQyn+xOyBWAusNw==
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MyWindow()
+      gbgrabado is boolean=false
+      MyImage is Image
+      sDest is string
+   -
+     code : |1+
+      
+      FileToScreen()
+      MyImage=IMG_Foto
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+ code_parameters :
+  internal_properties : HgAAAB4AAAAqrd/dnpA7E6HdMDGpZzzaBCJrbGCwqmgAdI2eM6AYpx5V5ncyRwhgiOYNLyS4E5p3pX0JkZgB0VxEZtLT4fDdkxbcDCaNzshsB0cqpRI=
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1accb741005fb899
+  internal_properties : HgAAAB4AAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      es-ES : "Datos sin Grabar, desea salir"
+     index : 0
+custom_note :
+ internal_properties : HgAAAB4AAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : HgAAAB4AAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

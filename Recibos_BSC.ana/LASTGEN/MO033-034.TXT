@@ -1,0 +1,3 @@
+//MO033-034.TXT ANA00033 TO ANA00034
+remedida		TAR	343	new record size: 343
+remedida	cantidad	CNW	Decimal$4-byte integer	new type for cantidad item: Decimal

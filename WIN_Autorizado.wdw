@@ -1,0 +1,319 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Autorizado
+ major_version : 30
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Autorizado
+ identifier : 0x2b18b2d2075c8c48
+ internal_properties : HgAAAB4AAACRu39POGjt77MkmGaU9tPwsEGhJsoWa85x926xNtLcfvrkbjjCmiCfEXP4n5BPG+FMAhIGiN6IEOOtSGhbZ7Aunvt9DFK8bT0/5PQIIew4xTQYnTvrYJ3/pW03JouZUlIm80+lFd5Eh0DTxmFzGHSuSnZy8o3WsVMSjxE2KOI93i7ZQg05szbesVSj869eW+mafo4/v4BznCLp425gdNlNP6OrSDjmB+1hxiRMV8zMr82vU3b5SIBt8GAvbDzeCLwJj5MjUsFNcigbl//Nxo2wYLZDKBQQBrcGiu8PpqgxGvwgnC9wQz7T5Mxd+lH5LcZlDZ/FsZnxtATwknEgVALINvaVO5D6s+iNRGUQLdbrkTWvZInfLLDIt1KVHZyaixsBOzfV6g+Xip6DNQBUpF7sBKIG5fnUI3OXNYEUIr2qoQBQSqF02XO1c4dD15VQOxACamT5pJUfVRjgJmLmoUXCtoXXv44RAvyvGzDQO2iL2HINSf7fpsBW280ZBv2FOgvNWhOs2fAw7l1P8bFglcHQJgnpom2FdFopOIoJjEi4U9epOHfoj7VXo0tPeANxjDX6Mfzx833Z506/O6JKc5P3DtQI9tnHUtfTM8qEGB7fJ5xxT6sCkXWgNwvndZzVkZ7eLKACAbqdFwH38bHgjlDutWLIww60YxIfOQyvr/QtxBR9tIS8uFI8584usyQzCblwRoeluP5Y3lP0FTDvFLfryIEJflo56x7iCsngPzLRszgvrcWs7e+8uZcGHKscV8Xh6LGP6apwjZU2RXZPMKEV8Z6S
+ properties :
+  width : 320
+  height : 408
+  heightMin : 481
+ style : {}
+ controls :
+  -
+    name : COMBO_Proveedores
+    identifier : 0x2b18b2d207658c48
+    internal_properties : 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
+    properties :
+     x : 13
+     y : 35
+     width : 250
+     height : 46
+     state : 1
+     data_binding : proveedores_autorizados.codigo_autorizado
+     accelerator_key : 65535
+     tab_order : 0
+    style : {}
+    dropdown :
+     internal_properties : HgAAAB4AAAC5wK+17oZwpSPZwH6sHyBhHlxCrW/FsqYrJNyXmhY0z8TMNbnI2GWjRUm/Qko8Jr7/hSuAfBQEDyNR1ObOEXn+cTpDoxbopTUPmZn7VNy/kI7onr9psZSVUhzcSqjjcvBkwVAKMVGmUqY29jKeSTzts3Zre9Bx1dPh4YI/TeqRHeO3lCrc4apis929SvoD59VOXvQ/Us9AmiNZJc106l5xj2tVH/2nvsYoO/JUuPmvw1cxszryjvDA5+s0s0eFAddrr0QNdkejPvcq/EA4z+zTC/Qjm5iO+I/cbWqWCMO4u7ipixstBoKoB9KF3L2UcdvoXmFppqI5X44T+7SZ80YCXKPsRdOHHd58jQYqoEKk1NCEZdcwiHxTHSOAHW0fT8hnMeWqcERIZ92wG5HPv4OS9TW2nfcUEl4y3FCduCK4NEtDsC55AzylezNT749TlmCUjyYL+kLUvWbhdjOo88IIoqxpJGLbhia1kGCGN+l2X85Wll/XowdyP7U626+NoEiCjZoCtDEYUhYiPqIRqyc15BS9qd4t74czQuN8MH6LTouNhtCzmRACeEMcRMSmvacbW0EL+20Ova9fTnbsuLgq2sHB1oXbhKc8otbYJjH2GtkIhle0dL9Hn8KgzB8SDnM8JMIHzZW5ZnW2ULhRTOILi/BjB+6Rj5iUNxQvn7OeZpRSDoIm2ebr/rl8jbTkGWTyJCRDuTKqh4g9kAUDbPl7TYQpCjZJgRTG9mUsdk9jnd6V+2MNHTQs2THDPVRv7S95GHHEz5TYrqnXiWDgM6zOPT8XmNL7qhMSpUehI2slpK1RGJF2aakTEcxI9NvkvgHSj/bRwmXIaoC0bWHUG1us+Yq20z5EqmQpU0NMJqaP5+GI5NUDdLn7L6q5SXS0C3pLtpWM3MSBsmBQJC+JO9lvAcFtuCuSBBGM6kwZIyHM1AEKMd+szqDcH6ALPbK7trU=
+     properties : {}
+     style :
+      scrollbar : {}
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1-
+         gsProveedor=COMBO_Proveedores..StoredValue
+         //llenar en combo_finca el valor de la finca en gsfinca
+         //COMBO_finca..Value=GSFINCA
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : BTN_NoName1
+    identifier : 0x2b18b2d207688c48
+    internal_properties : HgAAAB4AAACM+NDJuT57JRQ/u7AONVyl5kc1DMYIpKtcxzqvdCdC/gY8ohyT5s+4SRvqyA+jnFJQCNci+rySfmJ8oPX3Qjm9j+PN09bX5GciDOzdHfostE5c6vc2kBCh5reTEPsuZ9UTr8HlRIaKJQiDVLEYU/wKV+Zd5hN8XMODTSWhaVnYq/F5iHk7AiBfc0Q3DxhBjkaZotHAC8UAtDLUV53QHxZLN20CiTxRV1LehHRC+B+bHQl78wxvSpStIxNDPvYDYk3om9/lI/lsjN2scLlSeKht0cwWWy3iwripjZbGtcUiFrmevj4d+aiwt4uO2iPDXuJQegv3a65EMSnvGlKPOUl9nQZcpxmgsA3M3VCyGi8t4Qd2CKEoyhPVrTzXB7V1oD+GIy9J69conaKi55ItV5h6NDJBiemuxiM6hw1HMyhixsYu6X3/MDgIxjN6jQWcvnrVe+Ev/x6PVKGxHqTjP71BSa4agS8CijbV+RQyB5x0VmW9KaeeMhRrwoe9gZfo2T3NETh3mGlJUmqF1Zd3/oTjvTAWfuuxW0vlix0ysVrom3ZOpQWb/LBWWbCO6wuDRDh+uREZGqycVtCILM6EVHEvwATykY3gOpoHnbLc2Bp32Yflnn/JEX/0ajWBQJKKcObYf9GEjCSwQVn9xK2/Umu6DRTmiDQPMoSOPNxjCGpIOFQ93MfLlZvwRwv+K4elSbhZAGyUpowpL+TFKcev2XKJhf5s5hsnWaUn7sKC42z+ZEmcn7NKiQa9DjF4/oIzvYcJnZVAC73haEErBcj9uv7q7V4yxj6DvqjuaOY/7QsUzxlRta0cHFtFVGb6PVOAUdUrtEEeL8oK5QErZQP8Ydso+B9qXoy0H2bBBGWnKn9JH93YUIQMR9enpsK40qQcah8vDQI0sGFT982eG08sUt2zmZ0=
+    properties :
+     x : 257
+     y : 37
+     width : 57
+     height : 43
+     accelerator_key : 65535
+     tab_order : 1
+    style : {}
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         
+         <if ExecutionTarget=Android>
+         	
+         		OpenChild(WIN_Entregadores_Table)
+         	
+         <else if ExecutionTarget=iOS>
+         	//OpenChild(WIN_Productores_Table_ios)
+         	
+         <end>
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EDT_Cedula
+    identifier : 0x2b18b5b9082ee4d2
+    internal_properties : HgAAAB4AAADu4Ma4EJitgcjl1XPAxFSl8/YsTsdXvB+ixCZYXou/W4CsgVleKP56/eS1AFQX6VynT1jHEoP4w7awOSQVNLncVzP3Byr6M4hRgl0DqKW4bn+FL3j/KpAf3ytIgAey5IRrhasJOwQH1je9AKoIZ4j+myhOM89fb6Ys7p8VEFCLYQiTB+45ZZ89FhVW2VVIc+INuNcYao2x6pWqyXN4YIY2QQ+QgHuYjFwzg8x0SXGl5MpNP7uUMVgEXdrQ9y7Dm+fSHVROjAJNSVmAHCAvRoBuff7AjyCTAZVR7kaSB5ia9brrEdvdZq609HXuTo4/4cHfEltuWLoAX2qbdNhDpRv9dps5YDqkMIhgbi5jXjn9urIj40fI3BHXCcpgkLZhCvzYVe5sMZBs9UpR7LOebOUwRJH52QvJZdM6PJebD+fJdQnNliMENBq7XerfWstWHRTDcZJTAw9CUiZftVFYFDvVlc3agAf8MbMLQMFZ64ctJwAzHCK+0+KPyFihvaNUCzSxFl8xkAdS0bpmAY7ZaQS9KqWW/W7ib5ocqIMD9Jy9HWMNnohWjFZtDCRx0kVbHYh9xhWBLGI/1qJTVO15SZnkhYiKZx5HLz2iR57HAXGfF29VbWdq6I1iy0Yf8XWaC+Hkap8EXaFNPN46VcaCA74TzhiRpODI4DIoGvUF6Ta2GqrzgvqO/g2pI9055tdxidr6xUBlUK2ycvPX08RCZxhQuVjBFBq/m8WMz+H9GUpN8XtYA9GH5NUuRDB+qKKltIppyzAkkI74YYu21OfVifu/9SXXiYILps/BpmUruc1Isfv9sActgp3YZ8o4UMYWLJSIRoYuIx3KGSoFAs13+lxBZe+kgme/YKEyus1qxVvjUJNMw9xoRg4GfiZ49XcqmU+0htvaLkxwFd66g5MGsB9mR3VwxogLPxOHtRXQjPgdRQ5oi1C3w9ZRHXUzj1yps3PZkajqPlpEKvBZpkdBPndeLknX9V5NZn5mTOY7VJMJWdxLT3nrUI4MYu0NmPpBoMvExV6bR28EnNN2LAqxh1IIsShX3t5gK2/8JwXqJxcdfXGl15UywCXmQp1Nzo3aUIVgJXopBcWsjwABVDG+mcC/sKyxPZHp4iHrfG5LYa+zqVUgP1Kh89XRdhbEU43WyVgpw/CJgXMcWws6WGMjxkfx+OV6x5GimFjrOp4GlBcsuIeYmxlxWdfWMIW5E78/lmkc56falKoHy1yOpNnjhc2LmAQwwlYY2IZrgZmwcOX9iYB9iAGh2QjpWqbVJZ5Hevb5wVXmLV5n4utImDygm4kEr+64Iq4qN1/pgBJiwb3nS3G4C1Ske+t1Fuw+hTx0u5wSTeyyY+e2FxCAlIo3XmOSvIAXeA7r6Kl5on+YHdi4JKaYKT4QsPM=
+    properties :
+     x : 13
+     y : 99
+     width : 273
+     height : 48
+     data_binding : proveedores_autorizados.cedula
+     accelerator_key : 65535
+     tab_order : 2
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : EDT_Nombre
+    identifier : 0x2b18b9d108fbe011
+    internal_properties : HgAAAB4AAADP/BO9cUEPcFDjUYwbPoY+RuvRjjDVZqJbMTcJC/OSCjss/+Qn2UXMKxY0O3g9pfOHel1g2pYvkcxjguiYusklzLhfp1XzuI5NIkIVyoMqWMBRum4J/ChyKMBFSv8jhBd83/0/8KQXZ0zpa9O2oiiLASLdbaZCLp6fbEJ+lkAKuABi4GpaHCeqectE8iP7GFsLEwSpgvU5Qe/9lebhcJImxC6ad1b+k5UUu0B6YR+xzyWppK3oZ6T1WKzhQGrxtiC3UZeCaZSqY13VBb7x6jo7zOcpzSnrPT8tfCM7M8P6pjCMA7X0GRAdcxEFsQGcWbKXlzIexWlt1FKGDWSwfQTJXYraZrDiHbOvy8NGtkT0cD0HovTXgKOoWP8XgXfl0bNrVjw99Ixe+voJlf01Hvcpw0cIFgNWhw9EUZVyqwGhAjUsvjkZk3//Irr/cEni1vXvEEtO8w+knh9mWKUzpAgByZcQXeBa+aqqJNL2QmE7OgBXT2UMQS8MOUc6jz56l6K5t7GOrsS8yhDV/rgIFBrPR2H9hRSfuc1FMNEaWfGOsFRJwBJm5oLHsI8SkxGEmTvLVu1NudmEAJIFrOf8ALRkS9i3ojwoOVJX5Gpb5GWnz4psrn/yKOX0ov5HP2y8pF6VTDWhBiEPcpcDKOp4B3EtjGrr4mSP2gjRnciqZY8eta6/a8t9KHiAEfZgX4yIqw8KeUFnFaWDK7dpGqK+yybOe9UBwv0VffFIMiM/0t7jdJCKn0gDfl/TIYK5w57UcbbVJA1FirBajX96x9iGkCUG1oECmSsBWTtYu0gT6SOzfj4LbFeC35zuk+q4p2UWW8HMC/WF0ibhOJlIGINMUthoVXFGyWJWHgtpvDutlLGY4IbA/0UVcmkKP/Cz4GtzTYHo49LBOK4YIuNB3V//wIP+GubqUJaJC1BqWeWrdDDCBGaHICREt34MWy5/DsnHtS6/bR0dxNgvJycdQ0Pql8oAbnG+R0+Gvopd0+zotgRIbja1UHDqhXoAiOCdKycHqkXhII0cD0bIAIafapzuHTJyeQYL4Ffb2Hab1pUkEAb4d4FeOhLhRadLK3q7R+6FUQbdDBJ7Pe0/r5kqSd6j1FFf9kGbvgQQbXQeZwBd1a4RG1U6DDO4/4uSV5Yms58LwEuxdYJvfXe/r3jb9EMBAP4XuVNKXhESD/3m11yzc76ucCFvelaVG9RcnYsoElvQEFl4qyCC9Zg5wgg1suUsf+zRTY3ot6QmDG1/vnbi5W7SpVFuF6woqhhYY9IFc2aaDJaz6pFwiB3RZqPfwmgcEQHp2r7aIR0dlsAPcdEwPyYK7125OaiR9JHUUgC2/oiGDuNjH69AA1zMYt8kA+MCvMsEF2XCtQ==
+    properties :
+     x : 340
+     y : 128
+     width : 271
+     height : 48
+     visible : 0
+     data_binding : proveedores_autorizados.nombre
+     accelerator_key : 65535
+     tab_order : 3
+    style : {}
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2b18b2d207718c48
+  internal_properties : HgAAAB4AAABouFWkvozILJFRJI10T2kRFMCIEe1JwPR/3GuDgV80rRGLTPs97qEoR8/5oWVsG7O5euJaxGgq9JrYc9x/+bwuzphlrO7JwW3aWnSbCarAdyP25wfcJcpRZJm+Lb4Mr7G5n4L/Au2qLADZswtZDphwaSaF+ywHKs8S1e83TJo+q0AmANc2htC++4+6NzEbh3ZwlZcIs2bePk2OlxFcYgsSQYAQPxcSfmqqIMZaYE6prWeXKuPnaZQvkOcCVN9CA6nKjx4LGbK+cVIpSgVrAGn+JUQwVz/CWvXGl06q7i75GSl5uhak595i/YX8qvd+D50suCLVCDFJokKRLskhTSeuBEa5McjZ3vDZfc+CpGNykhVa26ZbBpFQAv4x3NLGmG1TEwUqnhSrGikiuBgiTD+Mmgp0N1j1OcMcZMn/aw==
+  properties : {}
+  style : {}
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      code : |1-
+       
+      type : 18
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2b18b2d2076e8c48
+  internal_properties : HgAAAB4AAABlbuIWyo+59w2MEOm4IKZdOggNNi5rvFK8lzDMFtCa0pwxLtsqYOePMyIzw4ahjswa4MTnpe7qAp1rfWfDg625c3UxIrWAHNiKdftcudP/92lT3ewX2pRotYNjkM4omj5jpxE0dbgVcteptCT77w3RjnbYfIy/hoHAcjEKXVZyINaY1Zqp5xZMuUyO61IJ+O+rhVbGj4k7VdYzLt9VYuqAszxtnChxA+r0bBWF5fGJS2NSHs2kUM1xLQGJBC5gxkW1yuCtZbdkzXRdRix/7RAEvir00MkT9JYQsLLiq4reEME=
+  properties : {}
+  style : {}
+  options :
+   -
+     name : OPT_Ok
+     identifier : 0x2b18b2d2076f8c48
+     internal_properties : HgAAAB4AAAB6mb8OCFkZhXV2msoMQ2JHK3hkc6Osia470adv1PzIP7IuscgWXzZGDCg843rHwnL2i/M4+E2CqIbF/Zjc0UEdc6pXRyCyvrQCD+Zbdt0ur2xuNuNB/8LiP0KzcAwuL1PcfkjOajyBIskmWtM9HrEziqLiodWDb1a/D8UYbyQoC1RLqJIJR3MoUJEbB1a3aNfS0QwyZ6dBfU9G8x+1whbb7I8wI9fMiFRAEI4MfC/jwe5rwdVFiez4MKAruyPoh4zIMNZZ/NmUQPeeNy2uxrUPtEq6efLEdrztFxykHSQWDgQJRpaUTo5Zuj+c662hu1f2
+     properties : {}
+     style : {}
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          //revisar si cumple requisitos
+          
+          if validar()=false then
+          	return
+          END
+          //
+          close()
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - es-ES
+ popup_menus : []
+ message_bar :
+  internal_properties : HgAAAB4AAAAsBHrJSU4MzaaXu4E1S19xLqqmjzqsot8nLC4ZOlGt5HNEG+QnKymnnNLYojVmf85GbX8czvNX9Evwl9ymuQCFprwvxx8K5Y1XNu3x1b/6IcB1342aYIAVLF9waw==
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MyWindow()
+      sCodigo is string
+   -
+     code : |1-
+      FileToScreen()
+      sCodigo=proveedores_autorizados.codigo
+      //if re_visitas..NewRecord=true and calltipo=1 THEN
+      //	COMBO_Proveedores..Value=null
+      //	COMBO_finca..Value=Null
+      //	COMBO_tipovisita..Value=Null
+      //	ListSelectMinus(COMBO_Proveedores)
+      //	ListSelectMinus(COMBO_finca)
+      //	ListSelectMinus(COMBO_tipovisita)
+      //else if re_visitas..NewRecord=True AND calltipo=2 THEN
+      //	COMBO_Proveedores..Value=scodigo
+      //	combo_finca..value=""
+      //	COMBO_tipovisita..value=""
+      //	ListSelectMinus(COMBO_finca)
+      //	ListSelectMinus(COMBO_tipovisita)
+      //END
+      
+      //if re_visitas.esnuevo=False then
+      //	EDT_Text1..state=DisplayOnly
+      //	COMBO_tipovisita..state=DisplayOnly
+      //END
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+      COMBO_Proveedores..value=gsProveedor
+      EDT_Cedula..vALUE=gsfinca
+      //scodigo=gsProveedor
+      EDT_Nombre=COMBO_Proveedores..DisplayedValue  //"" //scolpro
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : Validar
+     procedure_id : 1952507053490670664
+     type_code : 14
+     code : |1+
+      PROCEDURE Validar()
+      //revisar si cumple requisitos
+      bRet is boolean=true
+      sMensaje is string=""
+      if COMBO_Proveedores..Value="" or COMBO_Proveedores..value=null THEN
+      	bRet=False
+      	sMensaje="Debe indicar productor"+Charact(10)
+      END
+      //END
+      //IF COMBO_tipovisita..Value="" or COMBO_tipovisita..value=null THEN
+      //	bRet=False
+      //	sMensaje=sMensaje + "Debe indicar Tipo de visita"+Charact(10)
+      //END
+      IF bRet=False THEN
+      	Info(sMensaje)
+      	REsult false
+      END
+      ScreenToFile()
+      proveedores_autorizados.esmodificado=1
+      HSave(proveedores_autorizados)
+      
+      	HExecuteQuery(QRY_proveedores_autorizados,hQueryDefault,sCodigo)
+      	TableDisplay(WIN_Productores_Form_Click.TABLE_QRY_proveedores_autorizados)
+      	
+      result true
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : HgAAAB4AAAAqrd/dnpA7E6HdMDGpZzzaBCJrbGCwqmgAdI2eM6AYpx5V5ncyRwhgiOYNLyS4E5p3pX0JkZgB0VxEZtLT4fDdkxbcDCaNzshsB0cqpRI=
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1b18b2d200c28c48
+  internal_properties : HgAAAB4AAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      es-ES : No es posible verificar Geo-localización
+     index : 0
+   -
+     text :
+      es-ES : Debe grabar visita primero
+     index : 1
+custom_note :
+ internal_properties : HgAAAB4AAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : HgAAAB4AAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

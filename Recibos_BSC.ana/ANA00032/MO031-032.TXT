@@ -1,0 +1,3 @@
+//MO031-032.TXT ANA00031 TO ANA00032
+re_parametros		TAR	652	new record size: 652
+re_parametros	test	RUB+		test is a new item

@@ -1,0 +1,6 @@
+//MO027-028.TXT ANA00027 TO ANA00028
+proveedores_fincas		TAR	201	new record size: 201
+proveedores_fincas	cldd	RUB+		cldd is a new item
+Recibos		TAR	464	new record size: 464
+Recibos	cldd	RUB+		cldd is a new item
+cldd		NFI		new file

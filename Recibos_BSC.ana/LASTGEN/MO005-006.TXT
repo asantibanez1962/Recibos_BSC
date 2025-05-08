@@ -1,0 +1,7 @@
+//MO005-006.TXT ANA00005 TO ANA00006
+proveedores_fincas_certificados		NFI		new file
+re_cuotas		NFI		new file
+re_parametros		NFI		new file
+re_precios		NFI		new file
+re_recibos_movil		NFI		new file
+re_tipocastigo		NFI		new file

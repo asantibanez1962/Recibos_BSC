@@ -1,0 +1,3 @@
+//MO028-029.TXT ANA00028 TO ANA00029
+ca_certificados		TAR	63	new record size: 63
+ca_certificados	clddcertificado	RUB+		clddcertificado is a new item

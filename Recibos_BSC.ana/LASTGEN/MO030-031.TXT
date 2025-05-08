@@ -1,0 +1,3 @@
+//MO030-031.TXT ANA00030 TO ANA00031
+Usuarios		TAR	141	new record size: 141
+Usuarios	cosecha	RUB+		cosecha is a new item

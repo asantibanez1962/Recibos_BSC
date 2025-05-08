@@ -1,0 +1,6 @@
+//MO010-011.TXT ANA00010 TO ANA00011
+Connection to 'C:\Users\w7\Documents\interface.xml'		CNX+		
+Connection to 'C:\Users\w7\Documents\interface_hijos.XML'		CNX+		
+Connection to 'C:\Users\w7\Documents\InterfaseImagen.XML'		CNX+		
+Connection to 'C:\Users\w7\Documents\tabla_interface.xml'		CNX+		
+Connection to 'C:\Users\w7\Documents\Tabla_InterfaseImagen.XML'		CNX+		

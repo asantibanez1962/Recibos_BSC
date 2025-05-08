@@ -1,0 +1,21 @@
+//MO011-012.TXT ANA00011 TO ANA00012
+remedida		TAR	338	new record size: 338
+remedida	sifon	TAI+	1	sifon item has been resized: 4 (instead of 3)
+remedida	transportista	RUB+		transportista is a new item
+remedida	placa	RUB+		placa is a new item
+remedida	Tipocafe	RUB+		Tipocafe is a new item
+remedida	flotenegro	RUB+		flotenegro is a new item
+remedida	densidad	RUB+		densidad is a new item
+remedida	llegada	RUB+		llegada is a new item
+remedida	salida	RUB+		salida is a new item
+remedida	medidor	RUB+		medidor is a new item
+remedida	observaciones	RUB+		observaciones is a new item
+remedida	monto	RUB+		monto is a new item
+remedida	tarifa	RUB+		tarifa is a new item
+remedida	minimo	RUB+		minimo is a new item
+remedida	retencion	RUB+		retencion is a new item
+remedida	esnuevo	RUB+		esnuevo is a new key
+remedida	esmodificado	RUB+		esmodificado is a new key
+remedida	esborrar	RUB+		esborrar is a new key
+remedida	impreso	RUB+		impreso is a new item
+remedida	idremedida	RUB+		idremedida is a new item
