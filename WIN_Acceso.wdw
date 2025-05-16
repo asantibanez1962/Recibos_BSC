@@ -99,14 +99,14 @@ window :
       -
         code : |1+
          
-         info(HNbRec(Usuarios))
-         info(hnbrec(Parametros))
-         info(hnbrec(proveedores))
-         info(HNbRec(zonas))
+         //info(HNbRec(Usuarios))
+         //info(hnbrec(Parametros))
+         //info(hnbrec(proveedores))
+         //info(HNbRec(zonas))
          HRead(Parametros,1)
          HRead(Usuarios,1)
          if HFound()=True then
-         	info(Usuarios.usuario,Usuarios.clave)
+         	//info(Usuarios.usuario,Usuarios.clave)
          	if Usuarios.usuario=EDT_Usuario and Usuarios.clave=EDT_Clave then
          		Parametros.fecha_acceso=today()
          		Parametros.hora_acceso=now()
@@ -114,6 +114,9 @@ window :
          		HModify(Parametros,1)
          		sUsuario=EDT_Usuario
          		gsrecibidor=Parametros.recibidor
+         		bRes is boolean
+         		bRes = HExecuteQuery(QRY_PROVEEDORES_CONTAINS,hQueryDefault,"","")
+         
          		OpenMobileWindow(WIN_Menu)
          		//OpenMobileWindow(WIN_Options)
          
