@@ -10,7 +10,7 @@ info :
 window :
  name : WIN_ReciboTablet_L
  identifier : 0x26bf839c1211aae1
- internal_properties : HgAAAB4AAABghbdWmB57tAEhrxznWmYvXfP34z2jhyWcN7x1UxR9fnVZcOkOLfQtPpz7e9LoWGNO3KtCPlQ8IqsDwMqGEInMdmwMkh7vf/i9IGCbR+LEU6XC22LXqT0z7xS9zJuFKHfFoIuFbowlcr0ZgwAlwm4lB77JQGjZ1ZMt1WNH0wKDnx7udx/g0HPLwBMVxiIrsD5KgBVLLaJVjaGv80nnn6PyeSLXosGAlo25gH+2QHCN43jMMx3WiugHRYnPzaBLi6NSKXikKywAUssC783LalHlZm1EiIxCTWyMGe9vKUtA+OGgqD0ZYbkfwtuZ6a0Cn5Jqwzvx9JCQdoDggJhBKT4laKp9Q187M/BTKg/liwlVV4CcTET8HaE/0wAnYatN39++qKY8iLy90s3gOyj7h2X2IM9H/PA6b23mf3ptOq6srwUa87Y9p5qmkEodYP8nybDJShORBupqmOyfBMX3+5gMEFuHVZFT/qC1qHN06b0G3sOpLLyM8BXsIx8dL1aJ0M4UDyQDMFVR9aewaF8kV8gZa1173yMbcAYEmXnkTKCtbI9P2lPCVFm6HmqPK4KlIQvt00VW3u9+XF41n2+NQAZVUdNFhsHeEZCX+txbUeE9ASVQ1wBqscNJVEE0XW9HC/R86SK+irW6s05vW42LuSK2cgIp8AwrqWvHTskZF8f1hevaZ9nmy+aJRzcQ2AmghkPljnZoAG+uQWwfkrWLm8Gyg+FLkCQG4NaWkcGU4lRdub6bRMUJi3M9GplYw/jMUp5y+qlbWqdo4/rEPHv3QRgtAbLpGw3WG36wma7NYS2GH67WJLC28JJ0Ud67NAlzcLx3bJKIxL+dd+xmuizMbEgyAm+n1ybawsqA08j8usG4pEm6QDZGyp2o23j91FFNtebtF/2DDxS/U0GBYu87Gvn3YNnG4NFesJGi3uBo9cqTurlRynQyhd5mZG5f7ZRkc0k0Co8x836t+ELgbB5kLvBz2DqZyxA8BVmvSsZluyRIo7BuEBQ7CMXEmgW5h/13ZxOk/aTj3kvrpbSMw4ye6KXYYuChWoPly3VwsCbDloSvjMyCmc0qSg0qo40WPJahzk6tZ41TpbhybzFVPIhIhGukAw9Jd1aL039/d5kmXMlmj/0n7F08e/CyaVKhWdGZblJ9qUe2m/CHmq34K1OA7xQqxgSZ6saOJuX+GWl7js5CR/lj7O1W/QPdC/YTlBTdspseT5Wr4IPCHpoUpCxC39ECm0os5syjdXDxTp8H1OFvyq4LgbYAVWKvviNAa9CLmiCZTOGAwGvcPRVHqtM3Ia+Fqy6iAeUhgKhU3CQzOS6QGG8pLxVCGbBWJ9wDHHvYKIQJkyI1N0eyofXgTA1iyVGBMrMUOh+1GigrUf21BIXbbtXRi6KhDv0xNSbUngbNqYMvYi1qzujraklLRK6egIAQmLws7KQvN4eR8Yiz2842NYpUjF7EXe9lFYRRSbar/p8DIoo7QBF5163npMJ6ZtISKFc2zpDmFe1/CBsiyw/TpRSB3UgcyZJ5RsDciiQEHeilrIZD4J28WItN09NkIjX7K013NkcjvtKfr1b0o/XxyrjyhmCH8j9mlKVI7sgaaEm5yBogqxsbjxlJ0+fL8N6qlL2QGh2LA3gskoU5IkAWUqI15WO24Qz4DuM9vEv+5gjdCnZiUBtv3zrTjCpjcUUCLh6723lcnpHBQOiVHA1Qt8y2oU2pobCxSDRHJUP2LbeXCXAG091Qd8hxjJmeyopXFq8EACcG6R9Ikj2DV/Kcl+xoKi/36OyETKIKcUdQQ8+0LwfRxPd+nUPrId8WE/bHPJPknbvx0Tpw8Wo4wy+0X52CkN4DZpNE/tOL4FPSfKxXRIlpurt2T5xv3zYrn9Diag9NVtP4
+ internal_properties : HgAAAB4AAAD037UqnjRYOs5npai/+R2oG3kTRCLiejfA8ugEiTFBEMwPQFntBa31G1UgnFUCwiHrfnHgALo2OUaxS8h0anl0y/bbfwPVX0u4KpH7xyeI3WGo78pmtNFLjKn7h1KxmZ4IGGsN0L8VzVxCvPW9x8rZOAcNXvZXyyHKBueSjEJHGZauciN951hRIHypq401uQBsvwdG7UptfJ79V6374XOUN3XwT3eC9eMjhQMPnw+gVEdU9pzvL8ka0kF/DiqzwL7A+25WWL2tAXUJ7vXg9V9Ivk0T36mU/+8KZrsXZK2OCQ54GthMS6VNLcHqaCXw1EZuwpvjliseMPNs7XSgm6+4MZf5Bq/C5JI9qLJhXjYtsFwI1kHBgcjAcJN8GeB+hvsFNa6yLYnkM73DMbm5WH2KcYaP65vOEiTaAul9xnRM/dKaNtBwCHic7zi0MzFQGexzW0DSnQ/O4oCT5qWRhRi3Is9+MVygiWqU2Gq56sTNqbKGNpINv7kTqbWuec/TOehgJQZzKIkWS305GBRRMZ8JHqWOjvaZA6wEljTQbAKmZZobs6e7WnSuz9obcbLkqHXAP0tzrRQDvf43DOgX3uRgGLt4QhEk6Rffs8U3p2ilwhfSo8UZWaWt9hOYG/9gzJp4DL/DUOp2AZW8MtkZOr85S+wgIyTQfsSYxgTTpFB145bz4Aq+a2wI0NkRl8/7PSo+yrFBtiLcBBoLutGxLF+zjBqvtNV26I5+1iXARH4Y1G/ggyKzk2Rcp8HwWQYlTGxTElKJrZ55cYJVgr5vHXMD742QLTSgEx1BuLAYyrpqv9IafqWgClnG6FffXL55tL85v0mVcCGW7zZEX8eTDA7S6YoIl+7WqeEOrhl3r4lmv/CCeVLTiz9ItPoHf8xefCz/qRMMeiVhZGuA00sNmr8afAQwA/zComcXUPBrqXHyDxM0ibn8q88Ws0mQm7pkQsPPAqbgXxb8CgPV53RIaGVTSQYeZGROfIN4D2138zbLPb+o+fn/4BLSebAWrRcjRoXr6Z/ygI3UPbm1BgTImIC4M35u751PrKPxJdFnHAQEpNdKYIwWWJbyhCKhTiYL44De4yjCA9IvW0TMUfKoAmAsSBdYDhz1lA16FlqOZpdVkVoxLfaQ++n8yi/gGVU98b4ICRhzx/Q8ngadIgUKScvGt7LW3yYI01XDWmANRAYN9dLhYcqcu/oX4K8GFGpdm1ETYfD6xt9hDtMxD/KugcT0WmRdz8znCLJYGXD7jDt6RvsdTHlAL50njeYNvdaxm/baSjbFJeZa6GlXLBYwWAWKASHsRZxwmvcItCJAbFEAzZUMpaHloJR/s4SFoyLPuC9jsD5v+Gwl11bV26WCUR6TA7lJczNR4R6KzOJ1mhzZEaXkX1D0wV9iiR46hOIzVtvYlsjnseisr7yfWNDAHRWcfpq/X9DXVunqnjP1JXB57aUoJY7Kz9KA/Nd7V/JFvTfMRq1uLttW99CWJXQU3JGA9WfHl96+hA8wZYbUf12y/fpCD5R5vlb6bvSyGnDOGPqUaKtEANXJlGxCzjdgHqalIh8wWzsvPZ7lF4/sA7wX8f2H2/fJZB4k86CNyI4GNdfkpqf9uz8AIbH9lTyhLXgT2kBs9Bh+9Rt4YtveaSGG7Z7ehcuLntiXRJ2VM+AnriEXidSWJ5A1dmQ/TtGUGK1pZhsBP8QL2Abd0Bp6Kb13/3mP0McnL7f4iEwDQiYYACRpNUtoH7nleWNXlPgXM5RkQq66eNi5XdSYrk9opMc0kNYvwLvIMV7FPA7joRfcjBmezI0xZ9P5m8ZSsmutYhPmIMzF5O+ChDBpt9/9WibsYnGm4u6CtiIHq7iu+n82uYEAMccHpONC+I6IrB0knDdz2/CjZ9M=
  properties :
   width : 360
   height : 650
@@ -98,11 +98,24 @@ window :
       -
         code : |1+
          
-         //if MySelf..Value="V" THEN
-         //	COMBO_tipocafe..Value="V" 
-         //else
-         //	COMBO_tipocafe..Value="A"
-         //END
+         if MySelf..Value="V" THEN
+         //	COMBO_tipocafe..Value="V"
+         edt_verdes=0
+         EDT_Verdes.State=DisplayOnly
+         EDT_floteseco=0
+         EDT_flotemaduro.state=DisplayOnly
+         EDT_floteseco=0
+         EDT_floteseco.State=DisplayOnly
+         edt_Granosbroca=0
+         EDT_granosbroca.state=DisplayOnly
+         
+         else
+         	EDT_Verdes.State=Active
+         	EDT_flotemaduro.State	= Active
+         	EDT_floteseco.State		= Active
+         	EDT_granosbroca.State	= Active
+         END
+         Calculo_recibos()
         type : 33
       -
         type : 17
@@ -2070,7 +2083,7 @@ window :
  actionbar :
   name : ACTB_ActionBar
   identifier : 0x26bf839c1251aae1
-  internal_properties : HgAAAB4AAABcujoetjicj+r2D0qgR34aOtQ7WHJQsaaP8AvqnNpUWY8ur57ca1B7E7Rhj8QvSX9hBuH6P+z5Rtm9pAVGLJQR0gkgHKWDLChLQBL2hgrnz1eCDxvt+RtG8hju31rAn3AccaBe3+iORSgL17F2CFeguBS4XBsvqjQhU7R0oO1ogD34jG2PblA9zxwg8LArLP5uwm4U7hZunt19enZnO2GKhHS2b1RnAci7Df82rbi9jzadSmnm0kNZDZbtaLz8d2mRHP1hQ4xhU0Z2z5R7D85nqlh+3w90p3vEXBAV3MUdZn2tHM59dBl6/fZh0aZgyz2Bg9q46RWJJ4SHH0w2bERVUjkUWmCtwL9YjvcPvJpR1WkWvY3ytCwxIAkiD20B02rS4cQk6axU/tQ=
+  internal_properties : HgAAAB4AAACVbgW57ayJqDPVtLfefCUD3OLRthnrkCOt3y2RMQi/tzY4GojcXMUm67o10Jc7YBhU9+tvxjaZUAlpcRxB7m7iSBom5LO+VpdmsrvdVBNvap95CMJwhrW8eSxuKbdBos0jeIpUbgX9xrtMPCRZvfLOeofLZkc94yhSsskTOWdG28UstqGMAFtdnoPBt2cyMP4NFA/02M5rsiNT5BLPwKSMmqyCY2ySlPSl3bucNykww/afuKeYxTI/a1QPSHiTzIfj4JXzsQFSEyisaWxPqLkDiPx+fzuVuGQTFr6DRlbkNCK8Hp+USJt9JATLO/gTkBux/OVMjolVcHfaOd5gk7s3TptY7knePDgE2cEPiYCeWGMwcPeRkitXfpP/24WrPVErLM41DSbTgERtw2iRpq6AkQ==
   properties : {}
   style : {}
   controls : []
@@ -2096,7 +2109,7 @@ window :
    -
      name : OPT_Ok
      identifier : 0x26bf839c124daae1
-     internal_properties : HgAAAB4AAABvgm7iNbzTN2C/KpiBTJHNHBGKKZ0ItgxK2j7wMh3o9zRFhCNEee0IkFy57HqoUu0l8FK95HDPqjzVBKzLVjB3XdqfACSqGtF4NrfwrvJfrKkYVtzhc4/kbT/crS3TTX/wW2NzRTN8pSbknKy84A4mMhZBtPEF20DXQ6aP8maMdofYWdWWXZCo8QoIN5LmWP2V3uXRMgEMWweVZ356cAfVPrpI6wM3C15U1mtPjopqOWy9RVnlc0FMXuIWQ1IA3oVxi00sH6qGPICrI2iP5rVLbuc/3pkq6mbCBmTep80f2mWFQtHrTHa9tw==
+     internal_properties : HgAAAB4AAAC+zpEPnZYq0xmCxhbO7cNm1js2pcoHeoSdRN3B9iqNGqBErkhBCZb4DnrX5ZyiN9AcdeWy/abRRLlGfZHBliAvWvEO452Vd/SwMjh1euUN/FoMM0BnUM3VTGLWFe07+DE13tTzj7Rl4aqwgKBKkd2tmFlmy4vCvIbzxHQehb2EICfpRxaK4EvcRwdIFmXZrHruIVO2RDh3u/eYNuuhz47eD8Z3DihznZm75X1DO/SvwAcT/qFXAPg4u3XGUgzcyJ83rEJqYUnkz0eTwyEaJJf0j3u+8vLaSJMEg+gTeMSdrqTyEkrLUJ+u
      properties : {}
      style : {}
      code_elements :
@@ -2201,15 +2214,15 @@ window :
           //IF proveedores.reciboconfinca=1 AND (COMBO_idfinca=0 OR COMBO_idfinca=-1) THEN
           //	Info(<§$0008§>)
           //END
-          actualplane=WIN_ReciboTablet_L..Plane 
+          actualplane=WIN_ReciboTablet_L..Plane
           //Info(actualplane)
           precio_recibos()
           
           //IF GR_campos..State=DisplayOnly OR
-          IF  Recibos.impreso=1 OR STC_impreso..Visible=True THEN 	
+          IF  Recibos.impreso=1 OR STC_impreso..Visible=True THEN
           	RETURN
           END
-          IF actualplane<>1  THEN 
+          IF actualplane<>1  THEN
           	RETURN
           END
           IF (COMBO_Proveedores=0 OR COMBO_Proveedores=-1) THEN
@@ -2253,6 +2266,7 @@ window :
           	HSave(re_recibos_movil)
           	gbBnuevo=False
           	COMBO_bitacoraid..State=DisplayOnly
+          	gnidrecibo=recibos.RecibosID
           
           END
           Info("Registro Grabado")
@@ -2305,7 +2319,7 @@ window :
    -
      name : OPT_Imprime
      identifier : 0x26bf839c1250aae1
-     internal_properties : HgAAAB4AAACciF0rkhxqsJCUMULb2IqZcL4IgUP+sGnYxmsywUpPvTRX2Nq/pKM/NCp/jMiOL1n3dKwa1R4X3NSc00yHpz91SN3WTZTl2iLVmDE2MHgRvdDLvZZzw97yrJDiFn7sU+JEHGqrnW7f56jddZ0UvcpxxCShPXRfXzVBw/Yx9YS0wOKd0nsiQ2Pbx/Ri9/HivfygytJFuKsk50misRDA1MDbvQ1s548/7mrIkpeujJZJkla097nHZJM75uj/Vk0+3YcoxPWFtoM2TAApikUQl8enfygMxAmcDdf64/sE9YbZMxSGlOsxEgeIe8rG9tqP6Q==
+     internal_properties : HgAAAB4AAAA11wj9xBFneb7s3KVJJMGb5Z0XnaoE7pBhSyIObIx9gJlfi52hQ7mTEqm321TsMo6hOYNxXPwUT2jjY9OzZIopjbmB98mrb76lms5cXlM5XO/zUO4A2lKdEZkl5wNOgIcOiAmvUy6TsZKffnfPS5jhEjeG7VthwnVPfeCYZKlLv+CRLucaYwEOK/p+oybC6QgsV7h97BkYMMOqWUnZT4anyWx7NvZ6AclgjLLBmFx3DFdBRGyKIFZyIY2Bq4hj05mWhb9t+44cswzBTZDlhT9lotzML94/2nxc6JJcExwjlI/eByhAaooFPHtUG0M2QA==
      properties : {}
      style : {}
      code_elements :
@@ -2339,6 +2353,97 @@ window :
           	Info(<§$000c§>)
           END
           
+         type : 32
+   -
+     name : OPT_Imprime_2
+     identifier : 0x28cb77e57214b86b
+     internal_properties : HgAAAB4AAAB4A2vIAPWVmWQYXg8+LnPwMyCNkt9OjYE4v7HZRk6e7AugqP5NjIg81pPHdQ5QNC3q4X5RQ4r+aggBCVM6GYeANf7kLrEc0uop3cMFBDdvS4pZEc4q0RXGqBkD2BDL/12lRn8c7FRZ7nER669WWTZRPvuMfE2ruvrAb4/mCvypgcHdI6PUc+obrWZdjjAGcwCCa9UvPL9d8JtJRYO/HPWuqo8mpN4UWnT5hAWP5y8LvCsMPRQaOZhDdHqMm3w2pmalMM0k4fPGxKRZPmcOfEPzRwcGN72MUY0i9S6g+I422/hBNuCMv+tZTQyMSd42YDT1F9s=
+     properties : {}
+     style : {}
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          
+          MyUniqueFile	is string	= DateSys() + TimeSys() + ".pdf"
+          bres			is boolean	= False
+          nNB				is int		= SysNbExternalStorage()
+          bres			= iDestination(iGenericPDF, SysDirExternalStorage(1,sseAppFile) + "\" + MyUniqueFile)
+          //info("MyUniqueFile")
+          gspdffilename	= SysDirExternalStorage(1,sseAppFile) + "\" +MyUniqueFile
+          iInitReportQuery(RPT_Recibo_de_café,gnidrecibo)
+          iPrintReport(RPT_Recibo_de_café,gnidrecibo)
+          OpenMobileWindow(WIN_PDFReader)
+          
+         type : 32
+   -
+     name : OPT_Imprime_3
+     identifier : 0x28cb7a28da718de5
+     internal_properties : HgAAAB4AAAC/R50eeWoBYxTybTuhidSkmqJjfFWMc0s0av+RhHFTP49lOxQKxSWl3etOsOTqKo+vJw1QHJxiiBRu5h37fhuF0B5u0WXX7PXgcRCbITD/N8pu3zooB6szppI1tGwYAIpz4uLH6VEvm9JRLezY6j5Kra8xfaTrdRHUE+NNEZPwylkbazXGZ5jKcdzfRuFaBpSLDQXpUh/FpOE+UniqfzhXvfpM/oXR8WpKYir/RbjkvuVY+nck8p8kEZm/YK9UgIB4o23o3fsAUMI9xHNgyJtKoLQcjROqMjLNL1oYfHbOE0A1IPftHsRhea/62LYm4Ov9UJw=
+     properties : {}
+     style : {}
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          //llenar parametros
+          
+          //ValCompKey is Buffer
+          //ValCompKey = HBuildKeyValue(re_precios,cosechacalidadTipocaferecibidor,Recibos.cosecha,Recibos.calidad,Recibos.tipocafe,Recibos.recibidor)
+          //sprecio	is numeric	= 0
+          //bQres	is boolean
+          //bQres=HExecuteQuery(Query_precios_impresion,hQueryDefault,Recibos.cosecha,Recibos.tipocafe,Recibos.calidad,recibidores.codigozona,Recibos.recibidor)
+          //if bQres=True
+          //	for each Query_precios_impresion
+          //		sprecio=Query_precios_impresion.monto*20
+          //		break
+          //	end
+          //else
+          //	bQres=HExecuteQuery(Query_precios_impresion,hQueryDefault,Recibos.cosecha,Recibos.tipocafe,Recibos.calidad,"","")
+          //	if bQres=True then
+          //		for each Query_precios_impresion
+          //			sprecio=Query_precios_impresion.monto*20
+          //			break
+          //		end
+          //	else
+          //		sprecio=0
+          //	end
+          //end
+          //sCantidad is string
+          //sCantidad=NumberInWords(recibos.cantidad,1) +" CAJUELAS "
+          //sCantidadcuartillos IS string
+          //sCantidadcuartillos="Y "+NumberInWords(Recibos.cantidadcuartillos,1) +" CUARTILLOS "
+          
+          
+          MyUniqueFile	is string	= DateSys() + TimeSys() + ".pdf"
+          bres			is boolean	= False
+          nNB				is int		= SysNbExternalStorage()
+          bres=iDestination(iGenericPDF, SysDirExternalStorage(1,sseAppFile) + "\" + MyUniqueFile)
+          //info("MyUniqueFile")
+          gspdffilename	= SysDirExternalStorage(1,sseAppFile) + "\" +MyUniqueFile
+          //info(gnidrecibo)
+          iInitReportQuery(RPT_Recibo_de_café,gnidrecibo)
+          //info("init")
+          iPrintReport(RPT_Recibo_de_café,gnidrecibo)
+          //info("prpt")
+          iPrintPDF(gspdffilename)
+          // SysDirExternalStorage(0,ssePublicDocument)+
+          
+          
+          //OpenMobileWindow(WIN_PDFReader)
+          
+          
+          if Recibos.impreso=0 
+          	Recibos.impreso		= 1
+          	STC_impreso..Visible	= True
+          	proteger()
+          	//no se puede editar mas /
+          end
+          FileToScreen()
+          HSave(Recibos)
          type : 32
   code_elements :
    type_code : 26
@@ -2804,13 +2909,13 @@ window :
       sMsg=sMsg+"------------------------------"+lf
       sMsg=sMsg+"COMPROBANTE DE RECIBO DE CAFE"+lf
       sMsg=sMsg+"COSECHA:"+Recibos.cosecha+lf
-      sMsg=sMsg+"No. "+recibos.recibo+lf 
+      sMsg=sMsg+"No. "+recibos.recibo+lf
       //info(recibos.fecha)
       sMsg=sMsg+"FECHA:"+DateToString(Recibos.fecha,"DD/MM/YYYY")+lf+Charact(27)+"!"+Charact(20)+Charact(27)+"a"+Charact(1)+lf  //tamañp grande centrado
       if opcion=1 THEN
-      	sMsg=sMsg + "ORIGINAL"+lf 
-      ELSE	
-      	sMsg=sMsg + "COPIA"+lf 
+      	sMsg=sMsg + "ORIGINAL"+lf
+      ELSE
+      	sMsg=sMsg + "COPIA"+lf
       END
       sMsg=sMsg+ Charact(27)+"!"+Charact(10)+Charact(27)+"a"+Charact(0)  //tamaño mediano, izquierda
       sMsg=sMsg+lf
@@ -2836,7 +2941,7 @@ window :
       //con la cosecha de la bitacora y el tipo del productor, buscar monto en tipo_adelantos con A
       //sMsg=sMsg+"ADELANTO:"+NumToString(proveedores.adelanto,"10.2fS")+lf
       
-      //Montoad is currency 
+      //Montoad is currency
       ValCompKey is Buffer
       ValCompKey = HBuildKeyValue(re_precios,cosechacalidadTipocaferecibidor,Recibos.cosecha,Recibos.calidad,Recibos.tipocafe,Recibos.recibidor)
       //HSeekFirst(re_precios,cosechacalidadTipocaferecibidor,ValCompKey)
@@ -2851,15 +2956,15 @@ window :
       //		sMsg=sMsg+"ADELANTO:"+NumToString(re_precios.monto*20,"10.2fS")+lf
       //	ELSE
       //		sMsg=sMsg+"ADELANTO:"+NumToString(0,"10.2fS")+lf
-      //	END 
+      //	END
       //END
       
       sprecio is numeric=0
-       
+      
       bQres is boolean
       bQres=HExecuteQuery(Query_precios_impresion,hQueryDefault,RECIBOS.COSECHA,RECIBOs.tipocafe,recibos.calidad,recibidores.codigozona,recibos.recibidor)
       IF bQres=True
-      	FOR EACH Query_precios_impresion 
+      	FOR EACH Query_precios_impresion
       //		sMsg=sMsg+"ADELANTO:"+NumToString(re_precios.monto*20,"10.2fS")+lf
       		sMsg=sMsg+"ADELANTO:"+NumToString(Query_precios_impresion.monto*20,"10.2fS")+lf
       		BREAK
@@ -2867,7 +2972,7 @@ window :
       ELSE
       	bQres=HExecuteQuery(Query_precios_impresion,hQueryDefault,Recibos.cosecha,Recibos.tipocafe,Recibos.calidad,"","")
       	if bQres=true THEN
-      		FOR EACH Query_precios_impresion 
+      		FOR EACH Query_precios_impresion
       			sMsg=sMsg+"ADELANTO:"+NumToString(Query_precios_impresion.monto*20,"10.2fS")+lf
       //			sMsg=sMsg+"ADELANTO:"+NumToString(re_precios.monto*20,"10.2fS")+lf
       			BREAK
@@ -2923,9 +3028,9 @@ window :
       //sMsg=sMsg+"Recibido           "+NumToString(Recibos.cantidadinicial,"6.0")+"     "+NumToString(Recibos.cuartillosinicial,"1.0")+lf
       sMsg=sMsg+"          AJUSTES:"+lf
       sMsg=sMsg+"          VERDE:     "+NumToString(Recibos.verdes,"3.2")+"%   "+lf//+NumToString(recibos.rebajoverde,"6.0")+"     "+NumToString(recibos.cuartillosrebajoverde,"1.0")+lf
-      sMsg=sMsg+"          FLOTE M:   "+NumToString(Recibos.flotemaduro,"3.2")+"%   "+lf//+NumToString(Recibos.rebajoflote,"6.0")+"     "+NumToString(Recibos.cuartillosrebajoflote,"1.0")+lf 
-      sMsg=sMsg+"          FLOTE S:   "+NumToString(Recibos.floteseco,"3.2")+"%   "+lf//+NumToString(Recibos.rebajofloteseco,"6.0")+"     "+NumToString(Recibos.cuartillosrebajofloteseco,"1.0")+lf 
-      sMsg=sMsg+"          BROCA:"+NumToString(Recibos.granosbroca,"3.0")+" (GRANOS) "+lf//+NumToString(Recibos.broca,"6.0")+"     " +NumToString(Recibos.cuartillosbroca,"1.0")+lf 
+      sMsg=sMsg+"          FLOTE M:   "+NumToString(Recibos.flotemaduro,"3.2")+"%   "+lf//+NumToString(Recibos.rebajoflote,"6.0")+"     "+NumToString(Recibos.cuartillosrebajoflote,"1.0")+lf
+      sMsg=sMsg+"          FLOTE S:   "+NumToString(Recibos.floteseco,"3.2")+"%   "+lf//+NumToString(Recibos.rebajofloteseco,"6.0")+"     "+NumToString(Recibos.cuartillosrebajofloteseco,"1.0")+lf
+      sMsg=sMsg+"          BROCA:"+NumToString(Recibos.granosbroca,"3.0")+" (GRANOS) "+lf//+NumToString(Recibos.broca,"6.0")+"     " +NumToString(Recibos.cuartillosbroca,"1.0")+lf
       //SE QUITA SOLICITUD DE cARLOS msMsg=sMsg+Charact(27)+"!"+Charact(10)+lf
       sMsg=sMsg+lf
       
@@ -2952,16 +3057,16 @@ window :
       sMsg=sMsg+lf
       sMsg=sMsg+lf
       sMsg=sMsg+lf
-      //nRes is int 
+      //nRes is int
       impresora IS string = Parametros.impresora //
       //impresora="WOOSIM"
       
       
       
-      //impresora IS string = Parametros.impresora 
+      //impresora IS string = Parametros.impresora
       impresora= imprime_texto(impresora,sMsg)
-      
-      IF opcion=1 AND Recibos.impreso=0 
+      //info(impresora)
+      IF opcion=1 AND Recibos.impreso=0
       	Recibos.impreso=1
       	STC_impreso..Visible=True
       	proteger()

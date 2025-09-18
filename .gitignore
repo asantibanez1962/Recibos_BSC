@@ -16,6 +16,7 @@ Sauvegarde
 *.waudit
 *.wdcoverage
 *.wpf
+*.apk
 HstDuree.log
 #
 #WEBDEV

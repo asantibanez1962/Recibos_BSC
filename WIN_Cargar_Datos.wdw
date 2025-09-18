@@ -13,8 +13,8 @@ window :
  internal_properties : HgAAAB4AAABLQEpTlTi4Y3ECy5uUIe7PSAjV1kk1tO1bk2iSDVTZzKB9YlzZMLfalePJRC0sgFnggAs35PNgcNDSHsbnsuAc3xiS2YXPLDqyyQNx9Q+YxHPCRJelRTUfZ2xGmm27/IqP4NG4Z8AyJ3LjEM/3w67UU4VIEls3q/zOIOtYfCfdutvMgAfMEFrGVQhxcGCIzdITAZdgtPXIaCxXpXEKsa8Hp46QZkA5ubCzOCg+O3Gd+3x8VJe4U8bB+J0sZVQoF612fWxJCMMoM5gQYpdkdFfbtzeCxHpZQG7OT635fdOkSeV263rwbJ7mb3t+CEjCkDnHGlWtLEg3ivOmh7fOeWcsfL9+T7jkF3IjitDZyR8X47gugN4uHLDYNjY+QoZDwn6N+tDS6h675AqS6U7p8E+Qydik0BGfDzOMxe+8uojilD1pwzPP/V/3LeKcoVWUWG/5rZ/YvCGDgaCruN3Pna1btS6TdoHzToQb6Usrk5IyKhSZqxLhJVqUA1OCz/kW3OKbKnMzpgDsChvNM9BDQCrSfX4S2/d5vJ3fhvaVwAjsgywZQ8JU8zYbJILsyeAM3l6GsBwGc6VHn+hIf6ZcZNxbTifxIM6EMvDs2xEN+TMq1xDjwcqoNIoGsP8HaaoIoFzZlaxXlfwziwIL/bUNvC5ykFziOqzEfE1St8tLjTFc69gBAbyCStF7aONsdiCMiuyMZAuIFR6h1YOlQ3239V1nz6E4Ljv5qR2Buc9vqnp9lx/OER5SRUYV6a38asfrjVO54UYx
  properties :
   width : 320
-  height : 408
-  heightMin : 481
+  height : 464
+  heightMin : 537
  style : {}
  controls :
   -
@@ -35,181 +35,9 @@ window :
      type_code : 136
      p_codes : []
   -
-    name : BTN_Subir1
-    identifier : 0x29b46e810748ffe1
-    internal_properties : HgAAAB4AAAD0cbLNN6UlBSzfFeMGmKwzAASA3OQEmH/arv3mORpy0V2E+j5okL5Y3nmddE6KRTAk9zrGu7v7nvTjqjfweBS2z2F2gas+3W/qhH/6v5ckPhOvyIrAyHJL9Nkv1whDO5iXyqajGxLm3fbXJcf8D58srQjAxEtOUGnNcntD6a4M0HbjSZY01mJ0FiPiVkXUm4g+c7RpLtNvMxSO6nwHedSXaWBz44si3NqSeUA4jciq5agH4qYAyAXJ3bdO3fE+jxDBXXw97cepaxsn82wytVSrTLjQ6sLxGiqLUbGlNolokNV4G5NYww7VoNPuvFxFmoznteAlU/yJfSA/EqEy6yH5Eeugy97aI6/Fafhy2cTTQyhNR2xALi+RFStFy/iEXPY8uwgw63ON1uiBn/adRCxvciOcnLlc7dlzsU8JIszaKXTi/Gt4QD9UFqd8PSik8dMmCcW9LAvqzgdSLk7zQhg+VE7xVcgPUyNkE7c+jQfIwY8JrYWaehy3aNtx1DzlLm1tcZD02mtIbA1rXYdA2MLbFmnsi4Z/73Mqtss3JbpchToythTSDwxJUkXVOOj43ZyXIqkJ1ewV+ctI6VFQ5hVdeJcLta8VfEVka2F244OkQxNWaiDwetsB1u7NPehqM2SC2dLghm2WUZ1+o1ALzPsS59pXAa+h1HxfNsUwttN0CCJ4o1xn0NMY6VF9gHbkRQqTNQLOttJzlhsT3+dPjqMwvJ7NKeUcPy6Xk0ZRm0DbzJJN1wVBSj5jUS5kGnSBjujeURVED/GGmhDbxOpmelkZnugg3hacZB/kNU17O0ZincCRXB2MEtVGGYya7NKgP9+kbnVrtOth6mJODIjiaOAIlcQMj1jmE5qEQP6bzLrLjV098vXCGgd1zRyRb4irFPg6CMN3JHnQrBjwnJ0uETFrm3iBR7M=
-    properties :
-     x : 183
-     y : 358
-     width : 122
-     height : 35
-     visible : 0
-     accelerator_key : 65535
-     tab_order : 3
-    style : {}
-    type : 4
-    code_elements :
-     type_code : 4
-     p_codes :
-      -
-        code : |1-
-         //
-         //iFont sUserOptions:sServerName ="" then
-         //	Error("Debe tener opciones de configuración")
-         //	return 
-         //END
-         //
-         //
-         PROGBAR_Subir..Visible = True
-         bPasos is boolean
-         
-         bPasos=Global_Borrar_Datos_Locales()
-         //IF bPasos=False THEN
-         	
-         //	IF gnaccesodatos=0 THEN
-         //		Info(<§@19b700d10048e3780000§>)
-         //		gnaccesodatos=1
-         //	END
-         	
-         //	Regresar()
-         //	RETURN 
-         //END
-         //ToastDisplay("Paso 1")
-         //declarar variables para búsqueda
-         //ScreenToFile(WIN_Cargar_Datos,zonas)
-         
-         i is int
-         
-         for i=1 to HNbRec(zonas)
-         	hread(zonas,i)
-         	if zonas.cargar=True THEN
-         		gsparzonas += zonas.zona+","
-         	END
-         END
-         gsParzonas=NoRightCharacter(gsParzonas,",")
-         gsParzonaswhere=NoRightCharacter(gsParzonaswhere,",")
-         HDeleteAll(proceso_recibir)
-         bPasos=Leer_Datos_WS()
-         
-         //n is int =0
-         //n=HNbRec(recibidores)
-         //gsParzonas=""
-         //gsParzonaswhere=""
-         //for i=1 to LooperCount(LOOP_Zonas)
-         //for i=1 to n
-         //if LOOP_Zonas[i].cargar=True THEN
-         //		gsparzonas += "'"+LOOP_Zonas[i].zona+"',"
-         //		gsParzonas += LOOP_Zonas[i].nombre+","
-         //		gsParzonaswhere += "'"+LOOP_Zonas[i].Recibidor+"',"
-         //	END
-         //	hread(recibidores,i)
-         //	gsParzonas = gsParzonas+recibidores.recibidor+","
-         //	gsParzonaswhere = gsparzonaswhere+"'"+recibidores.recibidor+"',"
-         //END
-         
-         
-         IF bPasos=False THEN
-         	Regresar()
-         	RETURN 
-         END
-         
-         //
-         //IF sUserOptions:nAuthentication = 1 THEN
-         //	nConnectionID = FTPConnect(sUserOptions:sServerName,sUserOptions:sUser,sUserOptions:sPwd,sUserOptions:nPort,suserOptions:bPassive,suserOptions:nTimeout)
-         //ELSE
-         //	IF sUserOptions:nPort=80 then
-         //		nConnectionID = FTPConnect(sUserOptions:sServerName) 
-         //	ELSE 
-         //		nConnectionID = FTPConnect(suserOptions:sServerName,“”,“”,suserOptions:nPort,suserOptions:bPassive,suserOptions:nTimeout)
-         //	END
-         //END
-         //ToastDisplay("Conectar FTP",toastShort,vaBottom,haCenter)
-         ////nResConnect = FTPConnect("196.40.83.18")
-         ////nResConnect = FTPConnect("192.168.59.41")
-         //if nConnectionID=-1 then
-         //	ToastDisplay("Error  FTP",toastShort,vaBottom,haCenter)
-         //	regresar()
-         //	return 
-         //END
-         //
-         //bPasos=Subir_Archivo_FTP()
-         //IF bPasos=False THEN 
-         //	Regresar()
-         //	RETURN 
-         //END
-         //
-         ////esperar archivo, con timeout 
-         //// si no llega regresa
-         //bPasos=Esperar_Archivos()
-         //IF bPasos=False THEN 
-         //	Regresar()
-         //	RETURN 
-         //END
-         //
-         // //cargar archivos desde el servidor
-         //bPasos=Leer_Archivo_FTP()
-         //IF bPasos=False THEN 
-         //	regresar()
-         //	RETURN 
-         //END
-         //
-         // //procesar importacion 
-         //bPasos=Importar_Archivo()
-         //IF bPasos=False THEN 
-         //	Regresar()
-         //	RETURN 
-         //END
-         //
-         //
-         //// borrar datos locales 
-         //bPasos=Borrar_datos_locales()
-         //IF bPasos=False THEN 
-         //	Regresar()
-         //	RETURN 
-         //END
-         ////borrar texto exportado e importado 
-         ////borrar texto exportado e importado en destino ftp 
-         ////borrar archivo de espera 
-         // 
-         
-         //Regresar()
-         //hread(Usuarios,1)
-         //HRead(re_parametros,1)
-         //hread(Parametros,1)
-         //parametros.recibidor=usuarios.recibidor
-         //parametros.cosecha=re_parametros.cosecha
-         //gscosecha=re_parametros.cosecha
-         //gsrecibidor=usuarios.recibidor
-         //hsave(Parametros)
-         //info("antes leer inicial")
-         ToastDisplay("Cargar Parametros")
-         leer_inicial()
-         //info("hred re_par :"+hrecnum(re_parametros))
-         //IF HRECNUM(re_parametros)=1 THEN
-         //	HRead(re_parametros,1)
-         //	gscosecha=re_parametros.cosecha
-         //	info(gscosecha)
-         //	HREAD(Parametros,1)
-         //	PARAMETROS.COSECHA=GSCOSECHA
-         //	HSAVE(PARAMETROS)
-         //END
-         //HSeekFirst(recibidores,recibidor,gsrecibidor)
-         //IF HFound(recibidores)=True THEN
-         //	gsessifon=recibidores.essifon
-         //END
-         
-         Regresar()
-         //parametros.recibidor=Usuarios.recibidor
-         ToastDisplay("Proceso finalizado")
-         close()
-        type : 18
-      -
-        type : 161
-        enabled : false
-  -
     name : BTN_Cancelar
     identifier : 0x29b75220022d8158
-    internal_properties : HgAAAB4AAAAzysTwWoOYrcKOaMgbqmXLeBa1YW8b7WoKFe6DpqarTtlVs20IJ347YUveVmG282xEE4t/ejVN5FLhoqm/Zxo9tvSJ+V0rgBureZTHGL0kpqitXbzD9fpIVlBj7rrzkmVFwNKjjbcjektUwDLRPxXSuP8HWilsrMq+xXXLDbbzdbgPQiLC8gD/rVVegRs9ezSr1EtVryaTmZ7I9PWn+nY+5iGTQcmYvc+MkBHRa/kkBSPsBEsccHNyjrV1ngFDpsCgkIMzIMHw+ZBVVTSP7qx5Zds/iPSqbZA7UZhlLMfztUnXEet2Hun+gyk/iVlziifJ763uWQgOnVjMjwWA12R53FWX1DOQJ9EvgjgqbCznIuz1qg99Clh19TnipS+hanhX/ixR7nGXjtVmwsrRHU63JaUZVKsvBVPgzWlAXccY3m8v5k4FWmkZF9qt15v4wW996on4gQN+aWYEyHsrj+GOVY7jOlj8qrl3paWnBKgnDjtY/vPt4GiEFlus1y00BE0ra7KkOwg/JN3Li7r5gMTdwGS1R/EQFme9tPEbpr9Zc0TP5qgECvb7t3r4wH6L51zH3WVHZla1xxGZq8WRlHOSmKGpTWKoMoj1Yw8dzZAnyCFjbKx5XtYjJgY1i+X0szcbhjSllvsvgvdmnfoKkwUXLUGqWhVxxnV7tNdUkxtDavGn11qm6rVd57F7eeIkpwYmV2mH+k2GoH4xxQfLA9fNp+51KIhh9qRLUP9rrxXx/4MEdhGVFljfbB+2zXWf9o/K3vScPQ7DM3cAvkaTNiwjhrfJ6Ey01whw2+riVK9AVCoDYQ5jfuTfVHEpt12DE0itwA6WrktiJr0e70u30SAKz5dK19My1g71T7obfm082KiVUpU2cJPfyimhi0e1oeJIv7FQJUYyqj2+PSdKnY9KLVPdjzK+PFZdfdDpc7Yl/tBV1dMs2zInD3hdjXoFAFjxY1Ufphvpii7AGX2DHAavoid5JcTP
+    internal_properties : HgAAAB4AAAClHA5OJH1qx5Qg0lrpPFutkjinV2ENx3RU94AdHGBpiJsfDUP6cei148WgEN9wSaYOBYVtTB+HFiwzFHvN2XgfUI5Lz48Naj39077hFocSsFq/b1LN/+xSQEK14Kj1kGdHytSpv0nFXF1uKgz/GYu0IhFhuKNmlsSg/0c9M7jhR6oJRAg8TLLBx29A06mPSebFRj3DqSCtg6jK9v2YsPayJG8Ba7EHFzFDUBOLUeWusweIvLNSMAE4do1TkE9PQPqQINtLZom2e1RZLyJBbq5zoVfLDH72A+bjSbabDvehd9FPBTdMtoccr3W9szevSGFdEzV+V+gUP0zQ8YPSP9LXQOlr0GGgVWOrTtZQbmxBmPxlpkNLuhb3mb3UD/W9TFoPTpB9TPnZCJFCsICrlQDF0eHVyM3TnynoxXOCE9v+sJeHAgIPNp+rB1pfjUWYXwnlCvWMF7uY8xIAOiUxa0/0KTIn3kLY9NN3pRtt1rgVZGcMBh5k14Mh8T5PLPh/kdjGvp8P3ltuVTCebm/M+6H472sy6kjvyYiAD7x8WcK6EoeqS1NrQUlM2h1b5aVyxAcSoLqySekEpACISkZ8pwzhu2x6TGVTIXnwbqqaYAu4H+CC8VeIjUGcRaWEtMjvlNYapdkQKR4ug/JhyMNJWiJq0PxvDSQgqdaOxyrtdua8KSBG9J3NocDWEpTuxrV3yC3h6vZaxehlAZ1YzPxenngsDlVub3cokVEqdyYYcmjarnJLz+iIwU/EB7oRatQ9qB11Xf1LhNm2JE6MwESRKDIliLEzfroGJdYCLbzQeoluBnzdSxRpcNLNRmMbhWONCUKnOvC0jLXIjNf4ybHduz4k6alU3dk01Az3QaxpjH8iwrKfZINEYoHN5DO7sa1ffzwikYMOeygQiN8Qj5X4z90UF0XPnSCIApyXJwq3ATibcKKnp4FynfBlSSL3K9in5kLbVUctlHVPcMBSq+MpRlwBFJHTW5I5
     properties :
      x : 183
      y : 314
@@ -234,7 +62,7 @@ window :
   -
     name : LOOP_Zonas
     identifier : 0x29b759a702abe70b
-    internal_properties : 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
+    internal_properties : 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
     properties :
      x : 6
      y : 7
@@ -395,7 +223,7 @@ window :
   -
     name : BTN_Subir2
     identifier : 0x265f11e878003c51
-    internal_properties : HgAAAB4AAAAvvTLhcbavyzmByYPNnPtSvJ7QYG/T8QYrdjTalCjQ9XWjP5cKXEYQ3qtRF3TAGwoEcKVPsSW0RlCzX2jxmq0PtdaU+xGDRRWBqFbOQ1H4uTtelI+Z7TVKbp66aBBB78bCKgMS+IBWduU4GGYkrlmnWrCGp92SAxlaL9QeFBFKcxcyvnezR07zzDlW7KZYwiMez2Jb5JZFcodRU0cmi4pLBr5Zz11O4Lbk0q2CyF6PgZ3GIVOfSV2ZuiLboQ7JwkEvjqKeq2CD3bIzZnXiKmlutWahupE6ptSRZc4nNOZsD59P372qMP+6btHc8vrPH2YgSO9rGberhtmnfsnf9jVVtxlPHPAEl0lV1SK+VIJckRX3FbvEM9WAtcR146WHv2t1Z9XBkhE2JQcRG4fA+V48HVFwtTovrtcTu9rYhOMSIXHHqAAG/wdRSec5+Qnfu3wYDj9Sy0h4xvCV6LxxCsPKX7J5lSkAdbcClFgAw1zim2iPB+9/mr+u1pKgMoshffFinWly17rab0g65nY4HmGO732TLe8ietZW17hxcOlX1xoryfPoX6ucpvoMRI0nv8Qnv7MPWtpAhGAiWgTXuKPjHobuO0dshP0ajaJ4dcvvdR60K6my6aLd186Y2Mt+7ByPYw6HHdZmeic8MGGsHhLiKX/qTq5avTHlXIJDTsE9Z51FZh00cTDW+7+CHjednQd3razXtR5+50v7cBJP/lKbhNEE3tflmJEMCvSW0t4fG54I5rGAc84o4SAFgUXZocdYts7XqZBWedZx82UuP7PrZhGrfiMvZgln1JDQoKi/bVnKmZlz1wRDQ1LdJoAiWsMiTqhQdWro9NioM0LsUE2b0CbDv5wpbmqwx9KYTuoKx3rWRYPpT3ZZweipS9KnwRAQxkOexIvYintiC/S6GQ==
+    internal_properties : HgAAAB4AAADJ20IS2C08txxjzXMyVpygBW71/9IGmyoLzI2sJ2ufhVycD+YL9AwY6DYrfb9qC18H24mrDnPKWJBW0zOm6dtA6P1aCtrj7QnDSB3xNOQyO4qS4hNcPSdwq25jLICjBMijSau+FiXxSNrdIze5Ok5Sc0IpCJG2GI4SN2MV3UeOobiGqvTc1HTlT0DpnU7pLmGvuPdZWt7krrbe74l2eFUAgClek+RSaeUUSnmylO1GKYzAYvuyDACfVqBc040RF0x3AF+GA6QhoTfccCcHfnpIvHepoKZiio1vtEVr8dqbBl1M7AY2iWZ8yyoZl1c7z1WFe2Wy8zJnRVS6yOR+v0+6d+LZBVp2xF13aExuzhD5RXoth6C9ZMV4zpxFeqJEImv4wXva52ZDXdcXSmVWPcGnt8L8nA4JCpxkB6ywGC4Mmc5oEmu3xUBaRqM4cK9gxs8x56AFRFVe6UrcyEKS4U+RZXypRkApA17Yx+KUTL0OlJo1uwi2Q9V13rUEvGRG/bLMG61zEEfIMq4TyI5h+6WRCTvbPDrTYrc0OKhDNR4RXH4r4wy5qHtvBNWm5Njo4S/bB2Xk2UEmH2gdPgrch9fA1IjGvOydLFTyCJRgyEQNQpawUWqvNrCYUx9oZho7gnv3z5AygIdgudGrfsGV6SCz5WfIxRE/E/r9l75FRwoD3rNn3q7tRJy788oUfpQW74AZ45QgGN+qDPkU2JQMKYSYbJ2C8S4OUMKMXZB4NWXZBgaU3H5/GrizP4spd3x4xSaeICqWqM3aMP50Pxf1Qr02Rr3BpzI6Nuwl3fLIQcm3kO1ylw5S1lYkU+eLrsU1pMiOrs6bKP2UinBTTSbjqApj/eUvbgUlPiY5KZhtGKHz55N9lCvl0WE4/1l5VuTHm/3VPSZVnZ85P6qcULbS
     properties :
      x : 2
      y : 314
@@ -448,6 +276,202 @@ window :
          gsParzonaswhere=NoRightCharacter(gsParzonaswhere,",")
          HDeleteAll(proceso_recibir)
          bPasos=Leer_Datos_WS()
+         
+         //n is int =0
+         //n=HNbRec(recibidores)
+         //gsParzonas=""
+         //gsParzonaswhere=""
+         //for i=1 to LooperCount(LOOP_Zonas)
+         //for i=1 to n
+         //if LOOP_Zonas[i].cargar=True THEN
+         //		gsparzonas += "'"+LOOP_Zonas[i].zona+"',"
+         //		gsParzonas += LOOP_Zonas[i].nombre+","
+         //		gsParzonaswhere += "'"+LOOP_Zonas[i].Recibidor+"',"
+         //	END
+         //	hread(recibidores,i)
+         //	gsParzonas = gsParzonas+recibidores.recibidor+","
+         //	gsParzonaswhere = gsparzonaswhere+"'"+recibidores.recibidor+"',"
+         //END
+         
+         
+         IF bPasos=False THEN
+         	info("Error de proceso ")
+         	Regresar()
+         	RETURN
+         END
+         
+         //
+         //IF sUserOptions:nAuthentication = 1 THEN
+         //	nConnectionID = FTPConnect(sUserOptions:sServerName,sUserOptions:sUser,sUserOptions:sPwd,sUserOptions:nPort,suserOptions:bPassive,suserOptions:nTimeout)
+         //ELSE
+         //	IF sUserOptions:nPort=80 then
+         //		nConnectionID = FTPConnect(sUserOptions:sServerName)
+         //	ELSE
+         //		nConnectionID = FTPConnect(suserOptions:sServerName,“”,“”,suserOptions:nPort,suserOptions:bPassive,suserOptions:nTimeout)
+         //	END
+         //END
+         //ToastDisplay("Conectar FTP",toastShort,vaBottom,haCenter)
+         ////nResConnect = FTPConnect("196.40.83.18")
+         ////nResConnect = FTPConnect("192.168.59.41")
+         //if nConnectionID=-1 then
+         //	ToastDisplay("Error  FTP",toastShort,vaBottom,haCenter)
+         //	regresar()
+         //	return
+         //END
+         //
+         //bPasos=Subir_Archivo_FTP()
+         //IF bPasos=False THEN
+         //	Regresar()
+         //	RETURN
+         //END
+         //
+         ////esperar archivo, con timeout
+         //// si no llega regresa
+         //bPasos=Esperar_Archivos()
+         //IF bPasos=False THEN
+         //	Regresar()
+         //	RETURN
+         //END
+         //
+         // //cargar archivos desde el servidor
+         //bPasos=Leer_Archivo_FTP()
+         //IF bPasos=False THEN
+         //	regresar()
+         //	RETURN
+         //END
+         //
+         // //procesar importacion
+         //bPasos=Importar_Archivo()
+         //IF bPasos=False THEN
+         //	Regresar()
+         //	RETURN
+         //END
+         //
+         //
+         //// borrar datos locales
+         //bPasos=Borrar_datos_locales()
+         //IF bPasos=False THEN
+         //	Regresar()
+         //	RETURN
+         //END
+         ////borrar texto exportado e importado
+         ////borrar texto exportado e importado en destino ftp
+         ////borrar archivo de espera
+         //
+         
+         //Regresar()
+         //hread(Usuarios,1)
+         //HRead(re_parametros,1)
+         //hread(Parametros,1)
+         //parametros.recibidor=usuarios.recibidor
+         //parametros.cosecha=re_parametros.cosecha
+         //gscosecha=re_parametros.cosecha
+         //gsrecibidor=usuarios.recibidor
+         //hsave(Parametros)
+         //info("antes leer inicial")
+         ToastDisplay("Cargar Parametros")
+         leer_inicial()
+         //info("hred re_par :"+hrecnum(re_parametros))
+         //IF HRECNUM(re_parametros)=1 THEN
+         //	HRead(re_parametros,1)
+         //	gscosecha=re_parametros.cosecha
+         //	info(gscosecha)
+         //	HREAD(Parametros,1)
+         //	PARAMETROS.COSECHA=GSCOSECHA
+         //	HSAVE(PARAMETROS)
+         //END
+         //HSeekFirst(recibidores,recibidor,gsrecibidor)
+         //IF HFound(recibidores)=True THEN
+         //	gsessifon=recibidores.essifon
+         //END
+         bRes is boolean
+         bRes = HExecuteQuery(QRY_PROVEEDORES_CONTAINS,hQueryDefault,"","")
+         
+         
+         Regresar()
+         //parametros.recibidor=Usuarios.recibidor
+         info("proceso Finalizado")
+         //ToastDisplay("Proceso finalizado")
+         close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_tabla
+    identifier : 0x265f3d237f4f1c9d
+    internal_properties : HgAAAB4AAABxqYz+gSnFJu9I6iqrv/qEBn9MqTkWOsKNQi3cTnfdpNnR+O/r8c5rds7lSyihUpHKdy9dnlYmI87/1peG/HvR+aSc1vw3YTe7nMvk0IdXlxqP7MJ4fgYvWnemT9/7xSC1K5n0eExOEgO7KgfOH+4RNScRt/Pw9K3yi44YCtfgBijq79r2IXJ9IXjInoIBz+nwMbdKDfaZHHEBH0zoI2po6XGtNj+QVy6Lkh5GOjER58zGOMk2xWkTvOQlELZPHVqjwy3k5FBI/INgP0wpPIYrdZMyt/Rshw+f9M5wjm6A3QfIdtwkcAC3Z8gC2aI7gw1VS80lSf+gqWLsfDYGGoN25n/vLbzZmJS90We8fersNQpp7+iEw7PrOYCu5yX/+CsDjPru9CtqU/+UIwi1cwVsRJNWuB1l8IajIahIbxGsYJ3gu95+fu6qGX5JGiKuXmwlm17DYyKK3dPSTRY=
+    properties :
+     x : 2
+     y : 363
+     width : 181
+     height : 23
+     tab_stop : 0
+     take_focus : 0
+    style : {}
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Subir3
+    identifier : 0x28cc85e0536f5689
+    internal_properties : HgAAAB4AAAAEsP5LwRxmhAkF/Nd1JL6eZPgqnApG8y76ynaBgo820CRx3XW5B+C8fnhAzLQEAfVjtVicfws5MCD8EU9a21UXLsLnhH7Uc7vlhBGVcDAlbY3ym67rweNC9FdzRYd5s12gQN5PeQjJp556rjyxTmgLVpupQYM8S2dQnfS7PPyHahSfWmXEQQgyRClX4iOqEUraKJdhz0Z38NAPsEvzzORIIWc/GVP9eMt8cDit0dqwVj9/u6zSKMeCzfdTNrDkYn6l9js6/ev6f5veoGCMBKY28WrsQ6FViosAoQuZpJWMDhPf493RXQrCGAFaGTf2NYd26zJMPlULMWqXaPpxECMY/uBJLPQHlB+cMz/imkFg37KeHtEri+D2/NNXlqggxSGl58QIqmv4vTbPSaqPeOPkGKpVppRSFKJ/OzmaRv6slkBBoDkM8aeSSiykeFHbL6rYZgdaR9oBynFEtfo3i5o7IfZV9tuOLzY6cnsnHY3oR5vsKGk7NIWvd+/TV9MrB3NEgxw+0WxjrLmvZOc/n3BvXfiVimNCG9mj2DvLjOYPVMSyg32wv8CAHoivrr458eiDsKeJI0/t7MbC+LIWdkSPPw14Xe11FrIwezSY/Ot1QxHS8WxF7YuTNEipP/JsgIEe1SaBMgc/VTl7QlyTBIHwKIJkdSD4KuUNm8jov9vy4jkxzheuPlCoUNS0bjPeih1YLPKIkg8FGJzEVNSfg1C0WswsB7Ullwf1HkUa+S+lLbzjhi1YG8oDzhh1qiserPdkdA4fJbA2rdsH00DVFAhq8jVDAPGGrYT6VoEfg1nNk7rZFCwPEJphtD9Zw4/EToHBzDYr+3EX9E0fW79jxGHSbOOyqNph1zF9T9QXNbsh43X7Hl2P7yh6H1RMGEu/7pzPBuswgOuDSfHmj0/wa5Zk4Ss83faNMj4k
+    properties :
+     x : 182
+     y : 358
+     width : 122
+     height : 35
+     visible : 0
+     state : 1
+     accelerator_key : 65535
+     tab_order : 3
+    style : {}
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         //
+         //iFont sUserOptions:sServerName ="" then
+         //	Error("Debe tener opciones de configuración")
+         //	return
+         //END
+         //
+         //
+         PROGBAR_Subir..Visible = True
+         STC_tabla..Visible=true
+         bPasos is boolean
+         
+         bPasos=Global_Borrar_Datos_Locales()
+         //IF bPasos=False THEN
+         
+         //	IF gnaccesodatos=0 THEN
+         //		Info(<§$0001§>)
+         //		gnaccesodatos=1
+         //	END
+         
+         //	Regresar()
+         //	RETURN
+         //END
+         //ToastDisplay("Paso 1")
+         //declarar variables para búsqueda
+         //ScreenToFile(WIN_Cargar_Datos,zonas)
+         
+         i is int
+         gsParzonas=""
+         for i=1 to HNbRec(zonas)
+         	hread(zonas,i)
+         	if zonas.cargar=True THEN
+         		gsparzonas += zonas.zona+","
+         	END
+         END
+         gsParzonas=NoRightCharacter(gsParzonas,",")
+         gsParzonaswhere=NoRightCharacter(gsParzonaswhere,",")
+         HDeleteAll(proceso_recibir)
+         bPasos=Lee_Datos_WS2()
+         
          
          //n is int =0
          //n=HNbRec(recibidores)
@@ -567,26 +591,10 @@ window :
       -
         type : 161
         enabled : false
-  -
-    name : STC_tabla
-    identifier : 0x265f3d237f4f1c9d
-    internal_properties : HgAAAB4AAACj+9JAVxOfCJn+VHRlcSR2SHHyK6eQhLxX+O8eCejpKSuL9lfZw+7PZDj50bQdWE9QNSW9UJAeW2gN1nkS4OEHF4qGmq552YfB1o8CpAPRIYwhIgKiZOLDrF3agZcjpxpjMadskhY2uoXxFtUmZxgrHzkLy+lGGFEYDRoG6udacMJc7eLkDz4J91rsNIpJBb8G5+Ui/+Rd9E/7Z+pA27TCZ/8zhglCj1JJvL7Erk3MHBOdDeIpArLaSXm2hSH09LM6ujKdV2WxV9T5TK1Q5V20XKb/WDchUEZAnXe98RtjOvI3/0ljMc2CMLkv0rkEvsJoWlq+xLzxeKdppQPJN9LHqUoAGtvC/Qu6ZsR1FFML1r2ooF0TfGgebnWT8MzYpxzC92dnV9CLcsR5xPVg2LTlb5pnrdxm/ZU8yoE1w91zol8idZS0AGwom/A7aHBwHK7n5RCRkfxgM2UkH0Q=
-    properties :
-     x : 2
-     y : 363
-     width : 181
-     height : 23
-     tab_stop : 0
-     take_focus : 0
-    style : {}
-    type : 3
-    code_elements :
-     type_code : 2
-     p_codes : []
  actionbar :
   name : ACTB_ActionBar
   identifier : 0x2ac7d42708b89a6d
-  internal_properties : HgAAAB4AAABdToonlQh3jAVtrgxGJMP4Qb44N22+R9HDgdgY+ZR1iMaR6haM9sG/ST+Wun8f2cnlR2VJkTwNcDb6F7SDi4YoE93EAeD6c66bktftvF9oNgJAs47Dk58eFsPxec87vCoJOnQNz6EFVTkRzS8YEil9ZBe0N3tlo+Rq8I4FIpRVm2uJsvRwvphxjvle7QGbgSa0ttXg5U+MDhoARPN7W8e5MYXWcja4OZJEQq2BTeyboIsQHGDe/1cbyu1bBb7+L3AgdlT8Rvzj5RDdw7YKUh8/t99axIgyo2nrhudzrfB/SuullIj4nDAJdQNQBZNGm/CoS6PBOyWiEI4JOflDAzzEgzA1qLs8tR/slgx8bzK2nf8fp50Xyv+orJikZHFWqjgDPgYHKSgctF/3
+  internal_properties : HgAAAB4AAABzy2NaJvD7pJ2WE88cneIZ65Ms1N3/AyVXkypY3cyQ6w+t3uP8hfgOjducCmQbINIQrBhnQ8tGEl/SgUPSbpAgDx9/M16BmltgNjTzjbXgWV1rYy3S72LVoozaPo2fWqMbGfN8E/hOFGCFZPO/yhkeJavtuA+fhfX26UtQj2MZ3VzDrlwUsfQGEuplEsQWXqBA+fFJYU40MtRUFH89hW6MmW3I7HSmTruU6AFRP/YKM2dELvLo+ajkpjkT6eT0wjfiYIC8QC4emGaVy3qA0Jq+N1UCgPxSdqhmI9ub1ZwG2b8m1p0nlVyj5+c9O15uoudACYYex5vb5Vqtk7VO9GtPdegPjXEoTyIyAAQjbwQ8e/0TtsiRyuS6Ie7O7ZSvOa0nPs8TfbKt0cqYAPYiR/eiYOA=
   properties : {}
   style : {}
   controls : []
@@ -996,6 +1004,73 @@ window :
       
       
      type : 458752
+   -
+     name : Lee_Datos_WS2
+     procedure_id : 1786950688638077838
+     type_code : 14
+     code : |1+
+      //!
+      //! @brief <specify the procedure action>
+      //!
+      //!
+      procedure Lee_Datos_WS2()
+      sFiledestino is string
+      HRead(Usuarios,1)
+      sUrl		= Parametros.wsutrl
+      sservidor	= Parametros.servidor
+      sInstancia	= Parametros.instancia
+      sBasededatos	= Parametros.basededatos
+      sUsuario	= Usuarios.usuario
+      sClave		= Usuarios.clave
+      sWhere		= ""
+      sorder		= ""
+      dtAhora is DateTime
+      
+      HRead(Tabla_interface,1)
+      for each Tabla_interface  on Tabla_interfaceID where "Tabla_interface.direccion='J' " FromBeginning
+      
+      	sfile=Tabla_interface.Bdlocal
+      	ArrayDeleteAll(sCampos)
+      	ArrayDeleteAll(sCamposExt)
+      	ArrayDeleteAll(sTipos)
+      	ArrayDeleteAll(scamposlocales)
+      	ArrayDeleteAll(sTiposlocales)
+      	ArrayDeleteAll(sValoreslocales)
+      	ArrayDeleteAll(arrSParametros)
+      	ArrayDeleteAll(arrSValParametros)
+      
+      	ArrayDeleteAll(sFilltabla)
+      	ArrayDeleteAll(sFillTipos)
+      	ArrayDeleteAll(sFillcampobuscar)
+      	ArrayDeleteAll(sFillcampollenar)
+      	ArrayDeleteAll(sFillcampovalor)
+      
+      
+      	//procesar where y parametros
+      	gsTablename	= Tabla_interface.Bddestino
+      	sFiledestino	= gsTablename
+      	sWhere		= Tabla_interface.stwhere
+      	sParametros	= Tabla_interface.parametros
+      	Procesar_parametros()
+      	Llenar_campos(sFiledestino)
+      
+      	if ArrayCount(sCampos)=0 then
+      		result False
+      	end
+      
+      	Multitask(-1)
+      	dtAhora		= Now()
+      
+      
+      	//Global_Leer_Tabla(sUrl,sservidor,sInstancia,sBasededatos,sUsuario,sClave, gsTablename, sListacampos,sWhere,sorder)
+      	//		Global_Leer_Tabla_Str(sUrl,sservidor,sInstancia,sBasededatos,sUsuario,sClave, gsTablename, sListacampos,sWhere,sorder)
+      	STC_tabla	= gsTablename
+      	Global_Leer_Tabla_XML(sUrl,sservidor,sInstancia,sBasededatos,sUsuario,sClave, gsTablename, sListacampos,sWhere,sorder)
+      end
+      
+      result True
+      
+     type : 458752
   procedure_templates : []
   property_templates : []
  code_parameters :
@@ -1010,6 +1085,10 @@ resources :
      text :
       es-ES : "Tiene datos sin Enviar, proceda primero"
      index : 0
+   -
+     text :
+      es-ES : "Tiene datos sin Enviar, proceda primero"
+     index : 1
 custom_note :
  internal_properties : HgAAAB4AAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
 rad :

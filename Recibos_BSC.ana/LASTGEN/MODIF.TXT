@@ -1,3 +1,4 @@
-//MO033-034.TXT ANA00033 TO ANA00034
-remedida		TAR	343	new record size: 343
-remedida	cantidad	CNW	Decimal$4-byte integer	new type for cantidad item: Decimal
+//MO035-036.TXT ANA00035 TO ANA00036
+Tabla_interface		TAR	1029	new record size: 1029
+Tabla_interface		IDE-*		table without identifier
+Tabla_interface	Tabla_interfaceID	CNW	4-byte integer$Automatic identifier (8 bytes)	item Tabla_interfaceID has a new type: 4-byte integer
