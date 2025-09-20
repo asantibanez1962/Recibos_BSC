@@ -661,99 +661,186 @@ window :
             -
               code : |1+
                HReadFirst(re_parametros)
-               smsg is string=""
-               lf is string=Charact(13)+Charact(10)
-               lineas is array of string
                
-               smsg=" "+lf
-               add(lineas,smsg)
-               smsg=Charact(27)+"!"+Charact(10)+Charact(27)+"a"+Charact(0)+Charact(27)+"E"+Charact(0)+"------------------------------"+lf  // let.pequeño, izq, no bold, lineas
-               Add(lineas,smsg)
-               smsg=Charact(27)+"a"+Charact(1)//centrar texto
-               Add(lineas,smsg)
-               smsg=Charact(27)+"!"+Charact(20)  //tamaño grande
-               Add(lineas,smsg)
-               smsg=Charact(27)+"U"+Charact(1) //?
-               Add(lineas,smsg)
-               smsg=Charact(27)+"E"+Charact(1) // bold
-               Add(lineas,smsg)
-               smsg=re_parametros.nombrecompania+lf
-               Add(lineas,smsg)
-               smsg=Charact(27)+"!"+Charact(10)  //tamaño mediano
-               Add(lineas,smsg)
-               smsg=Charact(27)+"U"+Charact(0)  //?
-               Add(lineas,smsg)
-               smsg=re_parametros.direccion1+lf
-               Add(lineas,smsg)
-               smsg=re_parametros.direccion2+lf
-               Add(lineas,smsg)
-               smsg=re_parametros.direccion3+lf
-               Add(lineas,smsg)
-               smsg="CODIGO ICAFE "+re_parametros.codigoicafe+lf
-               Add(lineas,smsg)
-               smsg=re_parametros.telefono+lf
-               Add(lineas,smsg)
-               smsg=re_parametros.email+lf
-               Add(lineas,smsg)
-               smsg=Charact(27)+"a"+Charact(0)  //izquierda
-               Add(lineas,smsg)
-               smsg=lf
-               Add(lineas,smsg)
-               smsg=Charact(27)+"!"+Charact(10)
-               Add(lineas,smsg)
-               smsg=lf
-               Add(lineas,smsg)
-               smsg=lf
-               Add(lineas,smsg)
-               smsg=lf
-               Add(lineas,smsg)
-               smsg=lf
-               Add(lineas,smsg)
-               smsg=lf
-               Add(lineas,smsg)
-               impresora IS string = Parametros.impresora
-               //impresora= imprime_texto(impresora,smsg)
-               //info(impresora)
-               
-               //para BT Socket
                when exception in
                	sLista	is string
                	sdisp	is string
                	siddisp	is string
                	sMac	is string
-               	//sinfo is string
-               	ssock	is string
+               	//	//sinfo is string
+               	//sSock	is string
                	sLista=BTListDevice(btSimpleList)
-               	for each string sdisp of sLista separated by CR
-               		siddisp	= ExtractString(sdisp,1)
-               		sMac	= ExtractString(sdisp,2)
-               		Info(sdisp,sMac,BTInfoDevice(siddisp,btClassOfDevice),BTInfoDevice(sdisp,btMACAddress),BTInfoDevice(sdisp,btName),BTInfoDevice(sdisp,btStatusAuthenticated))
-               		SWITCH Dialog(<§?18CB364B01FA7833§>) // Si
-               			case 1
-               				ssock="SOCK"+sMac
-               				if SocketConnectBluetooth(ssock,"SerialPortServiceClass_UUID",sMac) =false  then
-               					Info("No se pudo conectar "+ErrorInfo(errFullDetails))
-               				else
-               					SocketChangeTransmissionMode(ssock,SocketEndTag,CRLF)
-               					FOR EACH sArrElement OF lineas
-               						SocketWrite(ssock, sArrElement)
-               					END
-               					
-               					SocketWrite(ssock,"prueba 1")
-               					SocketWrite(ssock,"prueba 2")
-               					SocketWrite(ssock,"prueba 3")
-               					SocketWrite(ssock,"prueba 4")
-               					SocketWrite(ssock,"prueba 5")
-               					SocketClose(ssock)
-               				end
-               			// No
-               			case 2
-               		end
-               	end
-               do
+               Do
+               
                	Info("ERROR",ExceptionInfo())
                
                end
+               //arrLineas	is array of Buffers
+               smsg	is buffer
+               
+               //lf is string=Charact(13)+Charact(10)
+               lf is string=Charact(10)
+               ESC_	is string	= Charact(27)
+               sLF_		is string	= Charact(10)
+               //smsg += ToAnsiBuf(ESC_ + "@")
+               
+               //info("1")
+               smsg+=toansibuf(ESC_+"@")
+               smsg += ToAnsiBuf(ESC_+ "t" + Charact(16))   // CP1252  era 16
+               smsg += ToAnsiBuf(ESC_ + "M" + Charact(0))    // Font A
+               smsg += ToAnsiBuf(ESC_ + "a" + Charact(0))    // Izquierda
+               //info("1.1")
+               // ---- Título: 2x2 + negrita + subrayado con ESC '!' ----
+               smsg += ToAnsiBuf(ESC_ + "!" + Charact(0x30)) // 2x alto + 2x ancho
+               smsg += ToAnsiBuf(ESC_ + "E" + Charact(1))    // Bold ON
+               smsg += ToAnsiBuf(ESC_ + "-" + Charact(1))    // Underline ON
+               smsg += ToAnsiBuf("BENEFICIO SANTA CRUZ" + sLF_)
+               ////add(lineas,smsg)
+               smsg+=ToAnsiBuf(ESC_+"!"+Charact(10)+Charact(27)+"a"+Charact(0)+ESC_+"E"+Charact(0)+"------------------------------"+sLF_ ) // let.pequeño, izq, no bold, lineas
+               
+               //Info("1.2")
+               ////Add(lineas,smsg)
+               //smsg+=ToAnsiBuf(ESC_+"a"+Charact(1))//centrar texto
+               //Info("1.3")
+               //
+               ////Add(lineas,smsg)
+               //smsg+=ToAnsiBuf(ESC_+"!"+Charact(20)) //tamaño grande
+               //Info("1.3")
+               ////Add(lineas,smsg)
+               //smsg+=ToAnsiBuf(ESC_+"U"+Charact(1)) //?
+               //Info("1.4")
+               ////Add(lineas,smsg)
+               //smsg+=ToAnsiBuf(ESC_+"E"+Charact(1)) // bold
+               //Info("1.5")
+               //smsg+=ToAnsiBuf("negrita")
+               ////Add(lineas,smsg)
+               //info("2")
+               ////smsg+=toansibuf("nombre compañía")
+               //sHilera is string
+               //sHilera=re_parametros.nombrecompania
+               //smsg+=ToAnsiBuf(sHilera+lf)
+               //Info("2.1")
+               ////Add(lineas,smsg)
+               //smsg+=ToAnsiBuf(ESC_+"!"+Charact(10))  //tamaño mediano
+               //Info("2.2")
+               //
+               ////Add(lineas,smsg)
+               //smsg+=ToAnsiBuf(ESC_+"U"+Charact(0)) //?
+               //Info("2.3")
+               ////Add(lineas,smsg)
+               //sHilera=re_parametros.direccion1
+               //smsg+=ToAnsiBuf(sHilera+lf)
+               //Info("2.4")
+               //
+               ////Add(lineas,smsg)
+               //sHilera=re_parametros.direccion2
+               //smsg+=ToAnsiBuf(sHilera+lf)
+               //Info("2.5")
+               //
+               ////Add(lineas,smsg)
+               //sHilera=re_parametros.direccion3
+               //smsg+=ToAnsiBuf(sHilera+lf)
+               //Info("2.6")
+               //
+               ////Add(lineas,smsg)
+               //sHilera="CODIGO ICAFE "+re_parametros.codigoicafe
+               //smsg+=ToAnsiBuf(sHilera+lf)
+               //Info("2.7")
+               //
+               ////Add(lineas,smsg)
+               //sHilera=re_parametros.telefono
+               //smsg+=ToAnsiBuf(sHilera+lf)
+               ////Add(lineas,smsg)
+               //sHilera=re_parametros.email
+               //smsg+=ToAnsiBuf(sHilera+lf)
+               //Info("2.8")
+               ////Add(lineas,smsg)
+               //info("3")
+               ////smsg+=ToAnsiBuf("aqui va el email")
+               //smsg+=ToAnsiBuf(ESC_+"a"+Charact(0))  //izquierda
+               ////Add(lineas,smsg)
+               //smsg+=ToAnsiBuf(lf)
+               ////Add(lineas,smsg)
+               //smsg+=ToAnsiBuf(ESC_+"!"+Charact(10))
+               //info("4")
+               //Add(lineas,smsg)
+               //smsg=lf
+               //Add(lineas,smsg)
+               //smsg=lf
+               //Add(lineas,smsg)
+               //smsg=lf
+               //Add(lineas,smsg)
+               //smsg=lf
+               //Add(lineas,smsg)
+               //smsg=lf
+               //Add(lineas,smsg)
+               smsg += ToAnsiBuf(sLF_+sLF_+sLF_)
+               
+               sImpresora IS string = Parametros.impresora
+               //impresora= imprime_texto(impresora,smsg)
+               //info(impresora)
+               //imprime_text_socket(sImpresora,smsg)
+               ssock1 is string="test"
+               sMac1 is string=Parametros.impresora
+               if SocketConnectBluetooth(ssock1,"SerialPortServiceClass_UUID",sMac1) =false  then
+               	info("sock1 error")
+               else
+               	if not(SocketWrite(ssock1,smsg)) then
+               		Error(ErrorInfo(errMessage))
+               	END
+               	SocketClose(ssock1)
+               end
+               
+               info("segundo")
+               
+               if SocketConnectBluetooth(ssock1,"SerialPortServiceClass_UUID",sMac1) =False  then
+               	Info("sock1 error")
+               else
+               	SocketWrite(ssock1,"prueba 1")
+               	SocketClose(ssock1)
+               end
+               
+               
+               //
+               ////////para BT Socket
+               //when exception in
+               //	sLista	is string
+               //	sdisp	is string
+               //	siddisp	is string
+               //	sMac	is string
+               ////	//sinfo is string
+               //	//sSock	is string
+               //	sLista=BTListDevice(btSimpleList)
+               //	for each string sdisp of sLista separated by CR
+               //		siddisp	= ExtractString(sdisp,1)
+               //		sMac	= ExtractString(sdisp,2)
+               ////		Info(sdisp,sMac,BTInfoDevice(siddisp,btClassOfDevice),BTInfoDevice(sdisp,btMACAddress),BTInfoDevice(sdisp,btName),BTInfoDevice(sdisp,btStatusAuthenticated))
+               ////		SWITCH Dialog(<§?18CB364B01FA7833§>) // Si
+               ////			case 1
+               ////				ssock="SOCK"+sMac
+               ////				if SocketConnectBluetooth(ssock,"SerialPortServiceClass_UUID",sMac) =false  then
+               ////					Info("No se pudo conectar "+ErrorInfo(errFullDetails))
+               ////				else
+               ////					SocketChangeTransmissionMode(ssock,SocketEndTag,CRLF)
+               ////					FOR EACH sArrElement OF lineas
+               ////						SocketWrite(ssock, sArrElement)
+               ////					END
+               ////
+               ////					SocketWrite(ssock,"prueba 1")
+               ////					SocketWrite(ssock,"prueba 2")
+               ////					SocketWrite(ssock,"prueba 3")
+               ////					SocketWrite(ssock,"prueba 4")
+               ////					SocketWrite(ssock,"prueba 5")
+               ////					SocketClose(ssock)
+               ////				end
+               ////			// No
+               ////			case 2
+               ////		end
+               //	end
+               //do
+               //	Info("ERROR",ExceptionInfo())
+               //
+               //end
               type : 18
             -
               type : 161

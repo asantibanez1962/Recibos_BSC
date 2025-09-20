@@ -1263,139 +1263,6 @@ procedure_set :
      procedure_id : 1378054280280919961
      type_code : 15
      code : |1+
-      //import android.util.Log;
-      //import android.app.Activity;
-      //i/mport android.bluetooth.BluetoothAdapter;
-      //import android.bluetooth.BluetoothDevice;
-      //import android.bluetooth.BluetoothSocket;
-      //import android.content.Intent;
-      //import android.os.Bundle;
-      //import android.os.Handler;
-      //import android.util.Log;
-      //import android.view.View;
-      //import android.widget.TextView;
-      //import android.widget.EditText;
-      //import android.widget.Button;
-      //import java.io.IOException;
-      //import java.io.InputStream;
-      //import java.io.OutputStream;
-      //import java.util.Set;
-      //import java.util.UUID;
-      ////import java.system.out;  //cambio para probar
-      //
-      //
-      ////public static int imprime_texto(String impresora, int opcion) //String msg)
-      //public static String imprime_texto(String impresora, String hilera)
-      //{
-      //	String TAG = "IMPRESORA";
-      //
-      //
-      //	BluetoothAdapter mBluetoothAdapter;
-      //	BluetoothSocket mmSocket;
-      //	BluetoothDevice mmDevice;
-      //
-      //	OutputStream mmOutputStream;
-      //	InputStream mmInputStream;
-      //	Thread workerThread;
-      //
-      //	byte[] readBuffer;
-      //	int readBufferPosition;
-      //
-      //	int counter;
-      //	String resultado="-2";
-      //	//java.lang.System.out.println("impresion");
-      //	//System.out.println("impresion");
-      //	Log.v(TAG, "0");
-      //	Log.i(TAG, "0");
-      //	Log.d(TAG, "0");
-      //	Log.e(TAG, "0");
-      //	Log.w(TAG, "0");
-      //	resultado="-3";
-      //	//			BluetoothAdapter mBluetoothAdapter; // = null;
-      //	//		    BluetoothSocket btSocket; // = null;
-      //    //			OutputStream outStream; // = null;
-      //	//			String address = "00:00:00:00:00:00";
-      //	//			UUID MY_UUID =    UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
-      //
-      //	try {
-      //		mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-      //		resultado="-4";
-      //
-      //		Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
-      //		Log.v(TAG, "1");
-      //		resultado="-5";
-      //		if (pairedDevices.size() > 0) {
-      //			//java.lang.System.out.println(impresora);
-      //			//System.out.println(impresora);
-      //			Log.v(TAG, impresora);
-      //			resultado="-6";
-      //			//impresora = "WOOSIM";
-      //			for (BluetoothDevice device : pairedDevices) {
-      //				//Log.v(TAG, device.getName());
-      //				resultado="-7";
-      //				//System.out.println(device.getName());
-      //				//java.lang.System.out.println(device.getName());
-      //				//if (device.getName().equals(impresora)) {
-      //				//nuevo
-      //				//resultado=-8;
-      //				//mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-      //				//resultado=-9;
-      //        		//BluetoothDevice device = mBluetoothAdapter.getRemoteDevice(address);
-      //				//resultado=-10;
-      // 				//btSocket = device.createRfcommSocketToServiceRecord(MY_UUID);
-      //				//resultado=-11;
-      //            	//btSocket.connect();
-      //				//resultado=-12;
-      //            	//outStream = btSocket.getOutputStream();
-      //				//resultado=-13;
-      //            	//byte[] msgBuffer = hilera.getBytes();
-      //				//resultado=-14;
-      //	            //outStream.write(msgBuffer);
-      //	            //resultado=-15;
-      //	            //outStream.flush();
-      //	            //resultado=-16;
-      //	            //outStream.close();
-      //	           // 	resultado=-17;
-      //
-      // 	            //btSocket.close();
-      //				//resultado=-18;
-      //
-      //				// fin nuevo
-      //				resultado="-8";
-      //				mmDevice = device;
-      //				UUID uuid = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
-      //				//UUID uuid = UUID.fromString("00001800-0000-1000-8000-00805f9b34fb");
-      //				mmSocket = mmDevice.createRfcommSocketToServiceRecord(uuid);
-      //				resultado="-9";
-      //				mmSocket.connect();
-      //				resultado="-10";
-      //				mmOutputStream = mmSocket.getOutputStream();
-      //				resultado="-11";
-      //				mmInputStream = mmSocket.getInputStream();
-      //				String msg = hilera; //callWLProcedure_String("imprime_recibo");
-      //				mmOutputStream.write(msg.getBytes());
-      //				resultado="-12";
-      //				mmOutputStream.close();
-      //				resultado="-13";
-      //				mmInputStream.close();
-      //				resultado="-14";
-      //				mmSocket.close();
-      //				resultado="1";
-      //				//	break;
-      //				//	}  //impresora
-      //			} //for
-      //		} //if pairted device
-      //	} catch (NullPointerException e) {
-      //		//resultado=-9;
-      //		e.printStackTrace();
-      //	} catch (Exception e) {
-      //		resultado=e.toString();
-      //		Log.e(TAG, "ERRORES",e);
-      //		e.printStackTrace();
-      //	}
-      //	return resultado;
-      //}
-      
       import android.util.Log;
       import android.app.Activity;
       import android.bluetooth.BluetoothAdapter;
@@ -1409,85 +1276,126 @@ procedure_set :
       import android.widget.TextView;
       import android.widget.EditText;
       import android.widget.Button;
-      //import android.widget.Toast;
       import java.io.IOException;
       import java.io.InputStream;
       import java.io.OutputStream;
-      import java.io.StringWriter;
-      import java.io.PrintWriter;
       import java.util.Set;
       import java.util.UUID;
+      //import java.system.out;  //cambio para probar
       
       
       //public static int imprime_texto(String impresora, int opcion) //String msg)
       public static String imprime_texto(String impresora, String hilera)
       {
-      	//	System.out.println("Entro");
-      		String TAG = "PBT";
-      		StringWriter errors = new StringWriter();
-      
-      		BluetoothAdapter mBluetoothAdapter;
-      		BluetoothSocket mmSocket;
-      		BluetoothDevice mmDevice;
-      
-      		OutputStream mmOutputStream;
-      		InputStream mmInputStream;
-      		Thread workerThread;
-      
-      		byte[] readBuffer;
-      		int readBufferPosition;
-      
-      		int counter;
-      		int resultado=-1;
+      	String TAG = "IMPRESORA";
       
       
-      		try {
-      			mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+      	BluetoothAdapter mBluetoothAdapter;
+      	BluetoothSocket mmSocket;
+      	BluetoothDevice mmDevice;
       
-      			Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
-      			Log.v(TAG, "1");
-      		//	System.out.println(impresora);
-      			if (pairedDevices.size() > 0) {
-      				Log.v(TAG, impresora);
-      		//		Toast.makeText(getApplicationContext(),"impresora",Toast.LENGTH_SHORT);
-      				//impresora = "WOOSIM";
-      			//	System.out.println("2");
-      				for (BluetoothDevice device : pairedDevices) {
-      					Log.v(TAG, device.getName());
-      		//			Toast.makeText(getApplicationContext(),device.getName(),Toast.LENGTH_SHORT);
-      			    	if (device.getName().equals(impresora)) {
-      						mmDevice = device;
-      						UUID uuid = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
-      						mmSocket = mmDevice.createRfcommSocketToServiceRecord(uuid);
-      						mmSocket.connect();
-      						mmOutputStream = mmSocket.getOutputStream();
-      						mmInputStream = mmSocket.getInputStream();
-      						String msg = hilera; //callWLProcedure_String("imprime_recibo");
-      						mmOutputStream.write(msg.getBytes());
-      						mmOutputStream.close();
-      						mmInputStream.close();
-      						mmSocket.close();
-      						resultado=1;
-      						break;
-      					}  //impresora
-      				} //for
-      			} //if pairted device
+      	OutputStream mmOutputStream;
+      	InputStream mmInputStream;
+      	Thread workerThread;
+      
+      	byte[] readBuffer;
+      	int readBufferPosition;
+      
+      	int counter;
+      	String resultado="-2";
+      	//java.lang.System.out.println("impresion");
+      	//System.out.println("impresion");
+      	Log.v(TAG, "0");
+      	Log.i(TAG, "0");
+      	Log.d(TAG, "0");
+      	Log.e(TAG, "0");
+      	Log.w(TAG, "0");
+      	resultado="-3";
+      	//			BluetoothAdapter mBluetoothAdapter; // = null;
+      	//		    BluetoothSocket btSocket; // = null;
+          //			OutputStream outStream; // = null;
+      	//			String address = "00:00:00:00:00:00";
+      	//			UUID MY_UUID =    UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
+      
+      	try {
+      		mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+      		resultado="-4";
+      
+      		Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
+      		Log.v(TAG, "1");
+      		resultado="-5";
+      		if (pairedDevices.size() > 0) {
+      			//java.lang.System.out.println(impresora);
+      			//System.out.println(impresora);
+      			Log.v(TAG, impresora);
+      			resultado="-6";
+      			//impresora = "WOOSIM";
+      			for (BluetoothDevice device : pairedDevices) {
+      				//Log.v(TAG, device.getName());
+      				resultado="-7";
+      				//System.out.println(device.getName());
+      				//java.lang.System.out.println(device.getName());
+      				//if (device.getName().equals(impresora)) {
+      				//nuevo
+      				//resultado=-8;
+      				//mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+      				//resultado=-9;
+              		//BluetoothDevice device = mBluetoothAdapter.getRemoteDevice(address);
+      				//resultado=-10;
+       				//btSocket = device.createRfcommSocketToServiceRecord(MY_UUID);
+      				//resultado=-11;
+                  	//btSocket.connect();
+      				//resultado=-12;
+                  	//outStream = btSocket.getOutputStream();
+      				//resultado=-13;
+                  	//byte[] msgBuffer = hilera.getBytes();
+      				//resultado=-14;
+      	            //outStream.write(msgBuffer);
+      	            //resultado=-15;
+      	            //outStream.flush();
+      	            //resultado=-16;
+      	            //outStream.close();
+      	           // 	resultado=-17;
+      
+       	            //btSocket.close();
+      				//resultado=-18;
+      
+      				// fin nuevo
+      				resultado="-8";
+      				mmDevice = device;
+      				UUID uuid = UUID.fromString("00001101-0000-1000-8000-00805f9b34fb");
+      				//UUID uuid = UUID.fromString("00001800-0000-1000-8000-00805f9b34fb");
+      				mmSocket = mmDevice.createRfcommSocketToServiceRecord(uuid);
+      				resultado="-9";
+      				mmSocket.connect();
+      				resultado="-10";
+      				mmOutputStream = mmSocket.getOutputStream();
+      				resultado="-11";
+      				mmInputStream = mmSocket.getInputStream();
+      				String msg = hilera; //callWLProcedure_String("imprime_recibo");
+      				mmOutputStream.write(msg.getBytes());
+      				resultado="-12";
+      				mmOutputStream.close();
+      				resultado="-13";
+      				mmInputStream.close();
+      				resultado="-14";
+      				mmSocket.close();
+      				resultado="1";
+      				//	break;
+      				//	}  //impresora
+      			} //for
+      		} //if pairted device
       	} catch (NullPointerException e) {
-      		resultado = -2;
-      		e.printStackTrace(new PrintWriter(errors));
-      		//e.printStackTrace();
-      
+      		//resultado=-9;
+      		e.printStackTrace();
       	} catch (Exception e) {
-      		resultado=-3;
-      		e.printStackTrace(new PrintWriter(errors));
-      		//e.printStackTrace();
-      
+      		resultado=e.toString();
+      		Log.e(TAG, "ERRORES",e);
+      		e.printStackTrace();
       	}
-      
-      	TAG=errors.toString()+"->"+Integer.toString(resultado);
-      	return TAG;//errors.toString();
-      //	return impreso;
+      	return resultado;
       }
+      
       
       
      language : Java
@@ -1732,6 +1640,67 @@ procedure_set :
       
       RETURN
       
+     type : 458752
+   -
+     name : imprime_text_socket
+     procedure_id : 1787254978501515240
+     type_code : 15
+     code : |1+
+      //!
+      //! @brief <specify the procedure action>
+      //!
+      //! @param smac (Unicode string)  <specify the role of smac>
+      //!
+      //!
+      
+      procedure imprime_text_socket(smac is string,payload is buffer)
+      sSock	is string	= "test"
+      info(sSock,"<"+smac+"<")
+      if smac<>"DC:0D:30:FD:B5:2C" THEN
+      	smac="DC:0D:30:FD:B5:2C"
+      END
+      when exception in
+      	if SocketConnectBluetooth(sSock,"SerialPortServiceClass_UUID",smac) =False  then
+      		Info("No se pudo conectar "+ErrorInfo(errFullDetails))
+      	else
+      		info("antes write "+sSock)
+      		if not SocketWrite(sSock, payload) then
+      			Error(ErrorInfo(errMessage))
+      			//SocketClose(sSock)
+      			return
+      		else
+      			SocketClose(sSock)
+      		end
+      	end
+      do
+      	Info("ERROR",ExceptionInfo())
+      
+      end
+      
+     type : 458752
+   -
+     name : ToAnsiBuf
+     procedure_id : 1787257113112226949
+     type_code : 15
+     code : |1+
+      //!
+      //! @brief <specify the procedure action>
+      //!
+      //! @param sTexto (Unicode string)  <specify the role of sTexto>
+      //!
+      //! @return (buffer)  <specify the possible values as well as their interpretation>
+      //!
+      //!
+      
+      procedure ToAnsiBuf(sTexto is string) : Buffer
+      // Convierte el texto a 'ansi string' (1 byte/caracter) y lo agrega a un Buffer
+      sAnsiText is ANSI string
+      sAnsiText = sTexto
+      
+      bufOut is Buffer// = Null
+      bufOut += sAnsiText
+      
+      result bufOut
      type : 458752
   procedure_templates : []
   property_templates : []
